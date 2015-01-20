@@ -1,0 +1,41 @@
+// PACS.odl : type library source for PACS.exe
+
+// This file will be processed by the MIDL compiler to produce the
+// type library (PACS.tlb).
+
+[ uuid(AD710745-9E4A-11D2-A2AB-006008043EC4), version(1.0) ]
+library PACS
+{
+	importlib("stdole32.tlb");
+	
+
+	//  Primary dispatch interface for CPACSDoc
+	
+	[ uuid(AD710746-9E4A-11D2-A2AB-006008043EC4) ]
+	dispinterface IPACS
+	{
+		properties:
+			// NOTE - ClassWizard will maintain property information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_PROP(CPACSDlgAutoProxy)
+			//}}AFX_ODL_PROP
+			
+		methods:
+			// NOTE - ClassWizard will maintain method information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_METHOD(CPACSDlgAutoProxy)
+			//}}AFX_ODL_METHOD
+
+	};
+
+	//  Class information for CPACSDoc
+	
+	[ uuid(AD710744-9E4A-11D2-A2AB-006008043EC4) ]
+	coclass PACS
+	{
+		[default] dispinterface IPACS;
+	};
+
+	//{{AFX_APPEND_ODL}}
+	//}}AFX_APPEND_ODL}}
+};

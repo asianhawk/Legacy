@@ -1,0 +1,7 @@
+; NSDIODiagnostic.def : Declares the module parameters for the DLL.
+
+LIBRARY      "NSDIODiagnostic"
+DESCRIPTION  'NSDIODiagnostic Windows Dynamic Link Library'
+
+EXPORTS
+    ; Explicit exports can go here

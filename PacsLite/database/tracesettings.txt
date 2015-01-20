@@ -1,0 +1,9 @@
+RemoteTCP:No
+IPAddress:12.2.52.90
+PortID:701
+Filename:c:\\computype\\logs\\Labeler.log
+ArchiveCurrentSession:No
+ArchiveLastLog:No
+SendInfoDataPackets:Yes
+SendStatusDataPackets:Yes
+SendErrorDataPackets:Yes

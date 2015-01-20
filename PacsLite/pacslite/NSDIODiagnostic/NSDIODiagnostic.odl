@@ -1,0 +1,16 @@
+// NSDIODiagnostic.odl : type library source for NSDIODiagnostic.dll
+
+// This file will be processed by the MIDL compiler to produce the
+// type library (NSDIODiagnostic.tlb).
+
+[ uuid(6FFF3989-2A4E-11D4-BCC7-006097D3FAC7), version(1.0) ]
+library NSDIODiagnostic
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+
+
+	//{{AFX_APPEND_ODL}}
+	//}}AFX_APPEND_ODL}}
+};

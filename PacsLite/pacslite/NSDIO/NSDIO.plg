@@ -1,0 +1,45 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: NSDIO - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINDOWS\TEMP\RSP8290.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /FR"Debug/" /Fp"Debug/NSDIO.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\pacslite\NSDIO\NSDIOmain.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP8290.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP8291.TMP" with contents
+[
+c:\NSLibs\logtrace.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug/NSDIO.pdb" /debug /machine:I386 /def:".\NSDIO.def" /out:"c:\nsdlls\Debug\NSDIO.dll" /implib:"Debug/NSDIO.lib" /pdbtype:sept 
+.\Debug\NSDIO.obj
+.\Debug\NSDIOmain.obj
+.\Debug\StdAfx.obj
+.\Debug\NSDIO.res
+.\Dio.lib
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP8291.TMP"
+<h3>Output Window</h3>
+Compiling...
+NSDIOmain.cpp
+Trace.  Tracing to a log will be available in the exe.
+
+Make sure you turn it on in the applications ini file with TraceReadINI
+
+or a direct call to TraceStart.
+
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/NSDIO.bsc"  .\Debug\StdAfx.sbr .\Debug\NSDIO.sbr .\Debug\NSDIOmain.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+NSDIO.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

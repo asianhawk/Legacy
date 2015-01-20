@@ -1,0 +1,7 @@
+; NSSetupScannerDlg.def : Declares the module parameters for the DLL.
+
+LIBRARY      "NSSetupScannerDlg"
+DESCRIPTION  'NSSetupScannerDlg Windows Dynamic Link Library'
+
+EXPORTS
+    ; Explicit exports can go here

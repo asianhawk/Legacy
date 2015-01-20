@@ -1,0 +1,5 @@
+// Microsoft Developer Studio generated Help ID include file.
+// Used by PACS.rc
+//
+#define HIDD_PACS_DIALOG                0x80660066    // IDD_PACS_DIALOG
+

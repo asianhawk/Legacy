@@ -1,0 +1,795 @@
+{\rtf1\ansi\ansicpg1252\uc1 \deff0\deflang1033\deflangfe1033{\fonttbl{\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\f1\fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial;}
+{\f2\fmodern\fcharset0\fprq1{\*\panose 02070309020205020404}Courier New;}{\f3\froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol;}{\f4\froman\fcharset0\fprq2{\*\panose 00000000000000000000}Times;}
+{\f5\fswiss\fcharset0\fprq2{\*\panose 00000000000000000000}Helvetica;}{\f6\fmodern\fcharset0\fprq1{\*\panose 00000000000000000000}Courier;}{\f7\fswiss\fcharset0\fprq2{\*\panose 00000000000000000000}Geneva;}
+{\f8\froman\fcharset0\fprq2{\*\panose 00000000000000000000}Tms Rmn;}{\f9\fswiss\fcharset0\fprq2{\*\panose 00000000000000000000}Helv{\*\falt Arial};}{\f10\froman\fcharset0\fprq2{\*\panose 00000000000000000000}MS Serif;}
+{\f11\fswiss\fcharset0\fprq2{\*\panose 00000000000000000000}MS Sans Serif;}{\f12\froman\fcharset0\fprq2{\*\panose 00000000000000000000}New York;}{\f13\fswiss\fcharset0\fprq2{\*\panose 00000000000000000000}System;}
+{\f14\fnil\fcharset2\fprq2{\*\panose 05000000000000000000}Wingdings;}{\f15\fnil\fcharset0\fprq2{\*\panose 00000000000000000000}Signature;}{\f16\fswiss\fcharset0\fprq2{\*\panose 020b0604030504040204}Tahoma;}
+{\f17\fmodern\fcharset0\fprq1{\*\panose 00000000000000000000}LinePrinter;}{\f18\froman\fcharset0\fprq2{\*\panose 00000000000000000000}CG Times;}{\f19\fswiss\fcharset0\fprq2{\*\panose 00000000000000000000}Univers;}
+{\f20\fswiss\fcharset0\fprq2{\*\panose 00000000000000000000}Univers Condensed;}{\f21\fswiss\fcharset0\fprq2{\*\panose 00000000000000000000}Antique Olive;}{\f22\froman\fcharset0\fprq2{\*\panose 02020404030301010803}Garamond;}
+{\f23\fswiss\fcharset0\fprq2{\*\panose 00000000000000000000}CG Omega;}{\f24\fswiss\fcharset0\fprq2{\*\panose 00000000000000000000}Albertus Medium;}{\f25\fswiss\fcharset0\fprq2{\*\panose 00000000000000000000}Albertus Extra Bold;}
+{\f26\froman\fcharset0\fprq2{\*\panose 00000000000000000000}Clarendon Condensed;}{\f27\fscript\fcharset0\fprq2{\*\panose 00000000000000000000}Coronet;}{\f28\fmodern\fcharset0\fprq1{\*\panose 00000000000000000000}Letter Gothic;}
+{\f29\fscript\fcharset0\fprq2{\*\panose 00000000000000000000}Marigold;}{\f30\fnil\fcharset2\fprq2{\*\panose 00000000000000000000}Marlett;}{\f31\fswiss\fcharset0\fprq2{\*\panose 020b0706040902060204}Haettenschweiler;}
+{\f32\froman\fcharset2\fprq2{\*\panose 05050102010205020202}MT Extra;}{\f33\fswiss\fcharset0\fprq2{\*\panose 020b0506020202030204}Arial Narrow;}{\f34\fswiss\fcharset0\fprq2{\*\panose 020b0a04020102020204}Arial Black;}
+{\f35\froman\fcharset0\fprq2{\*\panose 02050604050505020204}Bookman Old Style;}{\f36\fnil\fcharset2\fprq2{\*\panose 01010601010101010101}Monotype Sorts;}{\f37\froman\fcharset0\fprq2{\*\panose 00050102010706020507}Map Symbols;}
+{\f38\fswiss\fcharset0\fprq2{\*\panose 020b0806030902050204}Impact;}{\f39\fnil\fcharset2\fprq2{\*\panose 05000000000000000000}MS Outlook;}{\f40\fscript\fcharset0\fprq2{\*\panose 030f0702030302020204}Comic Sans MS;}
+{\f41\froman\fcharset2\fprq2{\*\panose 05050102010706020507}Bookshelf Symbol 3;}{\f42\fswiss\fcharset0\fprq2{\*\panose 020b0604030504040204}Verdana;}{\f43\fswiss\fcharset0\fprq2{\*\panose 020b0506030101010103}Abadi MT Condensed;}
+{\f44\froman\fcharset2\fprq2{\*\panose 05020102010507070707}Wingdings 2;}{\f45\froman\fcharset2\fprq2{\*\panose 05040102010807070707}Wingdings 3;}{\f46\froman\fcharset2\fprq2{\*\panose 05030102010509060703}Webdings;}
+{\f143\fswiss\fcharset238\fprq2 Tahoma CE;}{\f144\fswiss\fcharset204\fprq2 Tahoma Cyr;}{\f146\fswiss\fcharset161\fprq2 Tahoma Greek;}{\f147\fswiss\fcharset162\fprq2 Tahoma Tur;}{\f148\fswiss\fcharset186\fprq2 Tahoma Baltic;}
+{\f179\froman\fcharset238\fprq2 Garamond CE;}{\f180\froman\fcharset204\fprq2 Garamond Cyr;}{\f182\froman\fcharset161\fprq2 Garamond Greek;}{\f183\froman\fcharset162\fprq2 Garamond Tur;}{\f184\froman\fcharset186\fprq2 Garamond Baltic;}
+{\f245\fswiss\fcharset238\fprq2 Arial Narrow CE;}{\f246\fswiss\fcharset204\fprq2 Arial Narrow Cyr;}{\f248\fswiss\fcharset161\fprq2 Arial Narrow Greek;}{\f249\fswiss\fcharset162\fprq2 Arial Narrow Tur;}{\f250\fswiss\fcharset186\fprq2 Arial Narrow Baltic;}
+{\f251\fswiss\fcharset238\fprq2 Arial Black CE;}{\f252\fswiss\fcharset204\fprq2 Arial Black Cyr;}{\f254\fswiss\fcharset161\fprq2 Arial Black Greek;}{\f255\fswiss\fcharset162\fprq2 Arial Black Tur;}{\f256\fswiss\fcharset186\fprq2 Arial Black Baltic;}
+{\f257\froman\fcharset238\fprq2 Bookman Old Style CE;}{\f258\froman\fcharset204\fprq2 Bookman Old Style Cyr;}{\f260\froman\fcharset161\fprq2 Bookman Old Style Greek;}{\f261\froman\fcharset162\fprq2 Bookman Old Style Tur;}
+{\f262\froman\fcharset186\fprq2 Bookman Old Style Baltic;}{\f275\fswiss\fcharset238\fprq2 Impact CE;}{\f276\fswiss\fcharset204\fprq2 Impact Cyr;}{\f278\fswiss\fcharset161\fprq2 Impact Greek;}{\f279\fswiss\fcharset162\fprq2 Impact Tur;}
+{\f280\fswiss\fcharset186\fprq2 Impact Baltic;}}{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;
+\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;}{\stylesheet{\nowidctlpar\adjustright \fs20 \snext0 Normal;}{
+\s1\sb240\nowidctlpar\adjustright \b\f9\ul \sbasedon0 \snext0 heading 1;}{\s2\sb120\nowidctlpar\adjustright \b\f9 \sbasedon0 \snext0 heading 2;}{\s3\li360\nowidctlpar\adjustright \b \sbasedon0 \snext17 heading 3;}{\s4\li360\nowidctlpar\adjustright \ul 
+\sbasedon0 \snext17 heading 4;}{\s5\li720\nowidctlpar\adjustright \b\fs20 \sbasedon0 \snext17 heading 5;}{\s6\li720\nowidctlpar\adjustright \fs20\ul \sbasedon0 \snext17 heading 6;}{\s7\li720\nowidctlpar\adjustright \i\fs20 \sbasedon0 \snext17 heading 7;}{
+\s8\li720\nowidctlpar\adjustright \i\fs20 \sbasedon0 \snext17 heading 8;}{\s9\li720\nowidctlpar\adjustright \i\fs20 \sbasedon0 \snext17 heading 9;}{\*\cs10 \additive Default Paragraph Font;}{\*\cs15 \additive \fs16\up6\lang1033 \sbasedon10 
+footnote reference;}{\s16\nowidctlpar\adjustright \fs20 \sbasedon0 \snext16 footnote text;}{\s17\li720\nowidctlpar\adjustright \fs20 \sbasedon0 \snext17 Normal Indent;}{\s18\fi-240\li480\sb80\nowidctlpar\tx480\adjustright \f5 \sbasedon0 \snext18 nscba;}{
+\s19\fi-240\li240\sa20\nowidctlpar\adjustright \f5 \sbasedon0 \snext19 j;}{\s20\li480\sa20\nowidctlpar\adjustright \f5 \sbasedon0 \snext20 ij;}{\s21\sb80\sa20\nowidctlpar\adjustright \f5 \sbasedon0 \snext21 btb;}{
+\s22\fi-240\li2400\sb20\sa20\nowidctlpar\adjustright \f5\fs20 \sbasedon0 \snext22 ctcb;}{\s23\fi-240\li480\sa40\nowidctlpar\tx480\adjustright \f5 \sbasedon0 \snext23 ns;}{\s24\sa120\nowidctlpar\adjustright \f5\fs28 \sbasedon0 \snext24 TT;}{
+\s25\fi-240\li2400\sa20\nowidctlpar\adjustright \f5 \sbasedon0 \snext25 crtj;}{\s26\fi-240\li480\nowidctlpar\tx480\adjustright \f5 \sbasedon0 \snext26 nsca;}{\s27\sa20\nowidctlpar\adjustright \f5 \sbasedon0 \snext27 bt;}{
+\s28\li240\sb120\sa40\nowidctlpar\adjustright \f5 \sbasedon0 \snext28 Hf;}{\s29\li240\sb120\sa40\nowidctlpar\adjustright \f5 \sbasedon0 \snext29 Hs;}{\s30\li480\sb120\sa40\nowidctlpar\adjustright \f5 \sbasedon0 \snext30 RT;}{
+\s31\fi-2160\li2160\sb240\sa80\nowidctlpar\tx2160\adjustright \f5 \sbasedon0 \snext31 c;}{\s32\li2160\sa20\nowidctlpar\adjustright \f5 \sbasedon0 \snext32 ct;}{\s33\li240\sa20\nowidctlpar\adjustright \f5 \sbasedon0 \snext33 it;}{
+\s34\li480\nowidctlpar\adjustright \f5\fs20 \sbasedon0 \snext34 nsct;}{\s35\fi-160\li400\sb80\sa40\nowidctlpar\adjustright \f5 \sbasedon0 \snext35 nscb;}{\s36\fi-2640\li2880\sb120\sa40\nowidctlpar\brdrb\brdrs\brdrw15 \brdrbtw\brdrs\brdrw15 
+\tx2880\adjustright \f5 \sbasedon0 \snext36 HC2;}{\s37\fi-2640\li2880\sb120\sa20\nowidctlpar\tx2880\adjustright \f5 \sbasedon0 \snext37 C2;}{\s38\fi-240\li2400\sa20\nowidctlpar\adjustright \f5\fs20 \sbasedon0 \snext38 ctc;}{
+\s39\li2160\sb160\nowidctlpar\adjustright \f5 \sbasedon0 \snext39 crt;}{\s40\li480\sb20\sa40\nowidctlpar\adjustright \f5 \sbasedon0 \snext40 or;}{\s41\fi-259\li360\sb40\sa40\nowidctlpar\tx360\adjustright \f11\fs20 \sbasedon0 \snext41 Ln1;}{
+\s42\li115\sb80\sa80\nowidctlpar\adjustright \f11\fs20 \sbasedon0 \snext0 *Intro;}{\s43\li115\sb80\sa80\keepn\nowidctlpar\adjustright \b\f11 \sbasedon3 \snext42 *Title;}{\s44\fi-245\li360\sb80\nowidctlpar\adjustright \f11\fs20 \snext44 *Jl;}{
+\s45\li360\sb40\sa40\nowidctlpar\adjustright \f11\fs20 \snext0 Lp1;}{\s46\fi-1800\li1915\sb60\sl-240\slmult0\nowidctlpar\tx1915\adjustright \f11\fs20 \sbasedon0 \snext46 Tph;}{\s47\li115\sb120\sa80\nowidctlpar\adjustright \b\f11\fs20 \snext41 Proch;}{\*
+\cs48 \additive \super \sbasedon10 endnote reference;}}{\info{\author David Broman}{\operator Neil Van Eps}{\creatim\yr1993\mo11\dy4\hr18\min38}{\revtim\yr1999\mo7\dy29\hr11\min41}{\version157}{\edmins646}{\nofpages33}{\nofwords4447}{\nofchars25349}
+{\*\company Computype, Inc.}{\nofcharsws0}{\vern89}}\widowctrl\ftnbj\aenddoc\hyphcaps0\viewkind1\viewscale100 \fet0\sectd \linex0\endnhere\sectdefaultcl {\*\pnseclvl1\pnucrm\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl2
+\pnucltr\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl3\pndec\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang{\pntxta )}}{\*\pnseclvl5\pndec\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl6
+\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl8\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang
+{\pntxtb (}{\pntxta )}}\pard\plain \sl240\slmult0\widctlpar\adjustright \fs20 {\cs15\fs16\up6 #{\footnote \pard\plain \sl240\slmult0\widctlpar\adjustright \fs20 {\cs15\fs16\up6 #}{ HIDD_PACS_DIALOG}}}{\fs16\up6  }{\b\f9\fs28\cf2\up6 PACS Operation Center}
+{\b\f9 
+\par }{\f9 
+\par }\pard \widctlpar\adjustright {\f9 The PACS Operation Center is the main control window for the Printing Automation Control System. Job selection and system manipulation is controlled from this location.
+\par 
+\par 
+\par }\pard \sl240\slmult0\widctlpar\adjustright {\b\f9 Job Selection
+\par }{\f9 In the Job Selection list box, a list of all jobs in the job database is displayed along with their corresponding descriptions. To select a job to setup or to run the print and apply process with, click on t
+he job to highlight it. Once the job is highlighted, the Operations buttons are enabled and the Job Information fields are filled in.
+\par 
+\par }{\b\f9 Job Information}{\f9 
+\par Job information consists of the specific information that makes up your job such as part number, lot, revision, etc., as well as the label placement positions. This information is updated each time a different job is selected.
+\par 
+\par }{\b\f9 Panel Quantity
+\par }{\f9 Enter the number of panels to populate for the current print and apply process of the job. To run the job continuously until operator intervention, enter a value of 0.
+\par 
+\par }{\b\f9 Run}{\f9 
+\par To begin the print an apply process on the selected job, click on the Run button. The system will then proceed to print, pick, and apply labels based on your required control algorithm.
+\par 
+\par }{\b\f9 Bypass}{\f9 
+\par To allow boards to pass through the system without printing and/or applying labels to them, click on the Bypass button. 
+\par 
+\par }{\b\f9 Diagnostics}{\f9 
+\par Within PACS you can test all hardware subsystems. Subsystems consist of the printers, scanners, motion control system, and the digital I/O system. Click on the Diagnostics button test the subsystem of your choice.
+\par 
+\par }{\b\f9 Printer Test}{\f9 
+\par To send actual printer template strings to a selected printer, click on the Printer test button. The template will be sent to the printer in it\rquote s raw form. No data field substitution will take place.
+\par 
+\par }{\b\f9 Park Actuator}{\f9 
+\par To move the actuator to the park position, click on the Park Actuator button. The park position is generally over the front conveyor rail. 
+\par 
+\par }{\b\f9 Manual Feed}{\f9 
+\par To perform an actual print and apply loop once, click on the Manual Feed button.
+\par 
+\par }{\b\f9 Setup}{\f9 
+\par To modify or add job information and to adjust system parameters, click on the Setup button. Setup is password protected. You must enter a password before access is allowed to the setup screens.
+\par 
+\par 
+\par 
+\par }{\b\f9 Exit
+\par }{\f9 To exit PACS and return to the desktop, click on the Exit button.\page }{\cs15\fs16\up6 #{\footnote \pard\plain \sl240\slmult0\widctlpar\adjustright \fs20 {\cs15\fs16\up6 #}{ HIDD_SETUP_DLG}}}{\fs16\up6  }{\b\f9\fs28\cf2\up6 Setup}{\b\f9 
+\par }\pard \widctlpar\adjustright {\f9 
+\par This dialog box is used to gain access to all job and system information that is stored in the Computype database. To modify a specific piece of information, click on the corresponding button.
+\par }\pard \sl240\slmult0\widctlpar\adjustright {\f9 
+\par 
+\par }{\b\f9 Add/Edit Job}{\f9 
+\par To modify information for an existing job or to add a new job, click on the Edit Job button to open the Add/Edit Job dialog box.
+\par 
+\par }{\b\f9 Delete Job
+\par }{\f9 To delete a job from the Computype database, click on the Delete Job button to open the Delete Job dialog box.
+\par 
+\par }{\b\f9 System Setup
+\par }{\f9 To modify system points, auto retries, conveyor attributes, or statistics settings, click on the System Setup button to open the System Setup dialog box.
+\par 
+\par }{\b\f9 Printer Setup
+\par }{\f9 To change printer types, templates, pick, and pre-pick locations, click on the Printer Setup button to open the Printer Setup dialog box.
+\par 
+\par }{\b\f9 Feeder Setup
+\par }{\f9 To change feeder pick and pre-pick locations, click on the Feeder Setup button to open the Feeder Setup dialog box.
+\par 
+\par }{\b\f9 Change Password}{\f9 
+\par To change the existing password to a new password, click on the Change Password button to open the Change Password dialog box.
+\par }{\b\f9 
+\par Scanner Setup
+\par }{\f9 To change scanner types and usage, click on the Scanner Setup button to open the Scanner Setup dialog box.
+\par 
+\par }{\b\f9 Template Setup}{\f9 
+\par To add, edit, or delete printer templates, click on the Template Setup button to open the Template Setup dialog box.
+\par 
+\par }{\b\f9 Done
+\par }{\f9 When completed with modifying job and system attributes, click on the Done button to return to the }{\f9\ul PACS Operation Center}{\f9  or the Hold dialog box if you are in run mode.
+\par }\pard\plain \s16\sl240\slmult0\widctlpar\adjustright \fs20 {\f9 
+\par 
+\par }\pard\plain \sl240\slmult0\widctlpar\adjustright \fs20 {\f9 \page }{\cs15\fs16\up6 #{\footnote \pard\plain \sl240\slmult0\widctlpar\adjustright \fs20 {\cs15\fs16\up6 #}{ HIDD_PASSWORD_DLG}}}{\fs16\up6  }{\b\f9\fs28\cf2\up6 Password}{\b\f9 
+\par }{\f9 
+\par }\pard \widctlpar\adjustright {\f9 Job and system information is protected from the novice operator. To modify job and system information, enter the password that has been assigned to the system. The password is not case sensitive.
+\par }\pard \sl240\slmult0\widctlpar\adjustright {\page }{\cs15\fs16\up6 #{\footnote \pard\plain \sl240\slmult0\widctlpar\adjustright \fs20 {\cs15\fs16\up6 #}{ HIDD_ADD_EDIT_JOB_DLG}}}{\fs16\up6  }{\b\f9\fs28\cf2\up6 Add/Edit Job}{\b\f9 
+\par }{\f9 
+\par }\pard \widctlpar\adjustright {\f9 The Add/Edit Job dialog box gives you the capability to edit existing job attributes or to add a new job with new attributes.
+\par 
+\par 
+\par }{\b\f9 Job Name}{\f9 
+\par Select a job from the Job Name list. This is a list of all the jobs in the database.
+\par 
+\par }{\b\f9 Add Job}{\f9 
+\par To add a new job, click on the AddJob button. You will be asked for the name of the new job. All job attributes will change to defaults. Modify the attributes of the new job before updating them to the database.
+\par 
+\par }{\b\f9 Edit Panel/Label}{\f9 
+\par To edit panel dimensions and label placement positions, click on the Edit Panel/Label button to open the Edit Panel/Label dialog box. Once you have completed those changes you must update them to the database for them to be assigned to the job.
+\par }{\b\f9 
+\par Job Attributes}{\f9 
+\par The Job Attributes is a collection of information that makes up the job. Modify each one to their correct job specifications before updating them to the database.
+\par 
+\par }{\b\f9 Description}{\f9 
+\par Type a useful description of the job into this field.  This description will appear in the Job Information field of the }{\f9\ul PACS Operation Center}{\f9  when the job is selected. 
+\par }{\b\f9 
+\par Product Code}{\f9 
+\par Type the Product Code into this field.  This value is substituted into the DATA1 field of the label\rquote s printer template.
+\par }{\b\f9 
+\par Country}{\f9 
+\par Type the Product Code into this field.  This value is substituted into the DATA4 field of the label\rquote s printer template.
+\par }{\b\f9 
+\par Manufacturing Site}{\f9 
+\par Type the Manufacturing Site Code into this field.  This value is substituted into the DATA5 field of the label\rquote s printer template.
+\par }{\b\f9 
+\par Release}{\f9 
+\par Type the Product Code into this field.  This value is substituted into the DATA2 field of the label\rquote s printer template.
+\par }{\b\f9 
+\par Use Static Date Code
+\par }{\f9 Check this box if you wish to specify a date code.  When this box is checked, the Static Date Code field is enabled; and the date code is always whatever is typed into the Static Date Code field.  When this box is not checked, the Sta
+tic Date Code field is disabled; and the date code is generated from the computer's internal clock.
+\par 
+\par }{\b\f9 Static Date Code
+\par }{\f9 If this field is enabled, type whatever characters you wish to appear as the date code into the field.  If this field is disabled, the date code is generated from the computer's internal clock.  (See above)
+  The date code is always substituted into the DATA3 field of the label's printer template, regardless of whether it is static or generated from the computer's internal clock.
+\par }{\b\f9 
+\par 2up Job}{\f9 
+\par The 2up Job check box is enabled if your system is capable of printing 2 across labels.  If the check box is enabled and you want this job to print labels 2 across, check this box.  If this job will only print one label at a time, clear this check box.
+
+\par }{\b\f9 
+\par Use External Panel/Label Design}{\f9 
+\par The Use External Panel/Label Design check box is enabled if your system includes the WYSIWYG panel/label design package.  If the check box is enabled and you wish to use the WYSIWYG panel/label design package to create your job, check this box.  If you wi
+sh to design your job manually, clear this check box.
+\par  }{\b\f9 
+\par Use Serialization}{\f9 
+\par Check the Use Serialization check box if your label design includes a serial number.  Clear the Use Serialization check box if your label design does not include a serial number.
+\par 
+\par }{\b\f9 Setup Serialization}{\f9 
+\par When the Use Serialization check box is checked, the Setup Serialization button is enabled.  Clicking this button launches the Setup Serialization dialog box, which allows you to choose a starting serial number for the job, set the digit l
+ength of the serial number, and choose between Base10, Base16, Base31, and Base36 serialization.
+\par 
+\par }{\b\f9 Update}{\f9 
+\par Click on the Update button to update all job parameters, including the panel/label parameters, to the database. This must be done before clicking Done. Updating to the database must be done for each job selected before selecting another job.
+\par 
+\par }{\b\f9 Done}{\f9 
+\par Click on the Done button when completed with the modification or addition of job attributes. You will return back to the Setup dialog box.
+\par 
+\par }\pard \sl240\slmult0\widctlpar\adjustright {\page }{\cs15\fs16\up6 #{\footnote \pard\plain \sl240\slmult0\widctlpar\adjustright \fs20 {\cs15\fs16\up6 #}{ HIDD_CHANGE_PASSWORD_DLG}}}{\fs16\up6  }{\b\f9\fs28\cf2\up6 Change Password}{\b\f9 
+\par }{\f9 
+\par }\pard \widctlpar\adjustright {\f9 This dialog box allows the password to be changed. This can be done to ensure a password will be remembered or to ensure that the job and system parameters remain secure.
+\par 
+\par 
+\par }{\b\f9 Enter New Password}{\f9 
+\par Enter the new password string. 
+\par 
+\par }{\b\f9 Confirm New Password
+\par }{\f9 Enter the new password string again to confirm the spelling.
+\par 
+\par }{\b\f9 OK}{\f9 
+\par Click on the OK button to accept the changes.
+\par 
+\par }{\b\f9 Cancel}{\f9 
+\par Click on the Cancel button to disregard the changes.
+\par 
+\par 
+\par 
+\par 
+\par }\pard \sl240\slmult0\widctlpar\adjustright {\f9 \page }{\cs15\fs16\up6 #{\footnote \pard\plain \sl240\slmult0\widctlpar\adjustright \fs20 {\cs15\fs16\up6 #}{ HIDD_DB_PANEL_LABEL_DLG}}}{\fs16\up6  }{\b\f9\fs28\cf2\up6 Panel/Label Setup}{\b\f9 
+\par }{\f9 
+\par }\pard \widctlpar\adjustright {\f9 For each job the panel attributes and label position coordinates must be defined.
+\par 
+\par 
+\par }{\b\f9 Label Positions}{\f9 
+\par A list of the label placement positions for the selected job are displayed in the Label Positions list. The format of the coordinates is X, Y; Rotation. X a
+nd Y are in hundredths of millimeters. Rotation is either 0 or 90. To edit or delete a label placement position, click on the position to select it. The position will then be highlighted.
+\par 
+\par }{\b\f9 Sort Positions}{\f9 
+\par Click on a sort method to change the placement order
+ of the labels. Click on Sort By X to set the placement order to ascending X locations. Click on Sort By Y to set the placement order to ascending Y locations. Click on No Sort to turn off sorting and set the placement order as the same order as the place
+ment positions are added.
+\par 
+\par }{\b\f9 Add}{\f9 
+\par Click on the Add button to add a new placement position. The }{\f9\ul Label Placement}{\f9  dialog box will be displayed that will allow you to enter X, Y, and rotation parameters for the new position. Once the placement parameters are enter
+ed and accepted, the new position will be added to the Label Positions list.
+\par 
+\par }{\b\f9 Edit}{\f9 
+\par Click on the Edit button to edit the selected placement position. The }{\f9\ul Label Placement}{\f9  dialog box will be displayed that will allow you to change the X, Y, and rotation parameters for the selected position. 
+\par 
+\par }{\b\f9 Delete}{\f9 
+\par Click on the Delete button to delete the selected label placement position from the Label Positions list.
+\par 
+\par }{\b\f9 X and Y Offsets}{\f9 
+\par Enter a value in these fields if you wish to add a global X or Y offset to the X or Y coordinate of each label in the job.  If you do not wish to add global offsets, these values should be zero.
+\par }{\b\f9 
+\par Panel Dimension}{\f9 
+\par Enter the X and Y dimensions of the panel in hundredths of millimeters.
+\par 
+\par }{\b\f9 Label Stock Offsets}{\f9 
+\par These fields are enabled if your system is 2up job capable.  These values are offsets in dots, added to the position of the second label in two across printing, so the image of the second label will be print
+ed correctly.  These fields will have values if both labels in two across printing use the same template or they could be zero if the two labels use different templates with the correct position built in.
+\par 
+\par }{\b\f9 OK}{\f9 
+\par Click on the OK button to accept the changes.
+\par 
+\par }{\b\f9 Cancel}{\f9 
+\par Click on the Cancel button to disregard the changes.
+\par 
+\par 
+\par 
+\par }\pard \sl240\slmult0\widctlpar\adjustright {\f9 \page }{\cs15\fs16\up6 #{\footnote \pard\plain \sl240\slmult0\widctlpar\adjustright \fs20 {\cs15\fs16\up6 #}{ HIDD_DELETE_JOB_DLG}}}{\fs16\up6  }{\b\f9\fs28\cf2\up6 Delete Job}{\b\f9 
+\par }{\f9 
+\par }\pard \widctlpar\adjustright {\f9 Delete the selected job from the Computype job database.
+\par 
+\par 
+\par }{\b\f9 Job Name}{\f9 
+\par Select the job to delete.
+\par 
+\par }{\b\f9 Delete}{\f9 
+\par Click on the Delete button to delete the selected job from the database.
+\par 
+\par }{\b\f9 Done}{\f9 
+\par Click on the Done button to return to the Setup dialog box.
+\par 
+\par 
+\par }\pard \sl240\slmult0\widctlpar\adjustright {\f9 \page }{\cs15\fs16\up6 #{\footnote \pard\plain \sl240\slmult0\widctlpar\adjustright \fs20 {\cs15\fs16\up6 #}{ HIDD_HOLD_DLG}}}{\fs16\up6  }{\b\f9\fs28\cf2\up6 Hold}{\b\f9 
+\par }{\f9 
+\par }\pard \widctlpar\adjustright {\f9 The Hold dialog box is displayed when the Hold/Exit button is clicked on during the print and apply proces
+s.  During hold, PACS suspends the print and apply process and power is removed from the servos. At this time you can move the actuator to position it in a more convenient position for servicing or you can change job and system parameters.
+\par 
+\par 
+\par }{\b\f9 Setup}{\f9 
+\par Click on the Setup button to modify job and system information. The }{\f9\ul Setup}{\f9  dialog box will be displayed.
+\par 
+\par }{\b\f9 Continue}{\f9 
+\par To resume the print and apply process, click  on the Continue button. The print and apply process will resume from where it was placed in hold.
+\par 
+\par }{\b\f9 Exit}{\f9 
+\par Click on the Exit button to discontinue the print and apply process and return to the }{\f9\ul PACS Operation Center}{\f9 .
+\par 
+\par 
+\par 
+\par }\pard \sl240\slmult0\widctlpar\adjustright {\f9 \page }{\cs15\fs16\up6 #{\footnote \pard\plain \sl240\slmult0\widctlpar\adjustright \fs20 {\cs15\fs16\up6 #}{ HIDD_POINT_DLG}}}{\fs16\up6  }{\b\f9\fs28\cf2\up6 Label Placement}{\b\f9 
+\par }{\f9 
+\par }\pard \widctlpar\adjustright {\f9 The Label Placement dialog box is used to add or edit the X, Y, and rotational coordinates of the label position on the panel. The X and Y coordinates are relative to the board origin at 0,0.
+\par 
+\par 
+\par }{\b\f9 Placement}{\f9 
+\par Enter the X-Coord. And Y-Coord. positions in hundredths of millimeters. Each coordinate must be 6 digits in length. For instance; an X coordinate of 35.5 millimeters will be entered as 003550.
+\par 
+\par }{\b\f9 Rotation
+\par }{\f9 Click on 0 Degrees to rotate the end-effector 0 degrees relative to the board direction. Click on 90 Degrees to rotate the end-effector 90 degrees relative to the board direction.
+\par 
+\par }{\b\f9 Templates
+\par }{\f9 Use this combo box to select a printer template for printing this label.  The printer template must match the type of the selected printer.
+\par }{\b\f9 
+\par Select Printer
+\par }{\f9 Use this combo box to select which printer this label should be printed on.  The type of the selected printer must match the selected template.
+\par }{\b\f9 
+\par Enable Label Scan
+\par }{\f9 Check this check box if this label contains a barcode that will be scanned.  If this label has no barcode, or the barcode doesn\rquote t need to be scanned, clear this check box.
+\par }{\b\f9 
+\par OK}{\f9 
+\par Click on the OK button to accept the changes.
+\par 
+\par }{\b\f9 Cancel}{\f9 
+\par Click on the Cancel button to disregard the changes.
+\par 
+\par 
+\par 
+\par }\pard \sl240\slmult0\widctlpar\adjustright {\f9 \page }{\cs15\fs16\up6 #{\footnote \pard\plain \sl240\slmult0\widctlpar\adjustright \fs20 {\cs15\fs16\up6 #}{ HIDD_RESCAN_DLG}}}{\fs16\up6  }{\b\f9\fs28\cf2\up6 Scan Failure Recovery}{\b\f9 
+\par }{\f9 
+\par }\pard \widctlpar\adjustright {\f9 
+The Scan Failure Recovery dialog box is displayed when there is a problem with scanning the label and the number of auto re-scans and auto re-picks have expired. At this time the operator can determine what the problem is and attempt to recover.
+\par 
+\par 
+\par }{\b\f9 Relabel}{\f9 
+\par To continue on by re-printing, re-applying, and re-scanning the same label, click on the Relabel button.
+\par 
+\par }{\b\f9 Rescan}{\f9 
+\par To continue on by re-scanning the same label, click on the Rescan button.
+\par 
+\par }{\b\f9 Cancel}{\f9 
+\par Click on Cancel to discontinue the print and apply process and return to the }{\f9\ul PACS Operation Center}{\f9 .
+\par 
+\par 
+\par 
+\par }\pard \sl240\slmult0\widctlpar\adjustright {\f9 \page }{\cs15\fs16\up6 #{\footnote \pard\plain \sl240\slmult0\widctlpar\adjustright \fs20 {\cs15\fs16\up6 #}{ HIDD_RUN_DIALOG}}}{\fs16\up6  }{\b\f9\fs28\cf2\up6 PACS Label Operator}{\b\f9 
+\par }{\f9 
+\par }\pard \widctlpar\adjustright {\f9 The PACS Label Operator dialog box  is displayed when the print and apply process has started. The purpose of this screen is to give the operator a status of the print and apply process for the current job.
+\par 
+\par 
+\par }{\b\f9 Job Information}{\f9 
+\par The Job information section contains any job pertinent job information. This information could the job name, part number, lot number, revision
+, or any other necessary information to be displayed. This information is static and does not change during the print and apply process.
+\par 
+\par }{\b\f9 Printer Label Material Level
+\par }{\f9 The label material level is displayed for each printer within the Printer Label Material Level section. The level is indicated as either NORMAL or LOW. If the label material is low, the yellow warning light will be illuminated.
+\par 
+\par }{\b\f9 Job Status}{\f9 
+\par The Job Status section contains information on the status of the print and apply process. Information dis
+played in this section is the current serial number being printed on the label, the number of labels successfully placed, and the number of panels successfully populated.
+\par 
+\par }{\b\f9 Hold/Exit
+\par }{\f9 Click on the Hold/Exit button to suspend the print and apply process. Once this is done, the operator can modify job and system information, resume the print and apply process, or exit to the }{\f9\ul PACS Operation Center}{\f9 .
+\par 
+\par 
+\par 
+\par 
+\par }\pard \widctlpar\tx5760\adjustright {\b\f9 
+\par 
+\par }\pard \sl240\slmult0\widctlpar\adjustright {\b\f9 \page }{\cs15\fs16\up6 #{\footnote \pard\plain \sl240\slmult0\widctlpar\adjustright \fs20 {\cs15\fs16\up6 #}{ HIDD_SELECT_PRINTER_DLG}}}{\fs16\up6  }{\b\f9\fs28\cf2\up6 Select Printer}{\b\f9 
+\par }{\f9 
+\par }\pard \widctlpar\adjustright {\f9 
+With multiple printer/feeder systems, PACS needs to know which printer or feeder the specific operation is to be applied to. The Select Printer dialog box is displayed when performing a Print Test or a Manual Feed on a PACS system that contains m
+ultiple printers and/or feeders.
+\par 
+\par 
+\par }{\b\f9 Select Printer/Feeder
+\par }{\f9 Click on any of the listed printers or feeders to select one. Only one selection is allowed.
+\par 
+\par }{\b\f9 OK}{\f9 
+\par Click on the OK button to accept the selected printer and continue on with the operation.
+\par 
+\par }{\b\f9 Cancel}{\f9 
+\par Click on the Cancel button to return back to the }{\f9\ul PACS Operation Center }{\f9 and not complete the intended operation.
+\par 
+\par }\pard\plain \s16\widctlpar\adjustright \fs20 {\f9 
+\par }\pard\plain \sl240\slmult0\widctlpar\adjustright \fs20 {\f9 \page }{\cs15\fs16\up6 #{\footnote \pard\plain \sl240\slmult0\widctlpar\adjustright \fs20 {\cs15\fs16\up6 #}{ HIDD_SETUP_FEEDER_DLG}}}{\fs16\up6  }{\b\f9\fs28\cf2\up6 Feeder Setup}{\b\f9 
+\par }{\f9 
+\par }\pard \widctlpar\adjustright {\f9 When the PACS system contains feeders, the Feeder Setup dialog box is used to setup each of the feeder\rquote s attributes.
+\par 
+\par }{\b\f9 Feeder Selection
+\par }{\f9 Click on a feeder in the Feeder Selection list box to select the feeder. Once the feeder is selected, its attributes will be displayed in the Attributes section.
+\par 
+\par }{\b\f9 Enable}{\f9 
+\par Click on the Enable check box to enable or disable the 
+feeder from being used in the print and apply process. To enable the feeder, click on the Enable check box until the box is check marked. To disable the feeder, click on the Enable check box until the box is not check marked.
+\par 
+\par }{\b\f9 Pre-Pick Position}{\f9 
+\par The feeder 
+pre-pick position is the position the actuator moves to for preparation to move to the pick position. Enter the  X And Y position. Positions are in hundredths of millimeters. Each coordinate must be 6 digits in length. For instance; an X coordinate of 35.
+5 millimeters will be entered as 003550. Rotation must be 0 or 90.
+\par 
+\par }{\b\f9 Pick Position}{\f9 
+\par The feeder pick position is the position the actuator moves to the pick the label from the feeder.  Enter the  X And Y position. Positions are in hundredths of millimeters. Ea
+ch coordinate must be 6 digits in length. For instance; an X coordinate of 35.5 millimeters will be entered as 003550. Rotation must be 0 or 90.
+\par 
+\par }{\b\f9 Label Advance Delay
+\par }{\f9 The PACS system must know how long to delay from the time it senses a label being advanced
+ in the feeder to the time it is in the proper position to be picked up. This delay is adjusted when the label size changes. The delay is entered in milliseconds. A delay of 1 second would be 1000 milliseconds.
+\par 
+\par }{\b\f9 Update}{\f9 
+\par When all attributes are correct for the selected feeder, click on the Update button to enter these values in to the job database.
+\par 
+\par }{\b\f9 Done}{\f9 
+\par When all of the required feeder attributes have been modified, click on the Done button to return to the }{\f9\ul Setup}{\f9  dialog box.
+\par 
+\par 
+\par 
+\par 
+\par }\pard\plain \s16\widctlpar\adjustright \fs20 {\f9 
+\par }\pard\plain \sl240\slmult0\widctlpar\adjustright \fs20 {\b\f9 \page }{\cs15\fs16\up6 #{\footnote \pard\plain \sl240\slmult0\widctlpar\adjustright \fs20 {\cs15\fs16\up6 #}{ HIDD_SETUP_PRINTER_DLG}}}{\fs16\up6  }{\b\f9\fs28\cf2\up6 Printer Setup}{\b\f9 
+
+\par }{\f9 
+\par }\pard \widctlpar\adjustright {\f9 Each printer must be setup for type and pick locations. The Printer Setup dialog box give the operator the capability to modify all printer attributes.
+\par 
+\par }{\b\f9 Printer Selection
+\par }{\f9 Click on a printer in the Printer Selection list box to select the feeder. Once the printer is selected, its attributes will be displayed in the Attributes section.
+\par 
+\par }{\b\f9 Enable}{\f9 
+\par Click on the Enable check box to enable or disable the printer from being used in the print and apply process. To enable the pri
+nter, click on the Enable check box until the box is check marked. To disable the printer, click on the Enable check box until the box is not check marked.
+\par 
+\par }{\b\f9 Type}{\f9 
+\par Select the type for the selected printer. Only supported types are listed in the Type list box.
+\par 
+\par }{\b\f9 Pre-Pick Position}{\f9 
+\par The printer pre-pick position is the position the actuator moves to for preparation to move to the pick position. Enter the  X And Y position. Positions are in hundredths of millimeters. Each coordinate must be 6 digits in length. For 
+instance; an X coordinate of 35.5 millimeters will be entered as 003550. Rotation must be 0 or 90.
+\par 
+\par }{\b\f9 Pick Position}{\f9 
+\par The printer pick position is the position the actuator moves to the pick the label from the printer.  Enter the  X And Y position. Positions a
+re in hundredths of millimeters. Each coordinate must be 6 digits in length. For instance; an X coordinate of 35.5 millimeters will be entered as 003550. Rotation must be 0 or 90.
+\par 
+\par }{\b\f9 Update}{\f9 
+\par When all attributes are correct for the selected printer, click on the Update button to enter these values in to the job database.
+\par 
+\par }{\b\f9 Done}{\f9 
+\par When all of the required printer attributes have been modified, click on the Done button to return to the }{\f9\ul Setup}{\f9  dialog box.
+\par 
+\par 
+\par 
+\par 
+\par }\pard\plain \s16\widctlpar\adjustright \fs20 {\f9 
+\par }\pard\plain \sl240\slmult0\widctlpar\adjustright \fs20 {\b\f9 \page }{\cs15\fs16\up6 #{\footnote \pard\plain \sl240\slmult0\widctlpar\adjustright \fs20 {\cs15\fs16\up6 #}{ HIDD_SETUP_SCANNER_DLG}}}{\fs16\up6  }{\b\f9\fs28\cf2\up6 Scanner Setup}{\b\f9 
+
+\par }{\f9 
+\par }\pard \widctlpar\adjustright {\f9 
+The standard PACS system can use a label placement scanner that is used to scan the label after placement and a system scanner that is used for some other defined process of the system. Each scanner can be setup within the Scanner Setup dialog box. Each o
+f the following attributes pertain to both the label placement and system scanner.
+\par 
+\par 
+\par }{\b\f9 Type}{\f9 
+\par Select the type for the scanner. Only supported types are listed in the Type list box.
+\par 
+\par }{\b\f9 Use}{\f9 
+\par The scanner can be used for the specific customer or not. To use the scanner, click on the Use check box until the box is check marked. To no use the scanner, click on the Use check box until the box is not check marked.
+\par 
+\par }{\b\f9 Enable}{\f9 
+\par Even though the scanner might be used per the customers requirements, the scanner may be disabled at a
+ny time. Click on the Enable check box to enable or disable the scanner from being used in the print and apply process. To enable the scanner, click on the Enable check box until the box is check marked. To disable the scanner, click on the Enable check b
+ox until the box is not check marked. 
+\par 
+\par }{\b\f9 Initialization String}{\f9 
+\par Most scanners are initialized with a string of attributes to set communication settings, trigger characters, scan codes, etc.. Enter the initialization string in this field. Refer to the scanner operators manual for the string format.
+\par 
+\par }{\b\f9 OK}{\f9 
+\par Click on the OK button to accept the changes.
+\par 
+\par }{\b\f9 Cancel}{\f9 
+\par Click on the Cancel button to disregard the changes.
+\par 
+\par }{
+\par 
+\par }\pard \sl240\slmult0\widctlpar\adjustright {\page }{\cs15\fs16\up6 #{\footnote \pard\plain \sl240\slmult0\widctlpar\adjustright \fs20 {\cs15\fs16\up6 #}{ HIDD_SYSTEM_SETUP_DLG}}}{\fs16\up6  }{\b\f9\fs28\cf2\up6 System Setup}{\b\f9 
+\par }{\f9 
+\par }\pard \widctlpar\adjustright {\f9 Parameters not directly related to jobs, printers, fee
+ders, scanners and any other subsystem, are grouped under the system parameters. The System Setup dialog box contains all general system parameters and is used to modify these parameters.
+\par 
+\par The origin, park position, and all offsets require an X and Y coord
+inate. Enter the  X And Y position. Positions are in hundredths of millimeters. Each coordinate must be 6 digits in length. For instance; an X coordinate of 35.5 millimeters will be entered as 003550.
+\par 
+\par 
+\par }{\b\f9 Origin}{\f9 
+\par The  Origin is the physical location, in relation to the home position of the actuator, of the board origin.
+\par 
+\par }{\b\f9 Park Position}{\f9 
+\par The Park Position is the position the actuator moves to dump labels during a Manual Feed.
+\par 
+\par }{\b\f9 Nose Piece1 Offset0}{\f9 
+\par The Nose Piece1 Offset0 the X and Y offset of the first nose piece to the center of rotation of the end-effector when the end-effector is rotated to 0.
+\par 
+\par }{\b\f9 Nose Piece1 Offset90}{\f9 
+\par The Nose Piece1 Offset0 the X and Y offset of the first nose piece to the center of rotation of the end-effector when the end-effector is rotated to 90.
+\par 
+\par }{\b\f9 Nose Piece1 Scanner Offset0}{\f9 
+\par The Nose Piece1 Scanner Offset0 is the X and Y offset the actuator must move for the first nose piece in order to scan the label when the end-effector is rotated to 0.
+\par 
+\par }{\b\f9 Nose Piece1 Scanner Offset90}{\f9 
+\par The Nose Piece1 Scanner Offset0 is the X and Y offset the actuator must move for the first nose piece in order to scan the label when the end-effector is rotated to 90.
+\par 
+\par }{\b\f9 Nose Piece2 Offset0}{\f9 
+\par The Nose Piece2 Offset0 the X and Y offset of the second nose piece to the center of rotation of the end-effector when the end-effector is rotated to 0.
+\par 
+\par }{\b\f9 Nose Piece2 Offset90}{\f9 
+\par The Nose Piece2 Offset0 the X and Y offset of the second nose piece to the center of rotation of the end-effector when the end-effector is rotated to 90.
+\par 
+\par }{\b\f9 Nose Piece2 Scanner Offset0}{\f9 
+\par The Nose Piece2 Scanner Offset0 is the X and Y offset the actuator must move for the second nose piece in order to scan the label when the end-effector is rotated to 0.
+\par 
+\par }{\b\f9 Nose Piece2 Scanner Offset90}{\f9 
+\par The Nose Piece2 Scanner Offset0 is the X and Y offset the actuator must move for the second nose piece in order to scan the label when the end-effector is rotated to 90.
+\par 
+\par }{\b\f9 Auto Retries}{\f9 
+\par Enter the number of  re-scans and re-picks that the PACS system does automatically before prompting the operator that there is a scanning problem.
+\par 
+\par }{\b\f9 Conveyor}{\f9 
+\par Select the conveyor direction by clicking on Left-To-Right or Right-To-Left. Select the controller of the conveyor by clicking on PC Controlled or PLC controlled. Note: these parameters are set by the
+ factory and should never be changed unless there is a hardware change to the system.
+\par 
+\par }{\b\f9 Statistics}{\f9 
+\par PACS has the ability to monitor and log certain operating parameters. These parameters include time in setup mode, time in run mode, time in idle mode, the av
+erage time to populate a panel, the number of labels applied, the number of panels completed, the number of re-picks, and the number of re-scans. 
+\par 
+\par Enable the collection of statistics by clicking on the Enable check box until a check mark appears. Disable the collection of statistics by clicking on the Enable check box until the check mark does not appear. 
+\par 
+\par Enter the location of the file where statistics will be logged to. This file will have a filename consisting of a time stamp with a .LOG extension. The file is updated at every refresh period.
+\par 
+\par Data Refresh is the intervals that the statistics file is produced with the accumulated data since the last log. Once the data is logged the statistical information is cleared and the accumulation begins again.
+\par 
+\par Log Update is the interval in which statistical information is saved to a temporary file. This file is saved to the log file at the Data Refresh period.
+\par 
+\par }{\b\f9 OK}{\f9 
+\par Click on the OK button to accept the changes.
+\par 
+\par }{\b\f9 Cancel}{\f9 
+\par Click on the Cancel button to disregard the changes.
+\par 
+\par 
+\par 
+\par 
+\par }\pard \sl240\slmult0\widctlpar\adjustright {\f9 \page }{\cs15\fs16\up6 #{\footnote \pard\plain \sl240\slmult0\widctlpar\adjustright \fs20 {\cs15\fs16\up6 #}{ HIDD_TEMPLATE_EDIT_DLG}}}{\fs16\up6  }{\b\f9\fs28\cf2\up6 Printer Template Editor}{\b\f9 
+\par }{\f9 
+\par }\pard \widctlpar\adjustright {\f9 The Printer Template Editor is used manually edit the selected printer template.
+\par 
+\par }\pard \nowidctlpar\adjustright {\f9 To edit a template, select a template from the template list. Then click on the Edit button. The Printer Template Editor window will be displayed with the template text displayed in an edit box.
+\par }\pard \widctlpar\adjustright {\f9 
+\par }\pard \nowidctlpar\adjustright {\f9 Use normal editing keys to change, add, or delete text in the edit box. Use Ctrl Enter to enter a new line. Normal copy, cut, and paste keys work as well.
+\par }\pard \widctlpar\adjustright {\f9 
+\par 
+\par }{\b\f9 Save}{\f9 
+\par To save the changes to the selected template, click on the Save button.
+\par 
+\par }{\b\f9 Save As New}{\f9 
+\par To save the changes to a new template, click on the Save As New button. The operator will be prompted for a new template name.
+\par 
+\par }{\b\f9 Cancel}{\f9 
+\par Click on the Cancel button to disregard the changes.
+\par 
+\par 
+\par 
+\par }\pard \sl240\slmult0\widctlpar\adjustright {\f9 \page }{\cs15\fs16\up6 #{\footnote \pard\plain \sl240\slmult0\widctlpar\adjustright \fs20 {\cs15\fs16\up6 #}{ HIDD_TEMPLATENAME_DLG}}}{\fs16\up6  }{\b\f9\fs28\cf2\up6 New Template Name}{\b\f9 
+\par }{\f9 
+\par }\pard \widctlpar\adjustright {\f9 Enter the new template name to save the template changes to. This will add a new template to the job database.
+\par 
+\par 
+\par }{\b\f9 OK}{\f9 
+\par Click on the OK button to accept the template name.
+\par 
+\par }{\b\f9 Cancel}{\f9 
+\par Click on the Cancel button to disregard saving the changes to a new template name.
+\par 
+\par 
+\par 
+\par }\pard \sl240\slmult0\widctlpar\adjustright {\f9 \page }{\cs15\fs16\up6 #{\footnote \pard\plain \sl240\slmult0\widctlpar\adjustright \fs20 {\cs15\fs16\up6 #}{ HIDD_UPDATE_INTERVAL_DLG}}}{\fs16\up6  }{\b\f9\fs28\cf2\up6 Update Interval}{\b\f9 
+\par }{\f9 
+\par }\pard \widctlpar\adjustright {\f9 Enter the interval to update the temporary statistical log file.
+\par 
+\par 
+\par 
+\par }{\b\f9 OK}{\f9 
+\par Click on the OK button to accept the update interval.
+\par 
+\par }{\b\f9 Cancel}{\f9 
+\par Click on the Cancel button to disregard the changed update interval.
+\par 
+\par 
+\par 
+\par 
+\par 
+\par }\pard \sl240\slmult0\widctlpar\adjustright {\page }{\cs15\fs16\up6 #{\footnote \pard\plain \sl240\slmult0\widctlpar\adjustright \fs20 {\cs15\fs16\up6 #}{ HIDD_JOB_NAME_DLG}}}{\fs16\up6  }{\b\f9\fs28\cf2\up6 New Job Name}{\b\f9 
+\par }{\f9 
+\par }\pard \widctlpar\adjustright {\f9 Enter a name for your new job.  The length of the name is limited to 30 characters. 
+\par 
+\par 
+\par }{\b\f9 OK}{\f9 
+\par Click on the OK button to accept the name and create the new job with defaults.  You will be returned to the Panel/Label Setup dialog with the new job selected.
+\par 
+\par }{\b\f9 Cancel}{\f9 
+\par Click on the Cancel button to skip adding a new job.  You will be returned to the Panel/Label Setup dialog.
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par }{
+\par }\pard \sl240\slmult0\widctlpar\adjustright {\page }{\cs15\fs16\up6 #{\footnote \pard\plain \sl240\slmult0\widctlpar\adjustright \fs20 {\cs15\fs16\up6 #}{ HIDD_TEMPLATE_SETUP}}}{\b\f9\fs28\cf2\up6 Template Setup
+\par }{\f9 
+\par }\pard \widctlpar\adjustright {\f9 This dialog allows you to add, edit, and delete printer templates.
+\par 
+\par 
+\par }{\b\f9 Template Name}{\f9 
+\par Use this combo box to select the template you wish to work with.  To add a new template, select an existing template as a starting point, press the edit button and save the template with a new name.
+\par 
+\par }{\b\f9 Edit}{\f9 
+\par Click on the Edit button to edit the selected template, or to use it as a starting point for creating a new template.
+\par 
+\par }{\b\f9 Delete
+\par }{\f9 Click on the Delete button to delete the selected template.
+\par }{\b\f9 
+\par Done}{\f9 
+\par Click on the Done button when you are finished adding, editing, and deleting printer templates.  You will be returned to the Setup dialog.
+\par 
+\par 
+\par 
+\par }{
+\par }\pard \sl240\slmult0\widctlpar\adjustright {\page }{\cs15\fs16\up6 #{\footnote \pard\plain \sl240\slmult0\widctlpar\adjustright \fs20 {\cs15\fs16\up6 #}{ HIDD_SETUP_SERIALIZATION_DLG}}}{\fs16\up6  }{\b\f9\fs28\cf2\up6 Setup Serialization}{\b\f9 
+\par }{\f9 
+\par }\pard \widctlpar\adjustright {\f9 This dialog allows you to set properties of serialization including starting serial number, digit length of the serial number, and the base of the serial number.
+\par 
+\par 
+\par 
+\par }{\b\f9 Serial Number Type}{\f9 
+\par Use this combo box to choose the base of the serial number.  The choices are Base10, Base16, Base31, and Base36.
+\par 
+\par }{\b\f9 Serial Number Length}{\f9 
+\par Enter the length, in number of digits, of  the serial number.
+\par 
+\par }{\b\f9 Starting Serial Number
+\par }{\f9 Enter the starting serial number for the job.  Make sure the length matches the length entered above.
+\par }{\b\f9 
+\par OK}{\f9 
+\par Click on the OK button to accept the current serialization properties.  You will be returned to the Panel/Label Setup dialog.
+\par 
+\par }{\b\f9 Cancel}{\f9 
+\par Click on the Cancel button to disregard any changes you have made in the serialization properties.  You will be returned to the Panel/Label Setup dialog.
+\par 
+\par 
+\par 
+\par }{
+\par }\pard \sl240\slmult0\widctlpar\adjustright {\page }{\cs15\fs16\up6 #{\footnote \pard\plain \sl240\slmult0\widctlpar\adjustright \fs20 {\cs15\fs16\up6 #}{ HIDD_LABEL_SELECT_DLG}}}{\fs16\up6  }{\b\f9\fs28\cf2\up6 Label Selection}{\b\f9 
+\par }{\f9 
+\par }\pard \widctlpar\adjustright {\f9 This dialog is used by the Printer Test and Manual Feed test to allow the user to choose which label to use for those tests.
+\par 
+\par 
+\par 
+\par }{\b\f9 Select Label}{\f9 
+\par Use this selection box to select which label to print.  Your label choice also specifies which printer will be used.  Because this dialog is only used from during the Printer Test and Manual Feed test, the coordinates, rotation, and scanner properties don
+\rquote t matter.
+\par 
+\par }{\b\f9 OK}{\f9 
+\par Click on the OK button to accept the currently selected label.  This label will then be printed or printed and placed at the park location, depending on whether you have pressed Printer Test or the Manual Feed test.
+\par 
+\par }{\b\f9 Cancel}{\f9 
+\par Click on the Cancel button to cancel the Printer Test or Manual Feed test.  You will be returned to the }{\f9\ul PACS Operation Center}{\f9 .
+\par }\pard\plain \s16\widctlpar\adjustright \fs20 {\f9 
+\par }\pard\plain \widctlpar\adjustright \fs20 {\f9 
+\par 
+\par }{
+\par }\pard \sl240\slmult0\widctlpar\adjustright {\page }{\cs15\fs16\up6 #{\footnote \pard\plain \sl240\slmult0\widctlpar\adjustright \fs20 {\cs15\fs16\up6 #}{ HIDD_BYPASS_DIALOG}}}{\fs16\up6  }{\b\f9\fs28\cf2\up6 Bypass}{\b\f9 
+\par }{\f9 
+\par }\pard \widctlpar\adjustright {\f9 You are in Bypass mode.  In Bypass mode the applicator does not print and apply labels, panels simply pass through without modification.
+\par 
+\par 
+\par 
+\par }{\b\f9 Exit}{\f9 
+\par Click on the Exit button to cancel Bypass mode and return to regular operation.  You will be returned to the }{\f9\ul PACS Operation Center}{\f9 .
+\par 
+\par 
+\par }\pard\plain \s16\widctlpar\adjustright \fs20 {\f9 
+\par }\pard\plain \widctlpar\adjustright \fs20 {
+\par }\pard \sl240\slmult0\widctlpar\adjustright {\page }{\cs15\fs16\up6 #{\footnote \pard\plain \sl240\slmult0\widctlpar\adjustright \fs20 {\cs15\fs16\up6 #}{ HIDD_DIAGNOSTICS}}}{\fs16\up6  }{\b\f9\fs28\cf2\up6 Diagnostics}{\b\f9 
+\par }{\f9 
+\par This dialog allows you to test all hardware subsystems. Subsystems consist of the printers, scanners, motion control system, and the digital I/O system. Click on the appropriate button to test the subsystem of your choice.
+\par }\pard \widctlpar\adjustright {\f9 
+\par }{\b\f9 Printer}{\f9 
+\par Click on the Printer button to test the printer subsystems.
+\par }{\b\f9 
+\par Digital Input/Output}{\f9 
+\par Click on the Digital Input/Output button to test the digital input/output subsystem.
+\par }{\b\f9 
+\par Scanner}{\f9 
+\par Click on the Scanner button to test the scanner subsystems.
+\par }{\b\f9 
+\par Motion Controller}{\f9 
+\par Click on the Motion Controller button to test the motion controller subsystem.
+\par }{\b\f9 
+\par Done}{\f9 
+\par Click on the Done button to stop testing subsystems and return to regular operation.  You will be returned to the }{\f9\ul PACS Operation Center}{\f9 .
+\par 
+\par 
+\par 
+\par }\pard\plain \s16\widctlpar\adjustright \fs20 {\f9 
+\par }\pard\plain \widctlpar\adjustright \fs20 {
+\par }\pard \sl240\slmult0\widctlpar\adjustright {\page }{\cs15\fs16\up6 #{\footnote \pard\plain \sl240\slmult0\widctlpar\adjustright \fs20 {\cs15\fs16\up6 #}{ HIDD_PRINTER_DIAGNOSTICS}}}{\fs16\up6  }{\b\f9\fs28\cf2\up6 Printer Diagnostics}{\b\f9 
+\par }{\f9 
+\par }\pard \widctlpar\adjustright {\f9 
+\par }\pard \sl240\slmult0\widctlpar\adjustright {\f9 This dialog tests the printer subsystems.  You can choose the printer to test, check it\rquote s status, send a form feed to the printer, and reset the printer defaults.
+\par }\pard \widctlpar\adjustright {\f9 
+\par }{\b\f9 Selected Printer}{\f9 
+\par This combo box allows you to choose which printer you want to work with if you have a multiple printer system.  If you have a single printer system, only one printer is listed.
+\par }{\b\f9 
+\par Printer Status}{\f9 
+\par This field displays the status string of the currently selected printer.
+\par }{\b\f9 
+\par Form Feed}{\f9 
+\par Click on the Form Feed button to send a form feed to the currently selected printer.
+\par }{\b\f9 
+\par Set Defaults}{\f9 
+\par Click on the Set Defaults button to reset the default settings of the currently selected printer.
+\par }{\b\f9 
+\par Close}{\f9 
+\par Click on the Close button to stop testing the printer subsystems.  You will be returned to the Setup dialog.
+\par }\pard\plain \s16\widctlpar\adjustright \fs20 {\f9 
+\par 
+\par }\pard\plain \widctlpar\adjustright \fs20 {
+\par 
+\par }\pard \sl240\slmult0\widctlpar\adjustright {\page }{\cs15\fs16\up6 #{\footnote \pard\plain \sl240\slmult0\widctlpar\adjustright \fs20 {\cs15\fs16\up6 #}{ HIDD_DIO_DIAGNOSTICS}}}{\fs16\up6  }{\b\f9\fs28\cf2\up6 Digital Input/Output Diagnostics}{\b\f9 
+
+\par }{\f9 
+\par This dialog allows you to test the digital input/output subsystem.  You can toggle output bits, watch the machine\rquote s response and observe the input bits all in real time.
+\par }\pard \widctlpar\adjustright {\f9 
+\par }{\b\f9 Inputs}{\f9 
+\par This section deals with in inputs to the digital input/output card.
+\par }{\b\f9 
+\par Base Address in Hex}{\f9 
+\par This is the input address of the bits that are displayed.  You can set this address by typing a new address in the field and pressing the set address button.  The input bits will change to correspond with the new input address.
+\par }{\b\f9 
+\par Set Address}{\f9 
+\par Press this button to change the input address you are observing after typing the new address into the field.
+\par 
+\par }{\b\f9 The Input Bits}{\f9 
+\par The thirty-two input bits are displayed in four columns of eight bits each.  A red color means the input bit is low, and a green color means the input bit is high.
+\par }{\b\f9 
+\par Outputs}{\f9 
+\par This section deals with in outputs to the digital input/output card.
+\par }{\b\f9 
+\par Base Address in Hex}{\f9 
+\par This is the output address of the bits that you can toggle.  You can set this address by typing a new address in the field and pressing the set address button.  The new output bits will default to all off, and you can toggle any of the new output bits.
+
+\par }{\b\f9 
+\par Set Address}{\f9 
+\par Press this button to change the output address you are working with after typing the new address into the field.
+\par 
+\par }{\b\f9 The Input Bits}{\f9 
+\par The thirty-two output bits are displayed in four columns of eight bits each.  To turn any bit on, click the corresponding button.  The button will be depressed and the output bit turned on until the button is clicked again, the output address is changed, 
+or the dialog is closed.
+\par 
+\par }{\b\f9 Close}{\f9 
+\par Click on the Close button to stop testing the digital input/output subsystems.  You will be returned to the Setup dialog.
+\par 
+\par }\pard \sl240\slmult0\widctlpar\adjustright {\page }{\cs15\fs16\up6 #{\footnote \pard\plain \sl240\slmult0\widctlpar\adjustright \fs20 {\cs15\fs16\up6 #}{ HIDD_SCANNER_DIAGNOSTICS}}}{\fs16\up6  }{\b\f9\fs28\cf2\up6 Scanner Diagnostics}{\b\f9 
+\par }{\f9 
+\par This dialog allows you to test the scanner subsystem.  You can view the version string, edit the reset string, and trigger the scanner single-shot or continuously and observe the returned scan results.
+\par }\pard \widctlpar\adjustright {\f9 
+\par }{\b\f9 Selected Scanner}{\f9 
+\par This combo box allows you to choose which scanner you want to work with if you have a multiple scanner system.  If you have a single scanner system, only one scanner is listed.
+\par }{\b\f9 
+\par Version String}{\f9 
+\par This field displays the hardware version string for the selected scanner.
+\par }{\b\f9 
+\par Reset String}{\f9 
+\par This field displays the current reset string for the selected 
+scanner.  You can edit this reset string and click the Set button to apply your changes.  Any changes you make are in effect only for the life of this dialog.  When this dialog is closed, the original reset string is reapplied.  To make a permanent change
+, experiment with the reset string here, and when you are ready copy the reset string into the Scanner Setup dialog to make the changes permanent.
+\par 
+\par }{\b\f9 Set}{\f9 
+\par Click on the Set button to apply any changes you have made to the reset string. Any changes you make are 
+in effect only for the life of this dialog.  When this dialog is closed, the original reset string is reapplied.  To make a permanent change, experiment with the reset string here, and when you are ready copy the reset string into the Scanner Setup dialog
+ to make the changes permanent.
+\par }{\b\f9 
+\par Single Trigger}{\f9 
+\par Click on the button to trigger the scanner for one read.  The results of the read will be added to the text field below.
+\par }{\b\f9 
+\par Continuous Trigger}{\f9 
+\par Click on this button to trigger the scanner continuously.  The results of each read will be accumulated in the text field below.  All other buttons will be disabled during continuous scanning, and the caption of this button will be changed to Stop Continu
+ous Trigger.  Click on Stop Continuous Trigger to stop triggering the scanner and enable the rest of the dialog buttons.
+\par }{\b\f9 
+\par Close}{\f9 
+\par Click on the Close button to stop testing the scanner subsystems.  You will be returned to the Setup dialog.
+\par 
+\par }\pard \sl240\slmult0\widctlpar\adjustright {\page }{\cs15\fs16\up6 #{\footnote \pard\plain \sl240\slmult0\widctlpar\adjustright \fs20 {\cs15\fs16\up6 #}{ HIDD_MC_DIAGNOSTICS}}}{\fs16\up6  }{\b\f9\fs28\cf2\up6 Motion Controller Diagnostics}{\f9 
+\par }\pard \widctlpar\adjustright {\f9 
+\par }\pard \sl240\slmult0\widctlpar\adjustright {\f9 This dialog tests the motion controller subsystem.  You can view the version string, see the actuator\rquote s position, send a home command to the motion controller, and toggle the servo on and off.
+\par }\pard \widctlpar\adjustright {\f9 
+\par }{\b\f9 Version String}{\f9 
+\par This field displays the hardware version string for the motion controller.
+\par }{\b\f9 
+\par Actuator Position}{\f9 
+\par This field displays the current position of the actuator in hundredth\rquote s of a millimeter.
+\par }{\b\f9 
+\par Home}{\f9 
+\par Click on the Home button to home the actuator.
+\par }{\b\f9 
+\par Turn Servo On/Off}{\f9 
+\par Clicking on the Turn Servo On button will turn the motion controller\rquote s servo on, and change the caption of the button to Turn Servo Off.  Clicking on Turn Servo Off turns the motion controller\rquote 
+s servo off and changes the button caption to Turn Servo On.
+\par }{\b\f9 
+\par Close}{\f9 
+\par }\pard \sl240\slmult0\widctlpar\adjustright {\f9 Click on the Close button to stop testing the motion controller subsystems.  You will be returned to the Setup dialog.}{\b\f9 
+\par }{\f9 
+\par }}

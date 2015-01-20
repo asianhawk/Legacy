@@ -1,0 +1,330 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "NSInternalSetupResource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "NSInternalSetupResource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\NSInternalSetup.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_INTERNAL_SETUP_DLG DIALOG DISCARDABLE  0, 0, 350, 189
+STYLE DS_MODALFRAME | DS_CONTEXTHELP | WS_POPUP | WS_CAPTION
+CAPTION "Internal Setup"
+FONT 8, "MS Sans Serif"
+BEGIN
+    COMBOBOX        IDC_DEVICE_LIST,23,50,78,41,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_PORT_ID,114,48,24,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_SETTINGS,151,48,50,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_INBUFFER_SIZE,214,48,24,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_OUTBUFFER_SIZE,254,48,24,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_TRIGGER_DELAY,295,48,24,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_INPUT_ADDRESS,86,104,22,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_OUTPUT_ADDRESS,86,121,22,14,ES_AUTOHSCROLL
+    CONTROL         "",IDOK,"{D7053240-CE69-11CD-A777-00DD01143C57}",
+                    WS_TABSTOP,270,129,60,18
+    CONTROL         "",IDCANCEL,"{D7053240-CE69-11CD-A777-00DD01143C57}",
+                    WS_TABSTOP,270,153,60,18
+    CONTROL         "",IDC_LABEL2,"{978C9E23-D4B0-11CE-BF2D-00AA003F40D0}",
+                    0x0,43,35,34,11
+    CONTROL         "",IDC_LABEL3,"{978C9E23-D4B0-11CE-BF2D-00AA003F40D0}",
+                    0x0,113,35,32,11
+    CONTROL         "",IDC_LABEL4,"{978C9E23-D4B0-11CE-BF2D-00AA003F40D0}",
+                    0x0,160,35,36,11
+    CONTROL         "",IDC_LABEL9,"{978C9E23-D4B0-11CE-BF2D-00AA003F40D0}",
+                    0x0,216,35,21,10
+    CONTROL         "",IDC_LABEL25,"{978C9E23-D4B0-11CE-BF2D-00AA003F40D0}",
+                    0x0,258,35,21,10
+    CONTROL         "",IDC_LABEL36,"{978C9E23-D4B0-11CE-BF2D-00AA003F40D0}",
+                    0x0,297,35,26,10
+    CONTROL         "",IDC_LABEL6,"{978C9E23-D4B0-11CE-BF2D-00AA003F40D0}",
+                    0x0,210,25,33,11
+    CONTROL         "",IDC_LABEL7,"{978C9E23-D4B0-11CE-BF2D-00AA003F40D0}",
+                    0x0,249,25,40,11
+    CONTROL         "",IDC_LABEL12,"{978C9E23-D4B0-11CE-BF2D-00AA003F40D0}",
+                    0x0,16,107,57,10
+    CONTROL         "",IDC_LABEL19,"{978C9E23-D4B0-11CE-BF2D-00AA003F40D0}",
+                    0x0,16,123,61,11
+    CONTROL         "",IDC_LABEL1,"{978C9E23-D4B0-11CE-BF2D-00AA003F40D0}",
+                    0x0,107,8,140,11
+    GROUPBOX        "",IDC_STATIC,7,16,334,59
+    CONTROL         "",IDC_LABEL11,"{978C9E23-D4B0-11CE-BF2D-00AA003F40D0}",
+                    0x0,8,85,120,11
+    GROUPBOX        "",IDC_STATIC,8,94,113,45
+    CONTROL         "",IDC_LABEL35,"{978C9E23-D4B0-11CE-BF2D-00AA003F40D0}",
+                    0x0,297,25,25,11
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_INTERNAL_SETUP_DLG DLGINIT
+BEGIN
+    IDOK, 0x376, 56, 0
+0x0000, 0x0000, 0x0200, 0x0014, 0x0028, 0x0000, 0x0002, 0x8000, 0x4b4f, 
+0x03bb, 0x094d, 0x0000, 0x02ff, 0x0000, 0x0200, 0x0014, 0x00f6, 0x0000, 
+0x0001, 0x4000, 0x00c3, 0x0000, 0x0200, 0x0003, 0x02bc, 0x0000, 0xf1ac, 
+0x03e2, 
+    IDCANCEL, 0x376, 56, 0
+0x0000, 0x0000, 0x0200, 0x0018, 0x0028, 0x0000, 0x0006, 0x8000, 0x6143, 
+0x636e, 0x6c65, 0x0045, 0x094d, 0x0000, 0x02ff, 0x0000, 0x0200, 0x0014, 
+0x00f6, 0x0000, 0x0001, 0x4000, 0x00c3, 0x0000, 0x0200, 0x0003, 0x02bc, 
+0x0000, 
+    IDC_LABEL2, 0x376, 60, 0
+0x0000, 0x0000, 0x0200, 0x0020, 0x002b, 0x0000, 0x0000, 0x0000, 0xc0c0, 
+0x00c0, 0x0006, 0x8000, 0x6544, 0x6976, 0x6563, 0x0045, 0x0545, 0x0000, 
+0x01dc, 0x0000, 0x0200, 0x0010, 0x00b6, 0x0000, 0x0001, 0x4000, 0x00a5, 
+0x0000, 0x0200, 0x02bc, 
+    IDC_LABEL3, 0x376, 60, 0
+0x0000, 0x0000, 0x0200, 0x0020, 0x002b, 0x0000, 0x0000, 0x0000, 0xc0c0, 
+0x00c0, 0x0007, 0x8000, 0x6f50, 0x7472, 0x4920, 0x0044, 0x04f6, 0x0000, 
+0x01dc, 0x0000, 0x0200, 0x0010, 0x00b6, 0x0000, 0x0001, 0x4000, 0x00a5, 
+0x0000, 0x0200, 0x02bc, 
+    IDC_LABEL4, 0x376, 60, 0
+0x0000, 0x0000, 0x0200, 0x0020, 0x002b, 0x0000, 0x0000, 0x0000, 0xc0c0, 
+0x00c0, 0x0008, 0x8000, 0x6553, 0x7474, 0x6e69, 0x7367, 0x0595, 0x0000, 
+0x01dc, 0x0000, 0x0200, 0x0010, 0x00b6, 0x0000, 0x0001, 0x4000, 0x00a5, 
+0x0000, 0x0200, 0x02bc, 
+    IDC_LABEL9, 0x376, 56, 0
+0x0000, 0x0000, 0x0200, 0x001c, 0x002b, 0x0000, 0x0000, 0x0000, 0xc0c0, 
+0x00c0, 0x0004, 0x8000, 0x6953, 0x657a, 0x034f, 0x0000, 0x01a7, 0x0000, 
+0x0200, 0x0010, 0x00b6, 0x0000, 0x0001, 0x4000, 0x00a5, 0x0000, 0x0200, 
+0x02bc, 
+    IDC_LABEL25, 0x376, 56, 0
+0x0000, 0x0000, 0x0200, 0x001c, 0x002b, 0x0000, 0x0000, 0x0000, 0xc0c0, 
+0x00c0, 0x0004, 0x8000, 0x6953, 0x657a, 0x034f, 0x0000, 0x01a7, 0x0000, 
+0x0200, 0x0010, 0x00b6, 0x0000, 0x0001, 0x4000, 0x00a5, 0x0000, 0x0200, 
+0x02bc, 
+    IDC_LABEL36, 0x376, 60, 0
+0x0000, 0x0000, 0x0200, 0x0020, 0x002b, 0x0000, 0x0000, 0x0000, 0xc0c0, 
+0x00c0, 0x0005, 0x8000, 0x6544, 0x616c, 0x0079, 0x0045, 0x0408, 0x0000, 
+0x01a7, 0x0000, 0x0200, 0x0010, 0x00b6, 0x0000, 0x0001, 0x4000, 0x00a5, 
+0x0000, 0x0200, 0x02bc, 
+    IDC_LABEL6, 0x376, 60, 0
+0x0000, 0x0000, 0x0200, 0x0020, 0x002b, 0x0000, 0x0000, 0x0000, 0xc0c0, 
+0x00c0, 0x0008, 0x8000, 0x6e49, 0x7562, 0x6666, 0x7265, 0x052b, 0x0000, 
+0x01dc, 0x0000, 0x0200, 0x0010, 0x00b6, 0x0000, 0x0001, 0x4000, 0x00a5, 
+0x0000, 0x0200, 0x02bc, 
+    IDC_LABEL7, 0x376, 64, 0
+0x0000, 0x0000, 0x0200, 0x0024, 0x002b, 0x0000, 0x0000, 0x0000, 0xc0c0, 
+0x00c0, 0x0009, 0x8000, 0x754f, 0x6274, 0x6675, 0x6566, 0x5072, 0x0045, 
+0x0634, 0x0000, 0x01dc, 0x0000, 0x0200, 0x0010, 0x00b6, 0x0000, 0x0001, 
+0x4000, 0x00a5, 0x0000, 0x0200, 0x02bc, 
+    IDC_LABEL12, 0x376, 68, 0
+0x0000, 0x0000, 0x0200, 0x0028, 0x002b, 0x0000, 0x0000, 0x0000, 0xc0c0, 
+0x00c0, 0x000d, 0x8000, 0x6547, 0x656e, 0x6172, 0x206c, 0x6e49, 0x7570, 
+0x5574, 0x0045, 0x08e3, 0x0000, 0x01a7, 0x0000, 0x0200, 0x0010, 0x00b6, 
+0x0000, 0x0001, 0x4000, 0x00a5, 0x0000, 0x0200, 0x02bc, 
+    IDC_LABEL19, 0x376, 68, 0
+0x0000, 0x0000, 0x0200, 0x0028, 0x002b, 0x0000, 0x0000, 0x0000, 0xc0c0, 
+0x00c0, 0x000e, 0x8000, 0x6547, 0x656e, 0x6172, 0x206c, 0x754f, 0x7074, 
+0x7475, 0x0045, 0x0982, 0x0000, 0x01dc, 0x0000, 0x0200, 0x0010, 0x00b6, 
+0x0000, 0x0001, 0x4000, 0x00a5, 0x0000, 0x0200, 0x02bc, 
+    IDC_LABEL1, 0x376, 92, 0
+0x0000, 0x0000, 0x0200, 0x0034, 0x002b, 0x0000, 0x0000, 0x0000, 0xc0c0, 
+0x00c0, 0x001b, 0x8000, 0x6f43, 0x6d6d, 0x6e75, 0x6369, 0x7461, 0x6f69, 
+0x206e, 0x6f50, 0x7472, 0x5320, 0x7465, 0x6974, 0x676e, 0x0073, 0x15b4, 
+0x0000, 0x01dc, 0x0000, 0x0200, 0x0010, 0x00b6, 0x0000, 0x0001, 0x4000, 
+0x00c3, 0x0000, 0x0200, 0x02bc, 0x01a7, 0x0000, 0x0200, 0x0010, 0xf1d0, 
+0x03e2, 
+    IDC_LABEL11, 0x376, 76, 0
+0x0000, 0x0000, 0x0200, 0x0030, 0x002b, 0x0000, 0x0000, 0x0000, 0xc0c0, 
+0x00c0, 0x0018, 0x8000, 0x4944, 0x204f, 0x6142, 0x6573, 0x4120, 0x6464, 
+0x6572, 0x7373, 0x2820, 0x6820, 0x7865, 0x2920, 0x129b, 0x0000, 0x01dc, 
+0x0000, 0x0200, 0x0010, 0x00b6, 0x0000, 0x0001, 0x4000, 0x00c3, 0x0000, 
+0x0200, 0x02bc, 
+    IDC_LABEL35, 0x376, 56, 0
+0x0000, 0x0000, 0x0200, 0x001c, 0x002b, 0x0000, 0x0000, 0x0000, 0xc0c0, 
+0x00c0, 0x0004, 0x8000, 0x6552, 0x6461, 0x03ed, 0x0000, 0x01dc, 0x0000, 
+0x0200, 0x0010, 0x00b6, 0x0000, 0x0001, 0x4000, 0x00a5, 0x0000, 0x0200, 
+0x02bc, 
+    0
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "NSInternalSetup DLL\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "NSInternalSetup\0"
+            VALUE "LegalCopyright", "Copyright (C) 2000\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "NSInternalSetup.DLL\0"
+            VALUE "ProductName", "NSInternalSetup Dynamic Link Library\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_INTERNAL_SETUP_DLG, DIALOG
+    BEGIN
+        VERTGUIDE, 270
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_NO_DATABASE         "The program could not find the job administration database.\nThe JobAdmin.mdb database file should reside in the  c:\\computype\\database folder and it should NOT have the read only attribute set.\n\nPlease exit the program."
+    IDS_INVALID_COMPORT_DATABASE 
+                            "Invalid com port information in the database."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_NO_STATISTICAL_DATABASE 
+                            "PACS could not find the Statistics database in c:\\computype\\database"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_INIT_DATABASE_ERR   "Error: The database has not been initialized. Exit and restart PACS."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_NO_GENERAL_RECORDS  "Unable to find General records in the database."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_INVALID_PORTID      "Invalid port ID in the database. The port ID must be between 5 and 12."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_INVALID_SYSTEMIO_DATABASE 
+                            "Unable to find valid system digital I/O base address settings in the database."
+END
+
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\NSInternalSetup.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

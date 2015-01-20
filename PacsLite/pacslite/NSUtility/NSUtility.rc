@@ -1,0 +1,656 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif\r\n"
+    "#include ""res\\NSUtility.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "PACS MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "PACS\0"
+            VALUE "LegalCopyright", "Copyright (C) 1998\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "PACS.EXE\0"
+            VALUE "ProductName", "PACS Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 210
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_PACS_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 423
+        VERTGUIDE, 220
+        VERTGUIDE, 230
+        VERTGUIDE, 314
+        VERTGUIDE, 323
+        VERTGUIDE, 416
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 304
+        HORZGUIDE, 44
+        HORZGUIDE, 50
+        HORZGUIDE, 106
+        HORZGUIDE, 130
+        HORZGUIDE, 154
+        HORZGUIDE, 165
+        HORZGUIDE, 187
+        HORZGUIDE, 268
+    END
+
+    IDD_SETUP_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 212
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 202
+    END
+
+    IDD_SYSTEM_SETUP_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 437
+        VERTGUIDE, 114
+        VERTGUIDE, 259
+        VERTGUIDE, 285
+        VERTGUIDE, 292
+        VERTGUIDE, 347
+        VERTGUIDE, 384
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 248
+        HORZGUIDE, 39
+        HORZGUIDE, 55
+        HORZGUIDE, 108
+        HORZGUIDE, 120
+        HORZGUIDE, 135
+        HORZGUIDE, 150
+    END
+
+    IDD_SETUP_SCANNER_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 278
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 224
+    END
+
+    IDD_CHANGE_PASSWORD_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 176
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 128
+    END
+
+    IDD_POINT_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 278
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 147
+    END
+
+    IDD_UPDATE_INTERVAL_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 178
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 80
+    END
+
+    IDD_INIT_DLG_MESSAGE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 318
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 63
+    END
+
+    IDD_PASSWORD_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 168
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+
+    IDD_SETUP_PRINTER_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 237
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 131
+    END
+
+    IDD_TEMPLATE_EDIT_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 317
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 167
+    END
+
+    IDD_TEMPLATENAME_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 149
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+
+    IDD_DELETE_JOB_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 188
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 104
+    END
+
+    IDD_HOLD_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 232
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 168
+    END
+
+    IDD_RUN_DIALOG, DIALOG
+    BEGIN
+        VERTGUIDE, 8
+        VERTGUIDE, 76
+        VERTGUIDE, 103
+        TOPMARGIN, 7
+        HORZGUIDE, 52
+        HORZGUIDE, 69
+        HORZGUIDE, 88
+        HORZGUIDE, 182
+        HORZGUIDE, 227
+        HORZGUIDE, 252
+        HORZGUIDE, 269
+    END
+
+    IDD_ADD_EDIT_JOB_DLG, DIALOG
+    BEGIN
+        VERTGUIDE, 17
+        VERTGUIDE, 33
+        VERTGUIDE, 80
+    END
+
+    IDD_DB_PANEL_LABEL_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 251
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 154
+    END
+
+    IDD_RESCAN_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 235
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 114
+    END
+
+    IDD_JOB_NAME_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 168
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 91
+    END
+
+    IDD_INTERNAL_SETUP_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 343
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 182
+    END
+
+    IDD_LABEL_SELECT_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 310
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 139
+    END
+
+    IDD_DIAGNOSTICS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 187
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 86
+    END
+
+    IDD_DIO_DIAGNOSTICS, DIALOG
+    BEGIN
+        LEFTMARGIN, 6
+        RIGHTMARGIN, 327
+        VERTGUIDE, 22
+        VERTGUIDE, 27
+        VERTGUIDE, 77
+        VERTGUIDE, 81
+        VERTGUIDE, 85
+        VERTGUIDE, 91
+        VERTGUIDE, 95
+        VERTGUIDE, 145
+        VERTGUIDE, 149
+        VERTGUIDE, 156
+        VERTGUIDE, 160
+        VERTGUIDE, 212
+        VERTGUIDE, 225
+        VERTGUIDE, 229
+        VERTGUIDE, 290
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 232
+        HORZGUIDE, 40
+        HORZGUIDE, 49
+        HORZGUIDE, 59
+        HORZGUIDE, 68
+        HORZGUIDE, 78
+        HORZGUIDE, 87
+        HORZGUIDE, 97
+        HORZGUIDE, 148
+        HORZGUIDE, 155
+        HORZGUIDE, 162
+        HORZGUIDE, 171
+        HORZGUIDE, 179
+        HORZGUIDE, 187
+        HORZGUIDE, 194
+        HORZGUIDE, 200
+    END
+
+    IDD_PRINTER_DIAGNOSTICS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 237
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 195
+    END
+
+    IDD_SCANNER_DIAGNOSTICS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 312
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 205
+    END
+
+    IDD_BYPASS_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 308
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 91
+    END
+
+    IDD_SETUP_SERIALIZATION_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 204
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 127
+        HORZGUIDE, 103
+    END
+
+    IDD_TEMPLATE_SETUP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 225
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 91
+    END
+
+    IDD_STARTUP_ERRORS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 369
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 170
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDP_OLE_INIT_FAILED     "OLE initialization failed.  Make sure that the OLE libraries are the correct version."
+    IDS_ABOUTBOX            "&About PACS..."
+    IDP_SOCKETS_INIT_FAILED "Windows sockets initialization failed."
+    IDS_APP_DOORS           "Please make sure all the applicator doors are closed."
+    IDS_ERR_EE_RETRACT      "The end-effector could not retract. Please call your engineer."
+    IDS_ERR_MOVE_PLACE      "Error during move to place position. Please call your engineer."
+    IDS_ERR_CONVEYOR        "There is an error with the conveyor. Please remove all the boards from the conveyor."
+    IDS_ERR_STILL_CONVEYOR  "There is still an error with the conveyor. Please call your engineer."
+    IDS_ERR_EE_EXTEND       "The end-effector could not extend. Please call your engineer."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ERR_MOVE_SCAN       "Error during move to scan position. Please call your engineer."
+    IDS_REMOVE_BOARDS       "Please remove all boards from the conveyor."
+    IDS_INVALID_LENGTH      "Invalid Position - length not equal to 6."
+    IDS_INVALID_NUMERIC     "Invalid Position - Number is not numeric."
+    IDS_INVALID_ROTATION    "Invalid Position - Rotation is not ""0"" or ""90""."
+    IDS_INVALID_JOBTEXT_LENGTH 
+                            "Invalid text length. The description must be 80 characters or less. "
+    IDS_SN_INTERFACE_ERROR  "Unable to retrieve starting serial number from the Server."
+    IDS_INVALID_DATA_CONSTRAINT 
+                            "Data lengths must be greater than 0 and less than 50. The minimum length must not exceed the maximum length."
+    IDS_INVALID_INTERVAL    "The update interval must be less than 10000."
+    IDS_INIT_DATABASE_ERR   "Error: The database has not been initialized. Exit and restart PACS."
+    IDS_INVALID_PRINTER_DATABASE 
+                            "Invalid printer information in the database."
+    IDS_NO_STATA_DATA       "Statistical data not found in database."
+    IDS_NO_POINT_DATA       "There is not point data found in the database."
+    IDS_INVALID_POSITION    "Illegal point values found. Please check data in the database."
+    IDS_NO_POINT_TABLE      "The program could not find tbl_point table in database. Please exit the program."
+    IDS_NO_SCANNING_RECORDS "Unable to find scanning records in the database."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_UNSUPPORTED_SCANNER "Unsupported scanner type found in the database."
+    IDS_NO_DATABASE         "The program could not find the job administration database.\nThe JobAdmin.mdb database file should reside in the  c:\\computype\\database folder and it should NOT have the read only attribute set.\n\nPlease exit the program."
+    IDS_INVALID_COMPORT_DATABASE 
+                            "Invalid com port information in the database."
+    IDS_ERR_OPEN_COMPORT    "The com port is not opened."
+    IDS_ERR_PRINTER_INIT    "Unable to initialize printers."
+    IDS_ERR_PRINTER_RESP    "Printer failed to respond. Please check the wire connection and configuration."
+    IDS_PRINTER_OUTOFPAPER  "Printer is out of paper. Please add label stock."
+    IDS_PRINTER_INPAUSE     "Printer is in pause mode. Please take printer out of pause."
+    IDS_PRINTER_BUFFERFULL  "Printer receive buffer is full. Please calibrate the printer."
+    IDS_PRINTER_BADRAM      "Printer RAM is corrupt. Please call the engineer."
+    IDS_PRINTER_HEADUP      "Printer head is up. Please adjust printer."
+    IDS_PRINTER_RIBBONOUT   "Printer ribbon is out. Please add new ribbon."
+    IDS_PRINTER_STRIPPIN    "Printer label material is at strip pin."
+    IDS_ERR_SCANNER_RESET_STRING 
+                            "Invalid scanner reset string. Check reset string in database."
+    IDS_SCANNER_RESET_ERR   "Label scanner failed to respond. Please check for wire connection and configuration."
+    IDS_ERR_CONVEYOR_INIT   "Error initializing conveyor object."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_INVALID_CONVEYORIO_DATABASE 
+                            "Unable to find valid conveyor digital I/O base address settings in the database."
+    IDS_ERR_INIT_DIO        "Applicator could not initialize the digital I/O boards. Please call your engineer."
+    IDS_INVALID_SYSTEMIO_DATABASE 
+                            "Unable to find valid system digital I/O base address settings in the database."
+    IDS_INVALID_MC          "Unable to find a valid motion controller name in the database."
+    IDS_ERR_CONTROLLER_COM  "Applicator could not open the serial com port for the controller. Please check the connection."
+    IDS_ERR_CONTROLLER_RESPOND 
+                            "The controller does not respond to the applicator. Please check the connection and port configuration."
+    IDS_ERR_SERVO_ON        "The controller failed to execute the servo-on command. Please call your engineer."
+    IDS_ERR_SERVO_OFF       "The controller failed to execute the servo-off command. Please call your engineer."
+    IDS_ERR_SERVO_HOME      "The controller failed to execute  the home command. Please call your engineer."
+    IDS_ERR_SERVO_MOTION    "The controller failed to execute the motion command. Please call your engineer."
+    IDS_ERR_SERVO_ACCEL     "The controller failed to execute set acceleration command. Please call your engineer."
+    IDS_CONVEYOR_ERR        "There is an error with the conveyor. Please remove all the boards from conveyor and try again."
+    IDS_ERR_POWER_OFF       "The power for the applicator is not ON. Please turn on the power and try again."
+    IDS_ERR_DOOR_OPEN       "A door of the applicator is open. Please close all doors and try again."
+    IDS_ERR_NO_AIR          "The air for the applicator is low or disconnected. Please turn on the air and try again."
+    IDS_BYPASS_ON           "The bypass switch has been turned on. This job will be stopped."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_NO_PASSWORD_DATA    "Unable to find password information in the database."
+    IDS_ORIGIN_ERR_TYPE     "Origin Position Error"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_CONVEYOR_ERROR      "An error has occured with the conveyor. Please remove any boards from the conveyor."
+    IDS_INVALID_CONVEYORINFO_DATABASE 
+                            "Invalid conveyor information in the database."
+    IDS_INVALID_MOTION_DATABASE 
+                            "Invalid motion control information in the database."
+    IDS_INVALID_SN          "Invalid serial number. The serial number must be 8 digits or less and must be numeric."
+    IDS_INVALID_PRINTER_TYPE "Invalid printer type."
+    IDS_NO_SN_DATABASE      "There is no serial number information in the database."
+    IDS_NO_RETRY_DATA       "There is no retry information in the database."
+    IDS_SCANNER_UPDATE_ERR  "Unable to update the scanner attributes. Please check com port connections and database information."
+    IDS_ERR_SCANNER_RESPONSE 
+                            "The scanner failed to respond to the applicator. Please check the wire connection or scanner configuration."
+    IDS_SCANNER_NOREAD      "The scanner could not read the label. Please make sure that the scanner lens is clean and the printer ribbon and label material are in good condition.\n"
+    IDS_ERR_PRINTER_REFRESH "Unable to update the printer control with the new attributes. Exit the PACS software and restart. Then check the printer setup parameters."
+    IDS_CONVEYOR_CONTROL_CHANGE 
+                            "The control of the conveyor system has changed. Please exit PACS and restart."
+    IDS_NO_MATCHING_DATABASE_TEMP "No matching template in the database."
+    IDS_ERR_JOB_DELETE      "Unable to delete the job from the database."
+    IDS_TEMPLATE_CHANGED    "Reminder: A printer template has been changed and saved to the database."
+    IDS_ERR_SET_JOB         "Unable to update job information in the database."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_NO_WYSIWYG_DATA     "Unable to find the label design method in the database."
+    IDS_PRINTER_TYPE_ERR    "Unknown printer selection. If in Manual Feed, reselect the printer and try again. If problem persists, call the engineer."
+    IDS_ERR_MOVE_TO_PARK    "Error while moving to the park position. Call your engineer."
+    IDS_ERR_RETRACT         "The end-effector could not retract. Please call your engineer."
+    IDS_CLOSE_DOORS         "Please close all the applicator doors."
+    IDS_CREATE_RUN_ERR      "The program could not create the run form."
+    IDS_ERR_EE_NOT_EXTEND   "The end-effector is not extended. Check sensor position."
+    IDS_ERR_ROTATION        "Error rotating the end-effector. Restart the job. If problem persists call your engineer."
+    IDS_HOME_ERR            "Error during move to home position. Please call your engineer."
+    IDS_ERR_FEEDER1_INIT    "Unable to initialize feeder 1."
+    IDS_ERR_FEEDER2_INIT    "Unable to initialize feeder 2."
+    IDS_INVALID_FEEDER_DATABASE "Invalid feeder information in the database."
+    IDS_NO_TEMPLATES        "There is no template data in the database."
+    IDS_ERR_ENABLE_FEEDER   "Unable to enable the feeder motor. Please call your engineer."
+    IDS_ERR_FEEDER_MOTOR    "Unable to turn the feeder motor on. Please call your engineer."
+    IDS_ERR_FEEDER_ADVANCE  "Error during label advance in feeder. Please call your engineer."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ERR_FEEDER_REFRESH  "Unable to update the current feeder attributes."
+    IDS_ERR_LABEL_COUNT     "The number of labels for the job does not match the number of  labels expected to apply."
+    IDS_INVALID_LABEL_ATT   "Invalid label attribute format."
+    IDS_NO_GENERAL_RECORDS  "Unable to find General records in the database."
+    IDS_ERR_PANEL_DIM       "Panel Dimension Error\n"
+    IDS_EMPTY_LABEL_LIST    "The label positions list must not be empty."
+    IDS_ERR_LABEL_LIST      "Invalid label list. Exit and restart PACS."
+    IDS_INVALID_JOBNAME     "Invalid job name."
+    IDS_INVALID_DEVICE      "Invalid device settings for device: "
+    IDS_INVALID_DIO_ADDRESS "Invalid DIO Address. The address must be a 3 digit hex number."
+    IDS_INVALID_MULTISEL_SPEED 
+                            "Invalid speed. The speed must between 010 and 500 mm/s."
+    IDS_INVALID_SUPERSEL_SPEED 
+                            "Invalid speed. The speed must between 010 and 1000 mm/s."
+    IDS_INVALID_ACCEL       "Invalid acceleration. The acceleration must between 001 and 100 hundreths of g's."
+    IDS_RESTART_WARNING     "PACS must be restarted before these changes can be implemented."
+    IDS_INVALID_PANEL       "Failed to create printer interface. Please call your engineer."
+    IDS_ERR_PRINTER_CREATION 
+                            "Invalid panel design selection. Please select a valid panel design file."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_SELECT_LABEL        "Please select a label."
+    IDS_ERR_GET_SN          "Unable to get starting serial number from the database.  Please call your engineer."
+    IDS_ERR_SET_SN          "Unable to set starting serial number from the database.  Please call your engineer."
+    IDS_ERR_INIT_SN         "Unable to initialize serial number information. Please call your engineer."
+    IDS_PRINTER_DISABLED    "This printer has been disabled in the printer setup dialog box."
+    IDS_USE_DISABLED_PRINTER 
+                            "This job uses a printer that has been disabled.  Either enable the printer, or edit the job in the job setup dialog box."
+    IDS_ERR_FRONT_DOWNSTREAM_PRINTER_INIT 
+                            "The front downstream printer failed to initialize."
+    IDS_ERR_BACK_UPSTREAM_PRINTER_INIT 
+                            "The back upstream printer failed to initialize."
+    IDS_ERR_BACK_DOWNSTREAM_PRINTER_INIT 
+                            "The back downstream printer failed to initialize."
+    IDS_ERR_OFFLINE_PRINTER1_INIT 
+                            "The first offline printer failed to initialize."
+    IDS_ERR_OFFLINE_PRINTER2_INIT 
+                            "The second offline printer failed to initialize."
+    IDS_ERR_SUPERSEL_INIT   "The SuperSel controller failed to initialize."
+    IDS_ERR_MULTISEL_INIT   "The MultiSel controller failed to initialize."
+    IDS_ERR_PLACEMENT_SCANNER_INIT 
+                            "The placement scanner failed to initialize."
+    IDS_ERR_SYSTEM_SCANNER_INIT "The system scanner failed to initialize."
+    IDS_ERR_UNRECOGNIZED_FORMAT_STRING "Unrecognized Format String!"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_INVALID_RESERVED_WORD_VALUE 
+                            "Invalid Value Entered for Reserved Word ="
+    IDS_DATABASE_INIT_ERROR "Serious System Error Database Not Initialized."
+    IDS_ERROR_INPUT_BITS_DESC 
+                            "Missing Description for Input Bit. See tbl_digitial_inputs table."
+    IDS_DUPLICATE_JOB_EXIST "Job Record Already Exists"
+    IDS_INVALID_PW          "Invalid Password."
+    IDS_INVALID_SYSPW       "System Passwords Are Not Allowed To Be Changed."
+    IDS_NO_STATISTICAL_DATABASE 
+                            "PACS could not find the Statistics database in c:\\computype\\database"
+    IDS_WARNING_WYSIWYG     "Warning: \nUsing the WYSIWYG feature will delete any previously exisitng \nlabel points if you choose to save the imported label points."
+    IDS_ERR_SERIALNUMBER_LENGTH 
+                            "The starting serial number is not the same length as specified."
+    IDS_WARNING_TEMPLATE_ACTIVE 
+                            "PACS Will Not Allow The Deletion Of A Printer Template That Is Referenced In A Job Record."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif
+#include "res\NSUtility.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

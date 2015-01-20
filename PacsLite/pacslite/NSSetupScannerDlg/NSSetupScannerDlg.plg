@@ -1,0 +1,36 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: NSSetupScannerDlg - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINDOWS\TEMP\RSPB002.TMP" with contents
+[
+/nologo /MD /W3 /GX /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Release/NSSetupScannerDlg.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\pacslite\NSSetupScannerDlg\ScannerSetupDlg.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPB002.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPB003.TMP" with contents
+[
+/nologo /subsystem:windows /dll /incremental:no /pdb:"Release/NSSetupScannerDlg.pdb" /machine:I386 /def:".\NSSetupScannerDlg.def" /out:"c:\nsdlls\release\NSSetupScannerDlg.dll" /implib:"Release/NSSetupScannerDlg.lib" 
+.\Release\NSSetupScannerDlg.obj
+.\Release\ScannerSetupDlg.obj
+.\Release\StdAfx.obj
+.\Release\NSSetupScannerDlg.res
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSPB003.TMP"
+<h3>Output Window</h3>
+Compiling...
+ScannerSetupDlg.cpp
+Linking...
+   Creating library Release/NSSetupScannerDlg.lib and object Release/NSSetupScannerDlg.exp
+
+
+
+<h3>Results</h3>
+NSSetupScannerDlg.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

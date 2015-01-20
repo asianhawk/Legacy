@@ -1,0 +1,135 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: PACS - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINDOWS\TEMP\RSP32A2.BAT" with contents
+[
+@echo off
+call ".\makehelp.bat"
+]
+Creating command line "C:\WINDOWS\TEMP\RSP32A2.BAT"
+Creating temporary file "C:\WINDOWS\TEMP\RSP32A3.TMP" with contents
+[
+/nologo /MD /W3 /WX /GX /Zi /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /Fr"Release/" /Fp"Release/PACS.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\pacslite\pacs\ApplicatorControl.cpp"
+"C:\pacslite\pacs\PACSDlg.cpp"
+"C:\pacslite\pacs\RunProcesses.cpp"
+"C:\pacslite\pacs\SetupDlg.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP32A3.TMP" 
+Making help file...
+Building Win32 Help files
+hlp\PACS.hpj(1) : error: Problem encountered creating help file
+
+Creating temporary file "C:\WINDOWS\TEMP\RSP32C6.TMP" with contents
+[
+c:\NSLibs\logtrace.lib c:\NSLibs\NSInternalSetup.lib c:\NSLibs\NSDatabase.lib c:\NSLibs\NSUtility.lib c:\NSLibs\NSJobs.lib c:\NSLibs\NSDIODiagnostic.lib c:\NSLibs\nsdio.lib c:\NSLibs\NSSerializationDlg.lib c:\NSLibs\NSChangePasswordDlg.lib c:\NSLibs\NSPasswordDlg.lib c:\NSLibs\NSDeleteJobDlg.lib c:\NSLibs\NSHoldDlg.lib c:\NSLibs\NSEnterJobNameDlg.lib c:\NSLibs\NSLabelSelectDlg.lib c:\NSLibs\NSPointDlg.lib c:\NSLibs\NSLibrary.lib c:\NSLibs\NSPanelLabelDlg.lib c:\NSLibs\NSPrinterSelectDlg.lib c:\NSLibs\NSSetupScannerDlg.lib c:\NSLibs\NSTemplateNameDlg.lib c:\NSLibs\NSTemplateEditDlg.lib c:\NSLibs\NSTemplateSetupDlg.lib c:\NSlibs\NSAddEditJobDlg.lib c:\NSlibs\NSStatisticsDb.lib c:\NSLibs\nsmsflexgrid.lib c:\NSLibs\CheckDgt.lib /nologo /stack:0x3d0900 /subsystem:windows /incremental:no /pdb:"Release/PACS.pdb" /debug /machine:I386 /out:"c:\computype\pacs\PACS.exe" 
+.\Release\3Dpoint.obj
+.\Release\ApplicatorControl.obj
+.\Release\comPort.obj
+.\Release\DiagDlg.obj
+.\Release\DioController.obj
+.\Release\ErrorMsgDlg.obj
+.\Release\InitDlgMessage.obj
+.\Release\mscommctrl.obj
+.\Release\PACS.obj
+.\Release\PACSDlg.obj
+.\Release\Password.obj
+.\Release\Printer.obj
+.\Release\PrinterControl.obj
+.\Release\PrinterDiagDlg.obj
+.\Release\RescanDlg.obj
+.\Release\ReSyncDlg.obj
+.\Release\RunDialog.obj
+.\Release\RunProcesses.obj
+.\Release\ScanDiagDlg.obj
+.\Release\Scanner.obj
+.\Release\ScannerControl.obj
+.\Release\SetupDlg.obj
+.\Release\simulator.obj
+.\Release\SNManager.obj
+.\Release\StartupErrorsDlg.obj
+.\Release\StdAfx.obj
+.\Release\Sxbutton.obj
+.\Release\PACS.res
+.\Dio.lib
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP32C6.TMP"
+<h3>Output Window</h3>
+Compiling...
+ApplicatorControl.cpp
+PACSDlg.cpp
+Trace.  Tracing to a log will be available in the exe.
+
+Make sure you turn it on in the applications ini file with TraceReadINI
+
+or a direct call to TraceStart.
+
+RunProcesses.cpp
+Trace.  Tracing to a log will be available in the exe.
+
+Make sure you turn it on in the applications ini file with TraceReadINI
+
+or a direct call to TraceStart.
+
+SetupDlg.cpp
+Trace.  Tracing to a log will be available in the exe.
+
+Make sure you turn it on in the applications ini file with TraceReadINI
+
+or a direct call to TraceStart.
+
+Generating Code...
+Trace.  Tracing to a log will be available in the exe.
+
+Make sure you turn it on in the applications ini file with TraceReadINI
+
+or a direct call to TraceStart.
+
+Linking...
+   Creating library c:\computype\pacs\PACS.lib and object c:\computype\pacs\PACS.exp
+Creating temporary file "C:\WINDOWS\TEMP\RSP3391.TMP" with contents
+[
+/nologo /o"Release/PACS.bsc" 
+.\Release\StdAfx.sbr
+.\Release\3Dpoint.sbr
+.\Release\ApplicatorControl.sbr
+.\Release\comPort.sbr
+.\Release\DiagDlg.sbr
+.\Release\DioController.sbr
+.\Release\ErrorMsgDlg.sbr
+.\Release\InitDlgMessage.sbr
+.\Release\mscommctrl.sbr
+.\Release\PACS.sbr
+.\Release\PACSDlg.sbr
+.\Release\Password.sbr
+.\Release\Printer.sbr
+.\Release\PrinterControl.sbr
+.\Release\PrinterDiagDlg.sbr
+.\Release\RescanDlg.sbr
+.\Release\ReSyncDlg.sbr
+.\Release\RunDialog.sbr
+.\Release\RunProcesses.sbr
+.\Release\ScanDiagDlg.sbr
+.\Release\Scanner.sbr
+.\Release\ScannerControl.sbr
+.\Release\SetupDlg.sbr
+.\Release\simulator.sbr
+.\Release\SNManager.sbr
+.\Release\StartupErrorsDlg.sbr
+.\Release\Sxbutton.sbr]
+Creating command line "bscmake.exe @C:\WINDOWS\TEMP\RSP3391.TMP"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+PACS.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

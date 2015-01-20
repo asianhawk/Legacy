@@ -1,0 +1,91 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: NSTemplateNameDlg - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/NSTemplateNameDlg.res" /d "NDEBUG" /d "_AFXDLL" "F:\PACSLite\NSTemplateNameDlg\NSTemplateNameDlg.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPF0D2.TMP" with contents
+[
+/nologo /MD /W3 /GX /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Release/NSTemplateNameDlg.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\PACSLite\NSTemplateNameDlg\NSTemplateNameDlg.cpp"
+"F:\PACSLite\NSTemplateNameDlg\TemplateNameDlg.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPF0D2.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPF0D3.TMP" with contents
+[
+/nologo /MD /W3 /GX /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Release/NSTemplateNameDlg.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\PACSLite\NSTemplateNameDlg\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPF0D3.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPF0D4.TMP" with contents
+[
+/nologo /subsystem:windows /dll /incremental:no /pdb:"Release/NSTemplateNameDlg.pdb" /machine:I386 /def:".\NSTemplateNameDlg.def" /out:"c:\nsdlls\release\NSTemplateNameDlg.dll" /implib:"Release/NSTemplateNameDlg.lib" 
+.\Release\NSTemplateNameDlg.obj
+.\Release\StdAfx.obj
+.\Release\TemplateNameDlg.obj
+.\Release\NSTemplateNameDlg.res
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSPF0D4.TMP"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+NSTemplateNameDlg.cpp
+TemplateNameDlg.cpp
+Generating Code...
+Linking...
+   Creating library Release/NSTemplateNameDlg.lib and object Release/NSTemplateNameDlg.exp
+
+
+
+<h3>Results</h3>
+NSTemplateNameDlg.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: NSTemplateNameDlg - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/NSTemplateNameDlg.res" /d "_DEBUG" /d "_AFXDLL" "F:\PACSLite\NSTemplateNameDlg\NSTemplateNameDlg.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPF142.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Debug/NSTemplateNameDlg.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\PACSLite\NSTemplateNameDlg\NSTemplateNameDlg.cpp"
+"F:\PACSLite\NSTemplateNameDlg\TemplateNameDlg.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPF142.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPF143.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Debug/NSTemplateNameDlg.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\PACSLite\NSTemplateNameDlg\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPF143.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPF144.TMP" with contents
+[
+/nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug/NSTemplateNameDlg.pdb" /debug /machine:I386 /def:".\NSTemplateNameDlg.def" /out:"c:\nsdlls\Debug\NSTemplateNameDlg.dll" /implib:"Debug/NSTemplateNameDlg.lib" /pdbtype:sept 
+.\Debug\NSTemplateNameDlg.obj
+.\Debug\StdAfx.obj
+.\Debug\TemplateNameDlg.obj
+.\Debug\NSTemplateNameDlg.res
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSPF144.TMP"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+NSTemplateNameDlg.cpp
+TemplateNameDlg.cpp
+Generating Code...
+Linking...
+   Creating library Debug/NSTemplateNameDlg.lib and object Debug/NSTemplateNameDlg.exp
+
+
+
+<h3>Results</h3>
+NSTemplateNameDlg.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

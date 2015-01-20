@@ -1,0 +1,16 @@
+// NSMSFlexGrid.odl : type library source for NSMSFlexGrid.dll
+
+// This file will be processed by the MIDL compiler to produce the
+// type library (NSMSFlexGrid.tlb).
+
+[ uuid(00B01606-317D-11D4-BCC7-006097D3FAC7), version(1.0) ]
+library NSMSFlexGrid
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+
+
+	//{{AFX_APPEND_ODL}}
+	//}}AFX_APPEND_ODL}}
+};

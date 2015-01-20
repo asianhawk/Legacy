@@ -1,0 +1,35 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "NSEnTerJobNameDlg"=.\NSEnTerJobNameDlg.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+    {D7053240-CE69-11CD-A777-00DD01143C57}
+    {978C9E23-D4B0-11CE-BF2D-00AA003F40D0}
+    {8BD21D50-EC42-11CE-9E0D-00AA006002F3}
+    {3B7C8860-D78F-101B-B9B5-04021C009402}
+    {8BD21D10-EC42-11CE-9E0D-00AA006002F3}
+    {6262D3A0-531B-11CF-91F6-C2863C385E30}
+}}}
+
+###############################################################################
+

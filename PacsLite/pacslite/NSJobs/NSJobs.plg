@@ -1,0 +1,36 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: NSJobs - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINDOWS\TEMP\RSP82B1.TMP" with contents
+[
+/nologo /MD /W3 /GX /Zi /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /FR"Release/" /Fp"Release/NSJobs.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\pacslite\NSJobs\Job.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP82B1.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP82B2.TMP" with contents
+[
+c:\NSLibs\NSDatabase.lib c:\NSLibs\logtrace.lib /nologo /subsystem:windows /dll /incremental:no /pdb:"Release/NSJobs.pdb" /machine:I386 /def:".\NSJobs.def" /out:"c:\nsdlls\release\NSJobs.dll" /implib:"Release/NSJobs.lib" 
+.\Release\Job.obj
+.\Release\NSJobs.obj
+.\Release\StdAfx.obj
+.\Release\NSJobs.res
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP82B2.TMP"
+<h3>Output Window</h3>
+Compiling...
+Job.cpp
+Linking...
+   Creating library Release/NSJobs.lib and object Release/NSJobs.exp
+
+
+
+<h3>Results</h3>
+NSJobs.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

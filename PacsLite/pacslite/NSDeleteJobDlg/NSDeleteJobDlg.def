@@ -1,0 +1,7 @@
+; NSDeleteJobDlg.def : Declares the module parameters for the DLL.
+
+LIBRARY      "NSDeleteJobDlg"
+DESCRIPTION  'NSDeleteJobDlg Windows Dynamic Link Library'
+
+EXPORTS
+    ; Explicit exports can go here

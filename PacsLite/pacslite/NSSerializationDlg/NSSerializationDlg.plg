@@ -1,0 +1,36 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: NSSerializationDlg - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINDOWS\TEMP\RSPE1C3.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Debug/NSSerializationDlg.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\pacslite\NSSerializationDlg\SetupSerializationDlg.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPE1C3.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPE1C4.TMP" with contents
+[
+/nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug/NSSerializationDlg.pdb" /debug /machine:I386 /def:".\NSSerializationDlg.def" /out:"c:\nsdlls\Debug\NSSerializationDlg.dll" /implib:"Debug/NSSerializationDlg.lib" /pdbtype:sept 
+.\Debug\NSSerializationDlg.obj
+.\Debug\SetupSerializationDlg.obj
+.\Debug\StdAfx.obj
+.\Debug\NSSerializationDlg.res
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSPE1C4.TMP"
+<h3>Output Window</h3>
+Compiling...
+SetupSerializationDlg.cpp
+Linking...
+   Creating library Debug/NSSerializationDlg.lib and object Debug/NSSerializationDlg.exp
+
+
+
+<h3>Results</h3>
+NSSerializationDlg.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

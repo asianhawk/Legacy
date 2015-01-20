@@ -1,0 +1,252 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "NSHoldDlgResource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "NSHoldDlgResource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+IDD_HOLD_DLG DIALOG DISCARDABLE  0, 0, 239, 175
+STYLE DS_MODALFRAME | DS_CONTEXTHELP | WS_POPUP | WS_CAPTION
+CAPTION "Hold"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "",IDC_SYSTEM_SETUP,
+                    "{D7053240-CE69-11CD-A777-00DD01143C57}",WS_TABSTOP,39,
+                    117,60,18
+    CONTROL         "",IDC_CONTINUE,"{D7053240-CE69-11CD-A777-00DD01143C57}",
+                    WS_TABSTOP,140,117,60,18
+    CONTROL         "",IDC_EXIT,"{D7053240-CE69-11CD-A777-00DD01143C57}",
+                    WS_TABSTOP,140,145,60,18
+    CONTROL         "",IDC_LABEL1,"{978C9E23-D4B0-11CE-BF2D-00AA003F40D0}",
+                    0x0,34,7,170,12
+    CONTROL         "",IDC_LABEL3,"{978C9E23-D4B0-11CE-BF2D-00AA003F40D0}",
+                    0x0,17,49,34,11
+    CONTROL         "",IDC_LABEL4,"{978C9E23-D4B0-11CE-BF2D-00AA003F40D0}",
+                    0x0,17,72,39,11
+    CONTROL         "",IDC_LABEL5,"{978C9E23-D4B0-11CE-BF2D-00AA003F40D0}",
+                    0x0,18,84,26,11
+    CONTROL         "",IDC_LABEL6,"{978C9E23-D4B0-11CE-BF2D-00AA003F40D0}",
+                    0x0,8,29,171,11
+    CONTROL         "",IDC_LABEL8,"{978C9E23-D4B0-11CE-BF2D-00AA003F40D0}",
+                    0x0,59,49,180,11
+    CONTROL         "",IDC_LABEL9,"{978C9E23-D4B0-11CE-BF2D-00AA003F40D0}",
+                    0x0,59,72,117,11
+    CONTROL         "",IDC_LABEL10,"{978C9E23-D4B0-11CE-BF2D-00AA003F40D0}",
+                    0x0,59,84,140,11
+END
+
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "PACS MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "PACS\0"
+            VALUE "LegalCopyright", "Copyright (C) 1998\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "PACS.EXE\0"
+            VALUE "ProductName", "PACS Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+
+    IDD_HOLD_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 232
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 168
+    END
+
+END
+#endif    // APSTUDIO_INVOKED
+
+
+
+IDD_HOLD_DLG DLGINIT
+BEGIN
+    IDC_SYSTEM_SETUP, 0x376, 56, 0
+0x0000, 0x0000, 0x0200, 0x0018, 0x0028, 0x0000, 0x0005, 0x8000, 0x6553, 
+0x7574, 0x0070, 0x0044, 0x094d, 0x0000, 0x02ff, 0x0000, 0x0200, 0x0014, 
+0x00f6, 0x0000, 0x0001, 0x4000, 0x00c3, 0x0000, 0x0200, 0x0003, 0x02bc, 
+0x0000, 
+    IDC_CONTINUE, 0x376, 56, 0
+0x0000, 0x0000, 0x0200, 0x0018, 0x0028, 0x0000, 0x0008, 0x8000, 0x6f43, 
+0x746e, 0x6e69, 0x6575, 0x094d, 0x0000, 0x02ff, 0x0000, 0x0200, 0x0014, 
+0x00f6, 0x0000, 0x0001, 0x4000, 0x00c3, 0x0000, 0x0200, 0x0003, 0x02bc, 
+0x0000, 
+    IDC_EXIT, 0x376, 52, 0
+0x0000, 0x0000, 0x0200, 0x0014, 0x0028, 0x0000, 0x0004, 0x8000, 0x7845, 
+0x7469, 0x094d, 0x0000, 0x02ff, 0x0000, 0x0200, 0x0014, 0x00f6, 0x0000, 
+0x0001, 0x4000, 0x00c3, 0x0000, 0x0200, 0x0003, 0x02bc, 0x0000, 
+    IDC_LABEL1, 0x376, 84, 0
+0x0000, 0x0000, 0x0200, 0x0038, 0x002b, 0x0000, 0x00ff, 0x0000, 0xc0c0, 
+0x00c0, 0x001f, 0x8000, 0x6854, 0x2065, 0x7061, 0x6c70, 0x6369, 0x7461, 
+0x726f, 0x6920, 0x2073, 0x6e69, 0x6820, 0x6c6f, 0x2064, 0x6f6d, 0x6564, 
+0x6e2e, 0x1a5b, 0x0000, 0x0211, 0x0000, 0x0200, 0x0010, 0x00b6, 0x0000, 
+0x0001, 0x4000, 0x00f0, 0x0000, 0x0200, 0x02bc, 
+    IDC_LABEL3, 0x376, 64, 0
+0x0000, 0x0000, 0x0200, 0x0020, 0x002b, 0x0000, 0x0000, 0x0000, 0xc0c0, 
+0x00c0, 0x0005, 0x8000, 0x6553, 0x7574, 0x0070, 0x0044, 0x0545, 0x0000, 
+0x01dc, 0x0000, 0x0200, 0x0010, 0x00b6, 0x0000, 0x0001, 0x4000, 0x00a5, 
+0x0000, 0x0200, 0x02bc, 0x873c, 0x0763, 
+    IDC_LABEL4, 0x376, 60, 0
+0x0000, 0x0000, 0x0200, 0x0020, 0x002b, 0x0000, 0x0000, 0x0000, 0xc0c0, 
+0x00c0, 0x0008, 0x8000, 0x6f43, 0x746e, 0x6e69, 0x6575, 0x0619, 0x0000, 
+0x01dc, 0x0000, 0x0200, 0x0010, 0x00b6, 0x0000, 0x0001, 0x4000, 0x00a5, 
+0x0000, 0x0200, 0x02bc, 
+    IDC_LABEL5, 0x376, 56, 0
+0x0000, 0x0000, 0x0200, 0x001c, 0x002b, 0x0000, 0x0000, 0x0000, 0xc0c0, 
+0x00c0, 0x0004, 0x8000, 0x7845, 0x7469, 0x0408, 0x0000, 0x01dc, 0x0000, 
+0x0200, 0x0010, 0x00b6, 0x0000, 0x0001, 0x4000, 0x00a5, 0x0000, 0x0200, 
+0x02bc, 
+    IDC_LABEL6, 0x376, 108, 0
+0x0000, 0x0000, 0x0200, 0x0044, 0x002b, 0x0000, 0x0000, 0x0000, 0xc0c0, 
+0x00c0, 0x002b, 0x8000, 0x6c50, 0x6165, 0x6573, 0x7320, 0x6c65, 0x6365, 
+0x2074, 0x6e6f, 0x2065, 0x666f, 0x7420, 0x6568, 0x6620, 0x6c6f, 0x6f6c, 
+0x6977, 0x676e, 0x6f20, 0x7470, 0x6f69, 0x736e, 0x023a, 0x1a90, 0x0000, 
+0x01dc, 0x0000, 0x0200, 0x0010, 0x00b6, 0x0000, 0x0001, 0x4000, 0x00a5, 
+0x0000, 0x0200, 0x02bc, 0x7470, 0x6f69, 0x736e, 0x023a, 0x8734, 0x0763, 
+
+    IDC_LABEL8, 0x376, 100, 0
+0x0000, 0x0000, 0x0200, 0x0048, 0x002b, 0x0000, 0x0000, 0x0000, 0xc0c0, 
+0x00c0, 0x002d, 0x8000, 0x202d, 0x6f4d, 0x6964, 0x7966, 0x6a20, 0x626f, 
+0x6120, 0x646e, 0x7320, 0x7379, 0x6574, 0x206d, 0x7073, 0x6365, 0x6669, 
+0x6369, 0x6920, 0x666e, 0x726f, 0x616d, 0x6974, 0x6e6f, 0x872e, 0x0763, 
+0x1be8, 0x0000, 0x01dc, 0x0000, 0x0200, 0x0010, 0x00b6, 0x0000, 0x0001, 
+0x4000, 0x009c, 0x0000, 0x0200, 0x02bc, 
+    IDC_LABEL9, 0x376, 84, 0
+0x0000, 0x0000, 0x0200, 0x0038, 0x002b, 0x0000, 0x0000, 0x0000, 0xc0c0, 
+0x00c0, 0x001f, 0x8000, 0x202d, 0x6f43, 0x746e, 0x6e69, 0x6575, 0x7220, 
+0x6e75, 0x696e, 0x676e, 0x6320, 0x7275, 0x6572, 0x746e, 0x6a20, 0x626f, 
+0x632e, 0x1231, 0x0000, 0x01dc, 0x0000, 0x0200, 0x0010, 0x00b6, 0x0000, 
+0x0001, 0x4000, 0x009c, 0x0000, 0x0200, 0x02bc, 
+    IDC_LABEL10, 0x376, 92, 0
+0x0000, 0x0000, 0x0200, 0x0040, 0x002b, 0x0000, 0x0000, 0x0000, 0xc0c0, 
+0x00c0, 0x0026, 0x8000, 0x202d, 0x6148, 0x746c, 0x7420, 0x6568, 0x7220, 
+0x6e75, 0x696e, 0x676e, 0x6f20, 0x2066, 0x6874, 0x2065, 0x7563, 0x7272, 
+0x6e65, 0x2074, 0x6f6a, 0x2e62, 0x0762, 0x15b4, 0x0000, 0x01dc, 0x0000, 
+0x0200, 0x0010, 0x00b6, 0x0000, 0x0001, 0x4000, 0x009c, 0x0000, 0x0200, 
+0x02bc, 
+    0
+END
+
+
+
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif
+#include "afxres.rc"         // Standard components
+#endif
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

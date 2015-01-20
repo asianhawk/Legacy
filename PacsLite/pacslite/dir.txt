@@ -1,0 +1,37 @@
+
+ Volume in drive C is MS-DOS_6   
+ Volume Serial Number is 34B2-6DA7
+ Directory of C:\pacslite
+
+.              <DIR>        11-15-00 12:42p .
+..             <DIR>        11-15-00 12:42p ..
+NSUTIL~1       <DIR>        11-15-00 12:42p NSUtility
+NSSTAT~1       <DIR>        11-15-00 12:42p NSStatisticsDB
+NSUPDA~1       <DIR>        11-15-00 12:42p NSUpdateIntervalDlg
+NSADDE~1       <DIR>        11-15-00 12:42p NSAddEditJobDlg
+NSTEMP~1       <DIR>        11-15-00 12:42p NSTEmplateEditDlg
+NSTEMP~2       <DIR>        11-15-00 12:42p NSTemplateSetupDlg
+NSTEMP~3       <DIR>        11-15-00 12:42p NSTemplateNameDlg
+NSSETU~1       <DIR>        11-15-00 12:42p NSSetupScannerDlg
+NSPRIN~1       <DIR>        11-15-00 12:42p NSPrinterSelectDlg
+NSLIBR~1       <DIR>        11-15-00 12:42p NSLibrary
+NSPANE~1       <DIR>        11-15-00 12:42p NSPanelLabelDlg
+NSPOIN~1       <DIR>        11-15-00 12:42p NSPointDlg
+NSLABE~1       <DIR>        11-15-00 12:42p NSLabelSelectDlg
+NSENTE~1       <DIR>        11-15-00 12:42p NSEnTerJobNameDlg
+NSHOLD~1       <DIR>        11-15-00 12:42p NSHoldDlg
+NSDELE~1       <DIR>        11-15-00 12:42p NSDeleteJobDlg
+NSPASS~1       <DIR>        11-15-00 12:42p NSPasswordDlg
+NSCHAN~1       <DIR>        11-15-00 12:42p NSChangePasswordDlg
+NSSERI~1       <DIR>        11-15-00 12:42p NSSerializationDlg
+NSMSFL~1       <DIR>        11-15-00 12:42p NSMSFlexGrid
+NSDIOD~1       <DIR>        11-15-00 12:42p NSDIODiagnostic
+NSDIO          <DIR>        11-15-00 12:42p NSDIO
+NSSYST~1       <DIR>        11-15-00 12:43p NSSystemDB
+NSJOBS         <DIR>        11-15-00 12:43p NSJobs
+NSDATA~1       <DIR>        11-15-00 12:43p NSDatabase
+INTERN~1       <DIR>        11-15-00 12:43p InternalSetupDLL
+PACS           <DIR>        11-15-00 12:43p pacs
+MASTER~1       <DIR>        11-15-00 12:43p mastermake
+         0 file(s)              0 bytes
+        30 dir(s)     499,843,072 bytes free

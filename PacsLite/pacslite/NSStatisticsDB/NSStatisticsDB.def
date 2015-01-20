@@ -1,0 +1,7 @@
+; NSStatisticsDB.def : Declares the module parameters for the DLL.
+
+LIBRARY      "NSStatisticsDB"
+DESCRIPTION  'NSStatisticsDB Windows Dynamic Link Library'
+
+EXPORTS
+    ; Explicit exports can go here

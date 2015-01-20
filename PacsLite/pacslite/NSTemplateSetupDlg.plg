@@ -1,0 +1,103 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: NSTemplateSetupDlg - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/NSTemplateSetupDlg.res" /d "NDEBUG" /d "_AFXDLL" "F:\PACSLite\NSTemplateSetupDlg\NSTemplateSetupDlg.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP2381.TMP" with contents
+[
+/nologo /MD /W3 /GX /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Release/NSTemplateSetupDlg.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\PACSLite\NSTemplateSetupDlg\NSTemplateSetupDlg.cpp"
+"F:\PACSLite\NSTemplateSetupDlg\TemplateSetupDlg.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP2381.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP2382.TMP" with contents
+[
+/nologo /MD /W3 /GX /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Release/NSTemplateSetupDlg.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\PACSLite\NSTemplateSetupDlg\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP2382.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP2383.TMP" with contents
+[
+c:\NSLibs\NSDatabase.lib c:\NSLibs\NSTemplateEditDlg.lib c:\NSlibs\NsLibrary.lib /nologo /subsystem:windows /dll /incremental:no /pdb:"Release/NSTemplateSetupDlg.pdb" /machine:I386 /def:".\NSTemplateSetupDlg.def" /out:"c:\nsdlls\release\NSTemplateSetupDlg.dll" /implib:"Release/NSTemplateSetupDlg.lib" 
+.\Release\NSTemplateSetupDlg.obj
+.\Release\StdAfx.obj
+.\Release\TemplateSetupDlg.obj
+.\Release\NSTemplateSetupDlg.res
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP2383.TMP"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+NSTemplateSetupDlg.cpp
+TemplateSetupDlg.cpp
+Generating Code...
+Trace.  Tracing to a log will be available in the exe.
+
+Make sure you turn it on in the applications ini file with TraceReadINI
+
+or a direct call to TraceStart.
+
+Linking...
+   Creating library Release/NSTemplateSetupDlg.lib and object Release/NSTemplateSetupDlg.exp
+
+
+
+<h3>Results</h3>
+NSTemplateSetupDlg.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: NSTemplateSetupDlg - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/NSTemplateSetupDlg.res" /d "_DEBUG" /d "_AFXDLL" "F:\PACSLite\NSTemplateSetupDlg\NSTemplateSetupDlg.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP3022.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Debug/NSTemplateSetupDlg.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\PACSLite\NSTemplateSetupDlg\NSTemplateSetupDlg.cpp"
+"F:\PACSLite\NSTemplateSetupDlg\TemplateSetupDlg.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP3022.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP3023.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Debug/NSTemplateSetupDlg.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\PACSLite\NSTemplateSetupDlg\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP3023.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP3024.TMP" with contents
+[
+c:\NSLibs\NSDatabase.lib c:\NSLibs\NSTemplateEditDlg.lib c:\NSlibs\NsLibrary.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug/NSTemplateSetupDlg.pdb" /debug /machine:I386 /def:".\NSTemplateSetupDlg.def" /out:"c:\nsdlls\Debug\NSTemplateSetupDlg.dll" /implib:"Debug/NSTemplateSetupDlg.lib" /pdbtype:sept 
+.\Debug\NSTemplateSetupDlg.obj
+.\Debug\StdAfx.obj
+.\Debug\TemplateSetupDlg.obj
+.\Debug\NSTemplateSetupDlg.res
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP3024.TMP"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+NSTemplateSetupDlg.cpp
+TemplateSetupDlg.cpp
+Generating Code...
+Trace.  Tracing to a log will be available in the exe.
+
+Make sure you turn it on in the applications ini file with TraceReadINI
+
+or a direct call to TraceStart.
+
+Linking...
+   Creating library Debug/NSTemplateSetupDlg.lib and object Debug/NSTemplateSetupDlg.exp
+
+
+
+<h3>Results</h3>
+NSTemplateSetupDlg.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

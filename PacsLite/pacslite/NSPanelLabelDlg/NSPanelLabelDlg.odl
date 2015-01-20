@@ -1,0 +1,16 @@
+// NSPanelLabelDlg.odl : type library source for NSPanelLabelDlg.dll
+
+// This file will be processed by the MIDL compiler to produce the
+// type library (NSPanelLabelDlg.tlb).
+
+[ uuid(B585970F-32FE-11D4-BCC7-006097D3FAC7), version(1.0) ]
+library NSPanelLabelDlg
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+
+
+	//{{AFX_APPEND_ODL}}
+	//}}AFX_APPEND_ODL}}
+};

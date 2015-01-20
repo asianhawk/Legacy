@@ -1,0 +1,2938 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: NSAddEditJobDlg - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/NSAddEditJobDlg.res" /d "NDEBUG" /d "_AFXDLL" "C:\pacslite\NSAddEditJobDlg\NSAddEditJobDlg.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPB110.TMP" with contents
+[
+/nologo /MD /W3 /GX /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Release/NSAddEditJobDlg.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\pacslite\NSAddEditJobDlg\AddEditJobDlg.cpp"
+"C:\pacslite\NSAddEditJobDlg\NSAddEditJobDlg.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPB110.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPB111.TMP" with contents
+[
+/nologo /MD /W3 /GX /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Release/NSAddEditJobDlg.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\pacslite\NSAddEditJobDlg\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPB111.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPB112.TMP" with contents
+[
+c:\NSLibs\NSDatabase.lib c:\NSLibs\NSJobs.lib c:\NSLibs\NSPointDlg.lib c:\NSLibs\NSUtility.lib c:\NSLibs\NSPanelLabelDlg.lib c:\NSLibs\NSEnterJobNameDlg.lib c:\NSLibs\NSSerializationDlg.lib c:\NSLibs\NsLibrary.lib c:\NSLibs\NSMSFlexGrid.lib /nologo /subsystem:windows /dll /incremental:no /pdb:"Release/NSAddEditJobDlg.pdb" /machine:I386 /def:".\NSAddEditJobDlg.def" /out:"c:\nsdlls\release\NSAddEditJobDlg.dll" /implib:"Release/NSAddEditJobDlg.lib" 
+.\Release\AddEditJobDlg.obj
+.\Release\NSAddEditJobDlg.obj
+.\Release\StdAfx.obj
+.\Release\NSAddEditJobDlg.res
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSPB112.TMP"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+AddEditJobDlg.cpp
+NSAddEditJobDlg.cpp
+Trace.  Tracing to a log will be available in the exe.
+
+Make sure you turn it on in the applications ini file with TraceReadINI
+
+or a direct call to TraceStart.
+
+Generating Code...
+Linking...
+   Creating library Release/NSAddEditJobDlg.lib and object Release/NSAddEditJobDlg.exp
+
+
+
+<h3>Results</h3>
+NSAddEditJobDlg.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: NSAddEditJobDlg - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/NSAddEditJobDlg.res" /d "_DEBUG" /d "_AFXDLL" "C:\pacslite\NSAddEditJobDlg\NSAddEditJobDlg.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPB1A5.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Debug/NSAddEditJobDlg.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\pacslite\NSAddEditJobDlg\AddEditJobDlg.cpp"
+"C:\pacslite\NSAddEditJobDlg\NSAddEditJobDlg.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPB1A5.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPB1A6.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Debug/NSAddEditJobDlg.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\pacslite\NSAddEditJobDlg\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPB1A6.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPB1A7.TMP" with contents
+[
+c:\NSLibs\NSDatabase.lib c:\NSLibs\NSJobs.lib c:\NSLibs\NSPointDlg.lib c:\NSLibs\NSUtility.lib c:\NSLibs\NSPanelLabelDlg.lib c:\NSLibs\NSEnterJobNameDlg.lib c:\NSLibs\NSSerializationDlg.lib c:\NSLibs\NsLibrary.lib c:\NSLibs\NSMSFlexGrid.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug/NSAddEditJobDlg.pdb" /debug /machine:I386 /def:".\NSAddEditJobDlg.def" /out:"c:\nsdlls\debug\NSAddEditJobDlg.dll" /implib:"Debug/NSAddEditJobDlg.lib" /pdbtype:sept 
+.\Debug\AddEditJobDlg.obj
+.\Debug\NSAddEditJobDlg.obj
+.\Debug\StdAfx.obj
+.\Debug\NSAddEditJobDlg.res
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSPB1A7.TMP"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+AddEditJobDlg.cpp
+NSAddEditJobDlg.cpp
+Trace.  Tracing to a log will be available in the exe.
+
+Make sure you turn it on in the applications ini file with TraceReadINI
+
+or a direct call to TraceStart.
+
+Generating Code...
+Linking...
+   Creating library Debug/NSAddEditJobDlg.lib and object Debug/NSAddEditJobDlg.exp
+
+
+
+<h3>Results</h3>
+NSAddEditJobDlg.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: NSChangePasswordDlg - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "midl.exe /nologo /D "NDEBUG" /tlb "Release/NSChangePasswordDlg.tlb" /mktyplib203 /win32 "C:\pacslite\NSChangePasswordDlg\NSChangePasswordDlg.odl""
+Creating command line "rc.exe /l 0x409 /fo"Release/NSChangePasswordDlg.res" /i "Release" /d "NDEBUG" /d "_AFXDLL" "C:\pacslite\NSChangePasswordDlg\NSChangePasswordDlg.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPB241.TMP" with contents
+[
+/nologo /MD /W3 /GX /ZI /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Release/NSChangePasswordDlg.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\pacslite\NSChangePasswordDlg\ChangePasswordDlg.cpp"
+"C:\pacslite\NSChangePasswordDlg\NSChangePasswordDlg.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPB241.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPB242.TMP" with contents
+[
+/nologo /MD /W3 /GX /ZI /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Release/NSChangePasswordDlg.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\pacslite\NSChangePasswordDlg\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPB242.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPB243.TMP" with contents
+[
+/nologo /subsystem:windows /dll /incremental:no /pdb:"Release/NSChangePasswordDlg.pdb" /machine:I386 /def:".\NSChangePasswordDlg.def" /out:"c:\nsdlls\release\NSChangePasswordDlg.dll" /implib:"Release/NSChangePasswordDlg.lib" 
+.\Release\ChangePasswordDlg.obj
+.\Release\NSChangePasswordDlg.obj
+.\Release\StdAfx.obj
+.\Release\NSChangePasswordDlg.res
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSPB243.TMP"
+<h3>Output Window</h3>
+Creating Type Library...
+Processing C:\pacslite\NSChangePasswordDlg\NSChangePasswordDlg.odl
+NSChangePasswordDlg.odl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\oaidl.idl
+oaidl.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\objidl.idl
+objidl.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\unknwn.idl
+unknwn.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\wtypes.idl
+wtypes.idl
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ChangePasswordDlg.cpp
+NSChangePasswordDlg.cpp
+Generating Code...
+Linking...
+LINK : warning LNK4075: ignoring /EDITANDCONTINUE due to /INCREMENTAL:NO specification
+   Creating library Release/NSChangePasswordDlg.lib and object Release/NSChangePasswordDlg.exp
+
+
+
+<h3>Results</h3>
+NSChangePasswordDlg.dll - 0 error(s), 1 warning(s)
+<h3>
+--------------------Configuration: NSChangePasswordDlg - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "midl.exe /nologo /D "_DEBUG" /tlb "Debug/NSChangePasswordDlg.tlb" /mktyplib203 /win32 "C:\pacslite\NSChangePasswordDlg\NSChangePasswordDlg.odl""
+Creating command line "rc.exe /l 0x409 /fo"Debug/NSChangePasswordDlg.res" /i "Debug" /d "_DEBUG" /d "_AFXDLL" "C:\pacslite\NSChangePasswordDlg\NSChangePasswordDlg.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPB301.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /FR"Debug/" /Fp"Debug/NSChangePasswordDlg.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\pacslite\NSChangePasswordDlg\ChangePasswordDlg.cpp"
+"C:\pacslite\NSChangePasswordDlg\NSChangePasswordDlg.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPB301.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPB302.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /FR"Debug/" /Fp"Debug/NSChangePasswordDlg.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\pacslite\NSChangePasswordDlg\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPB302.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPB303.TMP" with contents
+[
+/nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug/NSChangePasswordDlg.pdb" /debug /machine:I386 /def:".\NSChangePasswordDlg.def" /out:"c:\nsdlls\debug\NSChangePasswordDlg.dll" /implib:"Debug/NSChangePasswordDlg.lib" /pdbtype:sept 
+.\Debug\ChangePasswordDlg.obj
+.\Debug\NSChangePasswordDlg.obj
+.\Debug\StdAfx.obj
+.\Debug\NSChangePasswordDlg.res
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSPB303.TMP"
+<h3>Output Window</h3>
+Creating Type Library...
+Processing C:\pacslite\NSChangePasswordDlg\NSChangePasswordDlg.odl
+NSChangePasswordDlg.odl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\oaidl.idl
+oaidl.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\objidl.idl
+objidl.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\unknwn.idl
+unknwn.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\wtypes.idl
+wtypes.idl
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ChangePasswordDlg.cpp
+NSChangePasswordDlg.cpp
+Generating Code...
+Linking...
+   Creating library Debug/NSChangePasswordDlg.lib and object Debug/NSChangePasswordDlg.exp
+
+
+
+<h3>Results</h3>
+NSChangePasswordDlg.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: NSDIO - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "midl.exe /nologo /D "NDEBUG" /tlb "Release/NSDIO.tlb" /mktyplib203 /win32 "C:\pacslite\NSDIO\NSDIO.odl""
+Creating command line "rc.exe /l 0x409 /fo"Release/NSDIO.res" /i "Release" /d "NDEBUG" /d "_AFXDLL" "C:\pacslite\NSDIO\NSDIO.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPB3A4.TMP" with contents
+[
+/nologo /MD /W3 /GX /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Release/NSDIO.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\pacslite\NSDIO\NSDIO.cpp"
+"C:\pacslite\NSDIO\NSDIOmain.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPB3A4.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPB3A5.TMP" with contents
+[
+/nologo /MD /W3 /GX /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Release/NSDIO.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\pacslite\NSDIO\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPB3A5.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPB3A6.TMP" with contents
+[
+c:\NSLibs\logtrace.lib /nologo /subsystem:windows /dll /incremental:no /pdb:"Release/NSDIO.pdb" /machine:I386 /def:".\NSDIO.def" /out:"c:\nsdlls\release\NSDIO.dll" /implib:"Release/NSDIO.lib" 
+.\Release\NSDIO.obj
+.\Release\NSDIOmain.obj
+.\Release\StdAfx.obj
+.\Release\NSDIO.res
+.\Dio.lib
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSPB3A6.TMP"
+<h3>Output Window</h3>
+Creating Type Library...
+Processing C:\pacslite\NSDIO\NSDIO.odl
+NSDIO.odl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\oaidl.idl
+oaidl.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\objidl.idl
+objidl.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\unknwn.idl
+unknwn.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\wtypes.idl
+wtypes.idl
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+NSDIO.cpp
+NSDIOmain.cpp
+Generating Code...
+Trace.  Tracing to a log will be available in the exe.
+
+Make sure you turn it on in the applications ini file with TraceReadINI
+
+or a direct call to TraceStart.
+
+Linking...
+   Creating library Release/NSDIO.lib and object Release/NSDIO.exp
+
+
+
+<h3>Results</h3>
+NSDIO.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: NSDIO - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "midl.exe /nologo /D "_DEBUG" /tlb "Debug/NSDIO.tlb" /mktyplib203 /win32 "C:\pacslite\NSDIO\NSDIO.odl""
+Creating command line "rc.exe /l 0x409 /fo"Debug/NSDIO.res" /i "Debug" /d "_DEBUG" /d "_AFXDLL" "C:\pacslite\NSDIO\NSDIO.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPC082.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /FR"Debug/" /Fp"Debug/NSDIO.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\pacslite\NSDIO\NSDIO.cpp"
+"C:\pacslite\NSDIO\NSDIOmain.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPC082.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPC083.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /FR"Debug/" /Fp"Debug/NSDIO.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\pacslite\NSDIO\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPC083.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPC084.TMP" with contents
+[
+c:\NSLibs\logtrace.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug/NSDIO.pdb" /debug /machine:I386 /def:".\NSDIO.def" /out:"c:\nsdlls\Debug\NSDIO.dll" /implib:"Debug/NSDIO.lib" /pdbtype:sept 
+.\Debug\NSDIO.obj
+.\Debug\NSDIOmain.obj
+.\Debug\StdAfx.obj
+.\Debug\NSDIO.res
+.\Dio.lib
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSPC084.TMP"
+<h3>Output Window</h3>
+Creating Type Library...
+Processing C:\pacslite\NSDIO\NSDIO.odl
+NSDIO.odl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\oaidl.idl
+oaidl.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\objidl.idl
+objidl.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\unknwn.idl
+unknwn.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\wtypes.idl
+wtypes.idl
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+NSDIO.cpp
+NSDIOmain.cpp
+Generating Code...
+Trace.  Tracing to a log will be available in the exe.
+
+Make sure you turn it on in the applications ini file with TraceReadINI
+
+or a direct call to TraceStart.
+
+Linking...
+   Creating library Debug/NSDIO.lib and object Debug/NSDIO.exp
+
+
+
+<h3>Results</h3>
+NSDIO.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: NSDIODiagnostic - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "midl.exe /nologo /D "NDEBUG" /tlb "Release/NSDIODiagnostic.tlb" /mktyplib203 /win32 "C:\pacslite\NSDIODiagnostic\NSDIODiagnostic.odl""
+Creating command line "rc.exe /l 0x409 /fo"Release/NSDIODiagnostic.res" /i "Release" /d "NDEBUG" /d "_AFXDLL" "C:\pacslite\NSDIODiagnostic\NSDIODiagnostic.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPC125.TMP" with contents
+[
+/nologo /MD /W3 /GX /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Release/NSDIODiagnostic.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\pacslite\NSDIODiagnostic\DioDlg.cpp"
+"C:\pacslite\NSDIODiagnostic\NSDIODiagnostic.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPC125.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPC126.TMP" with contents
+[
+/nologo /MD /W3 /GX /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Release/NSDIODiagnostic.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\pacslite\NSDIODiagnostic\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPC126.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPC127.TMP" with contents
+[
+c:\NSLibs\NSUtility.lib c:\NSLibs\NSJobs.lib c:\NSLibs\NSDatabase.lib c:\NSLibs\NSSystemDB.lib c:\NSLibs\NSDIO.lib c:\NSLibs\NSLibrary.lib /nologo /subsystem:windows /dll /incremental:no /pdb:"Release/NSDIODiagnostic.pdb" /machine:I386 /def:".\NSDIODiagnostic.def" /out:"c:\nsdlls\release\NSDIODiagnostic.dll" /implib:"Release/NSDIODiagnostic.lib" 
+.\Release\DioDlg.obj
+.\Release\NSDIODiagnostic.obj
+.\Release\StdAfx.obj
+.\Release\NSDIODiagnostic.res
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSPC127.TMP"
+<h3>Output Window</h3>
+Creating Type Library...
+Processing C:\pacslite\NSDIODiagnostic\NSDIODiagnostic.odl
+NSDIODiagnostic.odl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\oaidl.idl
+oaidl.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\objidl.idl
+objidl.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\unknwn.idl
+unknwn.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\wtypes.idl
+wtypes.idl
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+DioDlg.cpp
+NSDIODiagnostic.cpp
+Trace.  Tracing to a log will be available in the exe.
+
+Make sure you turn it on in the applications ini file with TraceReadINI
+
+or a direct call to TraceStart.
+
+Generating Code...
+Linking...
+   Creating library Release/NSDIODiagnostic.lib and object Release/NSDIODiagnostic.exp
+
+
+
+<h3>Results</h3>
+NSDIODiagnostic.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: NSDIODiagnostic - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "midl.exe /nologo /D "_DEBUG" /tlb "Debug/NSDIODiagnostic.tlb" /mktyplib203 /win32 "C:\pacslite\NSDIODiagnostic\NSDIODiagnostic.odl""
+Creating command line "rc.exe /l 0x409 /fo"Debug/NSDIODiagnostic.res" /i "Debug" /d "_DEBUG" /d "_AFXDLL" "C:\pacslite\NSDIODiagnostic\NSDIODiagnostic.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPC1D3.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /FR"Debug/" /Fp"Debug/NSDIODiagnostic.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\pacslite\NSDIODiagnostic\DioDlg.cpp"
+"C:\pacslite\NSDIODiagnostic\NSDIODiagnostic.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPC1D3.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPC1D4.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /FR"Debug/" /Fp"Debug/NSDIODiagnostic.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\pacslite\NSDIODiagnostic\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPC1D4.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPC1D5.TMP" with contents
+[
+c:\NSLibs\NSUtility.lib c:\NSLibs\NSJobs.lib c:\NSLibs\NSDatabase.lib c:\NSLibs\NSSystemDB.lib c:\NSLibs\NSDIO.lib c:\NSLibs\NSLibrary.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug/NSDIODiagnostic.pdb" /debug /machine:I386 /def:".\NSDIODiagnostic.def" /out:"c:\nsdlls\Debug\NSDIODiagnostic.dll" /implib:"Debug/NSDIODiagnostic.lib" /pdbtype:sept 
+.\Debug\DioDlg.obj
+.\Debug\NSDIODiagnostic.obj
+.\Debug\StdAfx.obj
+.\Debug\NSDIODiagnostic.res
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSPC1D5.TMP"
+<h3>Output Window</h3>
+Creating Type Library...
+Processing C:\pacslite\NSDIODiagnostic\NSDIODiagnostic.odl
+NSDIODiagnostic.odl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\oaidl.idl
+oaidl.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\objidl.idl
+objidl.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\unknwn.idl
+unknwn.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\wtypes.idl
+wtypes.idl
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+DioDlg.cpp
+NSDIODiagnostic.cpp
+Trace.  Tracing to a log will be available in the exe.
+
+Make sure you turn it on in the applications ini file with TraceReadINI
+
+or a direct call to TraceStart.
+
+Generating Code...
+Linking...
+   Creating library Debug/NSDIODiagnostic.lib and object Debug/NSDIODiagnostic.exp
+
+
+
+<h3>Results</h3>
+NSDIODiagnostic.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: NSDatabase - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/NSDatabase.res" /d "NDEBUG" /d "_AFXDLL" "C:\pacslite\NSDatabase\NSDatabase.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPC291.TMP" with contents
+[
+/nologo /MD /W3 /GX /Zi /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /FR"Release/" /Fp"Release/NSDatabase.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\pacslite\NSDatabase\Database.cpp"
+"C:\pacslite\NSDatabase\NSDatabase.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPC291.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPC292.TMP" with contents
+[
+/nologo /MD /W3 /GX /Zi /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /FR"Release/" /Fp"Release/NSDatabase.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\pacslite\NSDatabase\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPC292.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPC293.TMP" with contents
+[
+c:\NSLibs\logtrace.lib c:\NSLibs\NSJobs.lib c:\NSLibs\NSUtility.lib /nologo /subsystem:windows /dll /incremental:no /pdb:"Release/NSDatabase.pdb" /machine:I386 /def:".\NSDatabase.def" /out:"c:\nsdlls\release\NSDatabase.dll" /implib:"Release/NSDatabase.lib" 
+.\Release\Database.obj
+.\Release\NSDatabase.obj
+.\Release\StdAfx.obj
+.\Release\NSDatabase.res
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSPC293.TMP"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Database.cpp
+NSDatabase.cpp
+Trace.  Tracing to a log will be available in the exe.
+
+Make sure you turn it on in the applications ini file with TraceReadINI
+
+or a direct call to TraceStart.
+
+Generating Code...
+Linking...
+   Creating library Release/NSDatabase.lib and object Release/NSDatabase.exp
+
+
+
+<h3>Results</h3>
+NSDatabase.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: NSDatabase - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/NSDatabase.res" /d "_DEBUG" /d "_AFXDLL" "C:\pacslite\NSDatabase\NSDatabase.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPC344.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /FR"Debug/" /Fp"Debug/NSDatabase.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\pacslite\NSDatabase\Database.cpp"
+"C:\pacslite\NSDatabase\NSDatabase.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPC344.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPC345.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /FR"Debug/" /Fp"Debug/NSDatabase.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\pacslite\NSDatabase\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPC345.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPC346.TMP" with contents
+[
+c:\NSLibs\logtrace.lib c:\NSLibs\NSJobs.lib c:\NSLibs\NSUtility.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug/NSDatabase.pdb" /debug /machine:I386 /def:".\NSDatabase.def" /out:"c:\nsdlls\debug\NSDatabase.dll" /implib:"Debug/NSDatabase.lib" /pdbtype:sept 
+.\Debug\Database.obj
+.\Debug\NSDatabase.obj
+.\Debug\StdAfx.obj
+.\Debug\NSDatabase.res
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSPC346.TMP"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Database.cpp
+NSDatabase.cpp
+Trace.  Tracing to a log will be available in the exe.
+
+Make sure you turn it on in the applications ini file with TraceReadINI
+
+or a direct call to TraceStart.
+
+Generating Code...
+Linking...
+   Creating library Debug/NSDatabase.lib and object Debug/NSDatabase.exp
+
+
+
+<h3>Results</h3>
+NSDatabase.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: NSDeleteJobDlg - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/NSDeleteJobDlg.res" /d "NDEBUG" /d "_AFXDLL" "C:\pacslite\NSDeleteJobDlg\NSDeleteJobDlg.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPD033.TMP" with contents
+[
+/nologo /MD /W3 /GX /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Release/NSDeleteJobDlg.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\pacslite\NSDeleteJobDlg\DeleteJobDlg.cpp"
+"C:\pacslite\NSDeleteJobDlg\NSDeleteJobDlg.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPD033.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPD034.TMP" with contents
+[
+/nologo /MD /W3 /GX /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Release/NSDeleteJobDlg.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\pacslite\NSDeleteJobDlg\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPD034.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPD035.TMP" with contents
+[
+c:\NSLibs\NSDatabase.lib /nologo /subsystem:windows /dll /incremental:no /pdb:"Release/NSDeleteJobDlg.pdb" /machine:I386 /def:".\NSDeleteJobDlg.def" /out:"c:\nsdlls\release\NSDeleteJobDlg.dll" /implib:"Release/NSDeleteJobDlg.lib" 
+.\Release\DeleteJobDlg.obj
+.\Release\NSDeleteJobDlg.obj
+.\Release\StdAfx.obj
+.\Release\NSDeleteJobDlg.res
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSPD035.TMP"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+DeleteJobDlg.cpp
+NSDeleteJobDlg.cpp
+Trace.  Tracing to a log will be available in the exe.
+
+Make sure you turn it on in the applications ini file with TraceReadINI
+
+or a direct call to TraceStart.
+
+Generating Code...
+Linking...
+   Creating library Release/NSDeleteJobDlg.lib and object Release/NSDeleteJobDlg.exp
+
+
+
+<h3>Results</h3>
+NSDeleteJobDlg.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: NSDeleteJobDlg - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/NSDeleteJobDlg.res" /d "_DEBUG" /d "_AFXDLL" "C:\pacslite\NSDeleteJobDlg\NSDeleteJobDlg.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPD0B5.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Debug/NSDeleteJobDlg.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\pacslite\NSDeleteJobDlg\DeleteJobDlg.cpp"
+"C:\pacslite\NSDeleteJobDlg\NSDeleteJobDlg.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPD0B5.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPD0B6.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Debug/NSDeleteJobDlg.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\pacslite\NSDeleteJobDlg\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPD0B6.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPD0B7.TMP" with contents
+[
+c:\NSLibs\NSDatabase.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug/NSDeleteJobDlg.pdb" /debug /machine:I386 /def:".\NSDeleteJobDlg.def" /out:"c:\nsdlls\debug\NSDeleteJobDlg.dll" /implib:"Debug/NSDeleteJobDlg.lib" /pdbtype:sept 
+.\Debug\DeleteJobDlg.obj
+.\Debug\NSDeleteJobDlg.obj
+.\Debug\StdAfx.obj
+.\Debug\NSDeleteJobDlg.res
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSPD0B7.TMP"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+DeleteJobDlg.cpp
+NSDeleteJobDlg.cpp
+Trace.  Tracing to a log will be available in the exe.
+
+Make sure you turn it on in the applications ini file with TraceReadINI
+
+or a direct call to TraceStart.
+
+Generating Code...
+Linking...
+   Creating library Debug/NSDeleteJobDlg.lib and object Debug/NSDeleteJobDlg.exp
+
+
+
+<h3>Results</h3>
+NSDeleteJobDlg.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: NSEnTerJobNameDlg - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/NSEnTerJobNameDlg.res" /d "NDEBUG" /d "_AFXDLL" "C:\pacslite\NSEnTerJobNameDlg\NSEnTerJobNameDlg.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPD140.TMP" with contents
+[
+/nologo /MD /W3 /GX /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Release/NSEnTerJobNameDlg.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\pacslite\NSEnTerJobNameDlg\JobNameDlg.cpp"
+"C:\pacslite\NSEnTerJobNameDlg\NSEnTerJobNameDlg.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPD140.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPD141.TMP" with contents
+[
+/nologo /MD /W3 /GX /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Release/NSEnTerJobNameDlg.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\pacslite\NSEnTerJobNameDlg\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPD141.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPD142.TMP" with contents
+[
+/nologo /subsystem:windows /dll /incremental:no /pdb:"Release/NSEnTerJobNameDlg.pdb" /machine:I386 /def:".\NSEnTerJobNameDlg.def" /out:"c:\nsdlls\release\NSEnTerJobNameDlg.dll" /implib:"Release/NSEnTerJobNameDlg.lib" 
+.\Release\JobNameDlg.obj
+.\Release\NSEnTerJobNameDlg.obj
+.\Release\StdAfx.obj
+.\Release\NSEnTerJobNameDlg.res
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSPD142.TMP"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+JobNameDlg.cpp
+NSEnTerJobNameDlg.cpp
+Generating Code...
+Linking...
+   Creating library Release/NSEnTerJobNameDlg.lib and object Release/NSEnTerJobNameDlg.exp
+
+
+
+<h3>Results</h3>
+NSEnTerJobNameDlg.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: NSEnTerJobNameDlg - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/NSEnTerJobNameDlg.res" /d "_DEBUG" /d "_AFXDLL" "C:\pacslite\NSEnTerJobNameDlg\NSEnTerJobNameDlg.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPD1B4.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Debug/NSEnTerJobNameDlg.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\pacslite\NSEnTerJobNameDlg\JobNameDlg.cpp"
+"C:\pacslite\NSEnTerJobNameDlg\NSEnTerJobNameDlg.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPD1B4.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPD1B5.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Debug/NSEnTerJobNameDlg.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\pacslite\NSEnTerJobNameDlg\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPD1B5.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPD1B6.TMP" with contents
+[
+/nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug/NSEnTerJobNameDlg.pdb" /debug /machine:I386 /def:".\NSEnTerJobNameDlg.def" /out:"c:\nsdlls\Debug\NSEnTerJobNameDlg.dll" /implib:"Debug/NSEnTerJobNameDlg.lib" /pdbtype:sept 
+.\Debug\JobNameDlg.obj
+.\Debug\NSEnTerJobNameDlg.obj
+.\Debug\StdAfx.obj
+.\Debug\NSEnTerJobNameDlg.res
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSPD1B6.TMP"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+JobNameDlg.cpp
+NSEnTerJobNameDlg.cpp
+Generating Code...
+Linking...
+   Creating library Debug/NSEnTerJobNameDlg.lib and object Debug/NSEnTerJobNameDlg.exp
+
+
+
+<h3>Results</h3>
+NSEnTerJobNameDlg.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: NSHoldDlg - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "midl.exe /nologo /D "NDEBUG" /tlb "Release/NSHoldDlg.tlb" /mktyplib203 /win32 "C:\pacslite\NSHoldDlg\NSHoldDlg.odl""
+Creating command line "rc.exe /l 0x409 /fo"Release/NSHoldDlg.res" /i "Release" /d "NDEBUG" /d "_AFXDLL" "C:\pacslite\NSHoldDlg\NSHoldDlg.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPD232.TMP" with contents
+[
+/nologo /MD /W3 /GX /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Release/NSHoldDlg.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\pacslite\NSHoldDlg\HoldDlg.cpp"
+"C:\pacslite\NSHoldDlg\NSHoldDlg.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPD232.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPD233.TMP" with contents
+[
+/nologo /MD /W3 /GX /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Release/NSHoldDlg.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\pacslite\NSHoldDlg\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPD233.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPD234.TMP" with contents
+[
+c:\NSLibs\NSDIO.lib /nologo /subsystem:windows /dll /incremental:no /pdb:"Release/NSHoldDlg.pdb" /machine:I386 /def:".\NSHoldDlg.def" /out:"c:\nsdlls\release\NSHoldDlg.dll" /implib:"Release/NSHoldDlg.lib" 
+.\Release\HoldDlg.obj
+.\Release\NSHoldDlg.obj
+.\Release\StdAfx.obj
+.\Release\NSHoldDlg.res
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSPD234.TMP"
+<h3>Output Window</h3>
+Creating Type Library...
+Processing C:\pacslite\NSHoldDlg\NSHoldDlg.odl
+NSHoldDlg.odl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\oaidl.idl
+oaidl.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\objidl.idl
+objidl.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\unknwn.idl
+unknwn.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\wtypes.idl
+wtypes.idl
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+HoldDlg.cpp
+NSHoldDlg.cpp
+Generating Code...
+Linking...
+   Creating library Release/NSHoldDlg.lib and object Release/NSHoldDlg.exp
+
+
+
+<h3>Results</h3>
+NSHoldDlg.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: NSHoldDlg - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "midl.exe /nologo /D "_DEBUG" /tlb "Debug/NSHoldDlg.tlb" /mktyplib203 /win32 "C:\pacslite\NSHoldDlg\NSHoldDlg.odl""
+Creating command line "rc.exe /l 0x409 /fo"Debug/NSHoldDlg.res" /i "Debug" /d "_DEBUG" /d "_AFXDLL" "C:\pacslite\NSHoldDlg\NSHoldDlg.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPD2C6.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Debug/NSHoldDlg.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\pacslite\NSHoldDlg\HoldDlg.cpp"
+"C:\pacslite\NSHoldDlg\NSHoldDlg.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPD2C6.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPD2C7.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Debug/NSHoldDlg.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\pacslite\NSHoldDlg\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPD2C7.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPD2C8.TMP" with contents
+[
+c:\NSLibs\NSDIO.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug/NSHoldDlg.pdb" /debug /machine:I386 /def:".\NSHoldDlg.def" /out:"c:\nsdlls\debug\NSHoldDlg.dll" /implib:"Debug/NSHoldDlg.lib" /pdbtype:sept 
+.\Debug\HoldDlg.obj
+.\Debug\NSHoldDlg.obj
+.\Debug\StdAfx.obj
+.\Debug\NSHoldDlg.res
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSPD2C8.TMP"
+<h3>Output Window</h3>
+Creating Type Library...
+Processing C:\pacslite\NSHoldDlg\NSHoldDlg.odl
+NSHoldDlg.odl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\oaidl.idl
+oaidl.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\objidl.idl
+objidl.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\unknwn.idl
+unknwn.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\wtypes.idl
+wtypes.idl
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+HoldDlg.cpp
+NSHoldDlg.cpp
+Generating Code...
+Linking...
+   Creating library Debug/NSHoldDlg.lib and object Debug/NSHoldDlg.exp
+
+
+
+<h3>Results</h3>
+NSHoldDlg.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: NSInternalSetup - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/NSInternalSetup.res" /d "NDEBUG" /d "_AFXDLL" "C:\pacslite\InternalSetupDLL\NSInternalSetup\NSInternalSetup.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPD354.TMP" with contents
+[
+/nologo /MD /W3 /GX /ZI /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /FR"Release/" /Fp"Release/NSInternalSetup.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\pacslite\InternalSetupDLL\NSInternalSetup\InternalSetupDlg.cpp"
+"C:\pacslite\InternalSetupDLL\NSInternalSetup\NSInternalSetup.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPD354.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPD355.TMP" with contents
+[
+/nologo /MD /W3 /GX /ZI /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /FR"Release/" /Fp"Release/NSInternalSetup.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\pacslite\InternalSetupDLL\NSInternalSetup\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPD355.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPD356.TMP" with contents
+[
+c:\NSLibs\logtrace.lib c:\NSLibs\NSLibrary.lib /nologo /subsystem:windows /dll /incremental:no /pdb:"Release/NSInternalSetup.pdb" /machine:I386 /def:".\NSInternalSetup.def" /out:"c:\nsdlls\release\NSInternalSetup.dll" /implib:"Release/NSInternalSetup.lib" 
+.\Release\InternalSetupDlg.obj
+.\Release\NSInternalSetup.obj
+.\Release\StdAfx.obj
+.\Release\NSInternalSetup.res
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSPD356.TMP"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+InternalSetupDlg.cpp
+NSInternalSetup.cpp
+Generating Code...
+Linking...
+LINK : warning LNK4075: ignoring /EDITANDCONTINUE due to /INCREMENTAL:NO specification
+   Creating library Release/NSInternalSetup.lib and object Release/NSInternalSetup.exp
+
+
+
+<h3>Results</h3>
+NSInternalSetup.dll - 0 error(s), 1 warning(s)
+<h3>
+--------------------Configuration: NSInternalSetup - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/NSInternalSetup.res" /d "_DEBUG" /d "_AFXDLL" "C:\pacslite\InternalSetupDLL\NSInternalSetup\NSInternalSetup.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPE045.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /FR"Debug/" /Fp"Debug/NSInternalSetup.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\pacslite\InternalSetupDLL\NSInternalSetup\InternalSetupDlg.cpp"
+"C:\pacslite\InternalSetupDLL\NSInternalSetup\NSInternalSetup.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPE045.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPE046.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /FR"Debug/" /Fp"Debug/NSInternalSetup.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\pacslite\InternalSetupDLL\NSInternalSetup\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPE046.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPE047.TMP" with contents
+[
+c:\NSLibs\logtrace.lib c:\NSLibs\NSLibrary.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug/NSInternalSetup.pdb" /debug /machine:I386 /def:".\NSInternalSetup.def" /out:"c:\nsdlls\debug\NSInternalSetup.dll" /implib:"Debug/NSInternalSetup.lib" /pdbtype:sept 
+.\Debug\InternalSetupDlg.obj
+.\Debug\NSInternalSetup.obj
+.\Debug\StdAfx.obj
+.\Debug\NSInternalSetup.res
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSPE047.TMP"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+InternalSetupDlg.cpp
+NSInternalSetup.cpp
+Generating Code...
+Linking...
+   Creating library Debug/NSInternalSetup.lib and object Debug/NSInternalSetup.exp
+
+
+
+<h3>Results</h3>
+NSInternalSetup.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: NSJobs - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "midl.exe /nologo /D "NDEBUG" /tlb "Release/NSJobs.tlb" /mktyplib203 /win32 "C:\pacslite\NSJobs\NSJobs.odl""
+Creating command line "rc.exe /l 0x409 /fo"Release/NSJobs.res" /i "Release" /d "NDEBUG" /d "_AFXDLL" "C:\pacslite\NSJobs\NSJobs.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPE0F0.TMP" with contents
+[
+/nologo /MD /W3 /GX /Zi /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /FR"Release/" /Fp"Release/NSJobs.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\pacslite\NSJobs\Job.cpp"
+"C:\pacslite\NSJobs\NSJobs.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPE0F0.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPE0F1.TMP" with contents
+[
+/nologo /MD /W3 /GX /Zi /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /FR"Release/" /Fp"Release/NSJobs.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\pacslite\NSJobs\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPE0F1.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPE0F2.TMP" with contents
+[
+c:\NSLibs\NSDatabase.lib c:\NSLibs\logtrace.lib /nologo /subsystem:windows /dll /incremental:no /pdb:"Release/NSJobs.pdb" /machine:I386 /def:".\NSJobs.def" /out:"c:\nsdlls\release\NSJobs.dll" /implib:"Release/NSJobs.lib" 
+.\Release\Job.obj
+.\Release\NSJobs.obj
+.\Release\StdAfx.obj
+.\Release\NSJobs.res
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSPE0F2.TMP"
+<h3>Output Window</h3>
+Creating Type Library...
+Processing C:\pacslite\NSJobs\NSJobs.odl
+NSJobs.odl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\oaidl.idl
+oaidl.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\objidl.idl
+objidl.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\unknwn.idl
+unknwn.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\wtypes.idl
+wtypes.idl
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Job.cpp
+NSJobs.cpp
+Generating Code...
+Linking...
+   Creating library Release/NSJobs.lib and object Release/NSJobs.exp
+
+
+
+<h3>Results</h3>
+NSJobs.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: NSJobs - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "midl.exe /nologo /D "_DEBUG" /tlb "Debug/NSJobs.tlb" /mktyplib203 /win32 "C:\pacslite\NSJobs\NSJobs.odl""
+Creating command line "rc.exe /l 0x409 /fo"Debug/NSJobs.res" /i "Debug" /d "_DEBUG" /d "_AFXDLL" "C:\pacslite\NSJobs\NSJobs.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPE1B5.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /FR"Debug/" /Fp"Debug/NSJobs.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\pacslite\NSJobs\Job.cpp"
+"C:\pacslite\NSJobs\NSJobs.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPE1B5.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPE1B6.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /FR"Debug/" /Fp"Debug/NSJobs.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\pacslite\NSJobs\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPE1B6.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPE1B7.TMP" with contents
+[
+c:\NSLibs\NSDatabase.lib c:\NSLibs\logtrace.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug/NSJobs.pdb" /debug /machine:I386 /def:".\NSJobs.def" /out:"c:\nsdlls\debug\NSJobs.dll" /implib:"Debug/NSJobs.lib" /pdbtype:sept 
+.\Debug\Job.obj
+.\Debug\NSJobs.obj
+.\Debug\StdAfx.obj
+.\Debug\NSJobs.res
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSPE1B7.TMP"
+<h3>Output Window</h3>
+Creating Type Library...
+Processing C:\pacslite\NSJobs\NSJobs.odl
+NSJobs.odl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\oaidl.idl
+oaidl.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\objidl.idl
+objidl.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\unknwn.idl
+unknwn.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\wtypes.idl
+wtypes.idl
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Job.cpp
+NSJobs.cpp
+Generating Code...
+Linking...
+   Creating library Debug/NSJobs.lib and object Debug/NSJobs.exp
+
+
+
+<h3>Results</h3>
+NSJobs.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: NSLabelSelectDlg - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "midl.exe /nologo /D "NDEBUG" /tlb "Release/NSLabelSelectDlg.tlb" /mktyplib203 /win32 "C:\pacslite\NSLabelSelectDlg\NSLabelSelectDlg.odl""
+Creating command line "rc.exe /l 0x409 /fo"Release/NSLabelSelectDlg.res" /i "Release" /d "NDEBUG" /d "_AFXDLL" "C:\pacslite\NSLabelSelectDlg\NSLabelSelectDlg.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPE264.TMP" with contents
+[
+/nologo /MD /W3 /GX /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Release/NSLabelSelectDlg.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\pacslite\NSLabelSelectDlg\DBLabelSelectionDlg.cpp"
+"C:\pacslite\NSLabelSelectDlg\NSLabelSelectDlg.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPE264.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPE265.TMP" with contents
+[
+/nologo /MD /W3 /GX /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Release/NSLabelSelectDlg.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\pacslite\NSLabelSelectDlg\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPE265.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPE266.TMP" with contents
+[
+c:\NSLibs\NSDatabase.lib c:\NSlibs\NSjobs.lib /nologo /subsystem:windows /dll /incremental:no /pdb:"Release/NSLabelSelectDlg.pdb" /machine:I386 /def:".\NSLabelSelectDlg.def" /out:"c:\nsdlls\release\NSLabelSelectDlg.dll" /implib:"Release/NSLabelSelectDlg.lib" 
+.\Release\DBLabelSelectionDlg.obj
+.\Release\NSLabelSelectDlg.obj
+.\Release\StdAfx.obj
+.\Release\NSLabelSelectDlg.res
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSPE266.TMP"
+<h3>Output Window</h3>
+Creating Type Library...
+Processing C:\pacslite\NSLabelSelectDlg\NSLabelSelectDlg.odl
+NSLabelSelectDlg.odl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\oaidl.idl
+oaidl.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\objidl.idl
+objidl.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\unknwn.idl
+unknwn.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\wtypes.idl
+wtypes.idl
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+DBLabelSelectionDlg.cpp
+NSLabelSelectDlg.cpp
+Trace.  Tracing to a log will be available in the exe.
+
+Make sure you turn it on in the applications ini file with TraceReadINI
+
+or a direct call to TraceStart.
+
+Generating Code...
+Linking...
+   Creating library Release/NSLabelSelectDlg.lib and object Release/NSLabelSelectDlg.exp
+
+
+
+<h3>Results</h3>
+NSLabelSelectDlg.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: NSLabelSelectDlg - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "midl.exe /nologo /D "_DEBUG" /tlb "Debug/NSLabelSelectDlg.tlb" /mktyplib203 /win32 "C:\pacslite\NSLabelSelectDlg\NSLabelSelectDlg.odl""
+Creating command line "rc.exe /l 0x409 /fo"Debug/NSLabelSelectDlg.res" /i "Debug" /d "_DEBUG" /d "_AFXDLL" "C:\pacslite\NSLabelSelectDlg\NSLabelSelectDlg.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPE300.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Debug/NSLabelSelectDlg.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\pacslite\NSLabelSelectDlg\DBLabelSelectionDlg.cpp"
+"C:\pacslite\NSLabelSelectDlg\NSLabelSelectDlg.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPE300.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPE301.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Debug/NSLabelSelectDlg.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\pacslite\NSLabelSelectDlg\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPE301.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPE302.TMP" with contents
+[
+c:\NSLibs\NSDatabase.lib c:\NSlibs\NSjobs.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug/NSLabelSelectDlg.pdb" /debug /machine:I386 /def:".\NSLabelSelectDlg.def" /out:"c:\nsdlls\Debug\NSLabelSelectDlg.dll" /implib:"Debug/NSLabelSelectDlg.lib" /pdbtype:sept 
+.\Debug\DBLabelSelectionDlg.obj
+.\Debug\NSLabelSelectDlg.obj
+.\Debug\StdAfx.obj
+.\Debug\NSLabelSelectDlg.res
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSPE302.TMP"
+<h3>Output Window</h3>
+Creating Type Library...
+Processing C:\pacslite\NSLabelSelectDlg\NSLabelSelectDlg.odl
+NSLabelSelectDlg.odl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\oaidl.idl
+oaidl.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\objidl.idl
+objidl.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\unknwn.idl
+unknwn.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\wtypes.idl
+wtypes.idl
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+DBLabelSelectionDlg.cpp
+NSLabelSelectDlg.cpp
+Trace.  Tracing to a log will be available in the exe.
+
+Make sure you turn it on in the applications ini file with TraceReadINI
+
+or a direct call to TraceStart.
+
+Generating Code...
+Linking...
+   Creating library Debug/NSLabelSelectDlg.lib and object Debug/NSLabelSelectDlg.exp
+
+
+
+<h3>Results</h3>
+NSLabelSelectDlg.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: NSLibrary - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/NSLibrary.res" /d "NDEBUG" /d "_AFXDLL" "C:\pacslite\NSLibrary\NSLibrary.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPE376.TMP" with contents
+[
+/nologo /MD /W3 /GX /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Release/NSLibrary.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\pacslite\NSLibrary\AutoFont.cpp"
+"C:\pacslite\NSLibrary\commandbutton.cpp"
+"C:\pacslite\NSLibrary\font.cpp"
+"C:\pacslite\NSLibrary\labelcontrol.cpp"
+"C:\pacslite\NSLibrary\mdcoptionbutton.cpp"
+"C:\pacslite\NSLibrary\mdctext.cpp"
+"C:\pacslite\NSLibrary\NSLibrary.cpp"
+"C:\pacslite\NSLibrary\oleobject.cpp"
+"C:\pacslite\NSLibrary\oleobjects.cpp"
+"C:\pacslite\NSLibrary\picture.cpp"
+"C:\pacslite\NSLibrary\richtext.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPE376.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPE377.TMP" with contents
+[
+/nologo /MD /W3 /GX /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Release/NSLibrary.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\pacslite\NSLibrary\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPE377.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPE378.TMP" with contents
+[
+/nologo /subsystem:windows /dll /incremental:no /pdb:"Release/NSLibrary.pdb" /machine:I386 /def:".\NSLibrary.def" /out:"c:\nsdlls\release\NSLibrary.dll" /implib:"Release/NSLibrary.lib" 
+.\Release\AutoFont.obj
+.\Release\commandbutton.obj
+.\Release\font.obj
+.\Release\labelcontrol.obj
+.\Release\mdcoptionbutton.obj
+.\Release\mdctext.obj
+.\Release\NSLibrary.obj
+.\Release\oleobject.obj
+.\Release\oleobjects.obj
+.\Release\picture.obj
+.\Release\richtext.obj
+.\Release\StdAfx.obj
+.\Release\NSLibrary.res
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSPE378.TMP"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+AutoFont.cpp
+commandbutton.cpp
+font.cpp
+labelcontrol.cpp
+mdcoptionbutton.cpp
+mdctext.cpp
+NSLibrary.cpp
+oleobject.cpp
+oleobjects.cpp
+picture.cpp
+richtext.cpp
+Generating Code...
+Linking...
+   Creating library Release/NSLibrary.lib and object Release/NSLibrary.exp
+
+
+
+<h3>Results</h3>
+NSLibrary.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: NSLibrary - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/NSLibrary.res" /d "_DEBUG" /d "_AFXDLL" "C:\pacslite\NSLibrary\NSLibrary.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPF082.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Debug/NSLibrary.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\pacslite\NSLibrary\AutoFont.cpp"
+"C:\pacslite\NSLibrary\commandbutton.cpp"
+"C:\pacslite\NSLibrary\font.cpp"
+"C:\pacslite\NSLibrary\labelcontrol.cpp"
+"C:\pacslite\NSLibrary\mdcoptionbutton.cpp"
+"C:\pacslite\NSLibrary\mdctext.cpp"
+"C:\pacslite\NSLibrary\NSLibrary.cpp"
+"C:\pacslite\NSLibrary\oleobject.cpp"
+"C:\pacslite\NSLibrary\oleobjects.cpp"
+"C:\pacslite\NSLibrary\picture.cpp"
+"C:\pacslite\NSLibrary\richtext.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPF082.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPF083.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Debug/NSLibrary.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\pacslite\NSLibrary\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPF083.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPF084.TMP" with contents
+[
+/nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug/NSLibrary.pdb" /debug /machine:I386 /def:".\NSLibrary.def" /out:"c:\nsdlls\Debug\NSLibrary.dll" /implib:"Debug/NSLibrary.lib" /pdbtype:sept 
+.\Debug\AutoFont.obj
+.\Debug\commandbutton.obj
+.\Debug\font.obj
+.\Debug\labelcontrol.obj
+.\Debug\mdcoptionbutton.obj
+.\Debug\mdctext.obj
+.\Debug\NSLibrary.obj
+.\Debug\oleobject.obj
+.\Debug\oleobjects.obj
+.\Debug\picture.obj
+.\Debug\richtext.obj
+.\Debug\StdAfx.obj
+.\Debug\NSLibrary.res
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSPF084.TMP"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+AutoFont.cpp
+commandbutton.cpp
+font.cpp
+labelcontrol.cpp
+mdcoptionbutton.cpp
+mdctext.cpp
+NSLibrary.cpp
+oleobject.cpp
+oleobjects.cpp
+picture.cpp
+richtext.cpp
+Generating Code...
+Linking...
+   Creating library Debug/NSLibrary.lib and object Debug/NSLibrary.exp
+
+
+
+<h3>Results</h3>
+NSLibrary.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: NSMSFlexGrid - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "midl.exe /nologo /D "NDEBUG" /tlb "Release/NSMSFlexGrid.tlb" /mktyplib203 /win32 "C:\pacslite\NSMSFlexGrid\NSMSFlexGrid.odl""
+Creating command line "rc.exe /l 0x409 /fo"Release/NSMSFlexGrid.res" /i "Release" /d "NDEBUG" /d "_AFXDLL" "C:\pacslite\NSMSFlexGrid\NSMSFlexGrid.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPF142.TMP" with contents
+[
+/nologo /MD /W3 /GX /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Release/NSMSFlexGrid.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\pacslite\NSMSFlexGrid\customflexgrid.cpp"
+"C:\pacslite\NSMSFlexGrid\NSMSFlexGrid.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPF142.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPF143.TMP" with contents
+[
+/nologo /MD /W3 /GX /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Release/NSMSFlexGrid.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\pacslite\NSMSFlexGrid\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPF143.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPF144.TMP" with contents
+[
+/nologo /subsystem:windows /dll /incremental:no /pdb:"Release/NSMSFlexGrid.pdb" /machine:I386 /def:".\NSMSFlexGrid.def" /out:"c:\nsdlls\release\NSMSFlexGrid.dll" /implib:"Release/NSMSFlexGrid.lib" 
+.\Release\customflexgrid.obj
+.\Release\NSMSFlexGrid.obj
+.\Release\StdAfx.obj
+.\Release\NSMSFlexGrid.res
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSPF144.TMP"
+<h3>Output Window</h3>
+Creating Type Library...
+Processing C:\pacslite\NSMSFlexGrid\NSMSFlexGrid.odl
+NSMSFlexGrid.odl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\oaidl.idl
+oaidl.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\objidl.idl
+objidl.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\unknwn.idl
+unknwn.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\wtypes.idl
+wtypes.idl
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+customflexgrid.cpp
+NSMSFlexGrid.cpp
+Generating Code...
+Linking...
+   Creating library Release/NSMSFlexGrid.lib and object Release/NSMSFlexGrid.exp
+
+
+
+<h3>Results</h3>
+NSMSFlexGrid.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: NSMSFlexGrid - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "midl.exe /nologo /D "_DEBUG" /tlb "Debug/NSMSFlexGrid.tlb" /mktyplib203 /win32 "C:\pacslite\NSMSFlexGrid\NSMSFlexGrid.odl""
+Creating command line "rc.exe /l 0x409 /fo"Debug/NSMSFlexGrid.res" /i "Debug" /d "_DEBUG" /d "_AFXDLL" "C:\pacslite\NSMSFlexGrid\NSMSFlexGrid.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPF200.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Debug/NSMSFlexGrid.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\pacslite\NSMSFlexGrid\customflexgrid.cpp"
+"C:\pacslite\NSMSFlexGrid\NSMSFlexGrid.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPF200.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPF201.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Debug/NSMSFlexGrid.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\pacslite\NSMSFlexGrid\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPF201.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPF202.TMP" with contents
+[
+/nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug/NSMSFlexGrid.pdb" /debug /machine:I386 /def:".\NSMSFlexGrid.def" /out:"c:\nsdlls\Debug\NSMSFlexGrid.dll" /implib:"Debug/NSMSFlexGrid.lib" /pdbtype:sept 
+.\Debug\customflexgrid.obj
+.\Debug\NSMSFlexGrid.obj
+.\Debug\StdAfx.obj
+.\Debug\NSMSFlexGrid.res
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSPF202.TMP"
+<h3>Output Window</h3>
+Creating Type Library...
+Processing C:\pacslite\NSMSFlexGrid\NSMSFlexGrid.odl
+NSMSFlexGrid.odl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\oaidl.idl
+oaidl.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\objidl.idl
+objidl.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\unknwn.idl
+unknwn.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\wtypes.idl
+wtypes.idl
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+customflexgrid.cpp
+NSMSFlexGrid.cpp
+Generating Code...
+Linking...
+   Creating library Debug/NSMSFlexGrid.lib and object Debug/NSMSFlexGrid.exp
+
+
+
+<h3>Results</h3>
+NSMSFlexGrid.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: NSPanelLabelDlg - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "midl.exe /nologo /D "NDEBUG" /tlb "Release/NSPanelLabelDlg.tlb" /mktyplib203 /win32 "C:\pacslite\NSPanelLabelDlg\NSPanelLabelDlg.odl""
+Creating command line "rc.exe /l 0x409 /fo"Release/NSPanelLabelDlg.res" /i "Release" /d "NDEBUG" /d "_AFXDLL" "C:\pacslite\NSPanelLabelDlg\NSPanelLabelDlg.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPF292.TMP" with contents
+[
+/nologo /MD /W3 /GX /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Release/NSPanelLabelDlg.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\pacslite\NSPanelLabelDlg\DBPanelLabelDlg.cpp"
+"C:\pacslite\NSPanelLabelDlg\NSPanelLabelDlg.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPF292.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPF293.TMP" with contents
+[
+/nologo /MD /W3 /GX /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Release/NSPanelLabelDlg.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\pacslite\NSPanelLabelDlg\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPF293.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPF294.TMP" with contents
+[
+c:\NSLibs\NSLibrary.lib c:\NSLibs\NSDatabase.lib c:\NSLibs\NSUtility.lib c:\NSLibs\NSJobs.lib c:\NSLibs\NSPointDlg.lib /nologo /subsystem:windows /dll /incremental:no /pdb:"Release/NSPanelLabelDlg.pdb" /machine:I386 /def:".\NSPanelLabelDlg.def" /out:"c:\nsdlls\Release\NSPanelLabelDlg.dll" /implib:"Release/NSPanelLabelDlg.lib" 
+.\Release\DBPanelLabelDlg.obj
+.\Release\NSPanelLabelDlg.obj
+.\Release\StdAfx.obj
+.\Release\NSPanelLabelDlg.res
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSPF294.TMP"
+<h3>Output Window</h3>
+Creating Type Library...
+Processing C:\pacslite\NSPanelLabelDlg\NSPanelLabelDlg.odl
+NSPanelLabelDlg.odl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\oaidl.idl
+oaidl.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\objidl.idl
+objidl.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\unknwn.idl
+unknwn.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\wtypes.idl
+wtypes.idl
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+DBPanelLabelDlg.cpp
+NSPanelLabelDlg.cpp
+Trace.  Tracing to a log will be available in the exe.
+
+Make sure you turn it on in the applications ini file with TraceReadINI
+
+or a direct call to TraceStart.
+
+Generating Code...
+Linking...
+   Creating library Release/NSPanelLabelDlg.lib and object Release/NSPanelLabelDlg.exp
+
+
+
+<h3>Results</h3>
+NSPanelLabelDlg.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: NSPanelLabelDlg - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "midl.exe /nologo /D "_DEBUG" /tlb "Debug/NSPanelLabelDlg.tlb" /mktyplib203 /win32 "C:\pacslite\NSPanelLabelDlg\NSPanelLabelDlg.odl""
+Creating command line "rc.exe /l 0x409 /fo"Debug/NSPanelLabelDlg.res" /i "Debug" /d "_DEBUG" /d "_AFXDLL" "C:\pacslite\NSPanelLabelDlg\NSPanelLabelDlg.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPF330.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Debug/NSPanelLabelDlg.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\pacslite\NSPanelLabelDlg\DBPanelLabelDlg.cpp"
+"C:\pacslite\NSPanelLabelDlg\NSPanelLabelDlg.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPF330.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPF331.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Debug/NSPanelLabelDlg.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\pacslite\NSPanelLabelDlg\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPF331.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPF332.TMP" with contents
+[
+c:\NSLibs\NSLibrary.lib c:\NSLibs\NSDatabase.lib c:\NSLibs\NSUtility.lib c:\NSLibs\NSJobs.lib c:\NSLibs\NSPointDlg.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug/NSPanelLabelDlg.pdb" /debug /machine:I386 /def:".\NSPanelLabelDlg.def" /out:"c:\nsdlls\Debug\NSPanelLabelDlg.dll" /implib:"Debug/NSPanelLabelDlg.lib" /pdbtype:sept 
+.\Debug\DBPanelLabelDlg.obj
+.\Debug\NSPanelLabelDlg.obj
+.\Debug\StdAfx.obj
+.\Debug\NSPanelLabelDlg.res
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSPF332.TMP"
+<h3>Output Window</h3>
+Creating Type Library...
+Processing C:\pacslite\NSPanelLabelDlg\NSPanelLabelDlg.odl
+NSPanelLabelDlg.odl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\oaidl.idl
+oaidl.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\objidl.idl
+objidl.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\unknwn.idl
+unknwn.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\wtypes.idl
+wtypes.idl
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+DBPanelLabelDlg.cpp
+NSPanelLabelDlg.cpp
+Trace.  Tracing to a log will be available in the exe.
+
+Make sure you turn it on in the applications ini file with TraceReadINI
+
+or a direct call to TraceStart.
+
+Generating Code...
+Linking...
+   Creating library Debug/NSPanelLabelDlg.lib and object Debug/NSPanelLabelDlg.exp
+
+
+
+<h3>Results</h3>
+NSPanelLabelDlg.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: NSPasswordDlg - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/NSPasswordDlg.res" /d "NDEBUG" /d "_AFXDLL" "C:\pacslite\NSPasswordDlg\NSPasswordDlg.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPF3B4.TMP" with contents
+[
+/nologo /MD /W3 /GX /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Release/NSPasswordDlg.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\pacslite\NSPasswordDlg\NSPasswordDlg.cpp"
+"C:\pacslite\NSPasswordDlg\PasswordDlg.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPF3B4.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPF3B5.TMP" with contents
+[
+/nologo /MD /W3 /GX /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Release/NSPasswordDlg.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\pacslite\NSPasswordDlg\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPF3B5.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPF3B6.TMP" with contents
+[
+/nologo /subsystem:windows /dll /incremental:no /pdb:"Release/NSPasswordDlg.pdb" /machine:I386 /def:".\NSPasswordDlg.def" /out:"c:\nsdlls\release\NSPasswordDlg.dll" /implib:"Release/NSPasswordDlg.lib" 
+.\Release\NSPasswordDlg.obj
+.\Release\PasswordDlg.obj
+.\Release\StdAfx.obj
+.\Release\NSPasswordDlg.res
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSPF3B6.TMP"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+NSPasswordDlg.cpp
+PasswordDlg.cpp
+Generating Code...
+Linking...
+   Creating library Release/NSPasswordDlg.lib and object Release/NSPasswordDlg.exp
+
+
+
+<h3>Results</h3>
+NSPasswordDlg.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: NSPasswordDlg - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/NSPasswordDlg.res" /d "_DEBUG" /d "_AFXDLL" "C:\pacslite\NSPasswordDlg\NSPasswordDlg.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP72.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Debug/NSPasswordDlg.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\pacslite\NSPasswordDlg\NSPasswordDlg.cpp"
+"C:\pacslite\NSPasswordDlg\PasswordDlg.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP72.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP0073.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Debug/NSPasswordDlg.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\pacslite\NSPasswordDlg\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP0073.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP0074.TMP" with contents
+[
+/nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug/NSPasswordDlg.pdb" /debug /machine:I386 /def:".\NSPasswordDlg.def" /out:"c:\nsdlls\Debug\NSPasswordDlg.dll" /implib:"Debug/NSPasswordDlg.lib" /pdbtype:sept 
+.\Debug\NSPasswordDlg.obj
+.\Debug\PasswordDlg.obj
+.\Debug\StdAfx.obj
+.\Debug\NSPasswordDlg.res
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP0074.TMP"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+NSPasswordDlg.cpp
+PasswordDlg.cpp
+Generating Code...
+Linking...
+   Creating library Debug/NSPasswordDlg.lib and object Debug/NSPasswordDlg.exp
+
+
+
+<h3>Results</h3>
+NSPasswordDlg.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: NSPointDlg - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "midl.exe /nologo /D "NDEBUG" /tlb "Release/NSPointDlg.tlb" /mktyplib203 /win32 "C:\pacslite\NSPointDlg\NSPointDlg.odl""
+Creating command line "rc.exe /l 0x409 /fo"Release/NSPointDlg.res" /i "Release" /d "NDEBUG" /d "_AFXDLL" "C:\pacslite\NSPointDlg\NSPointDlg.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPE3.TMP" with contents
+[
+/nologo /MD /W3 /GX /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Release/NSPointDlg.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\pacslite\NSPointDlg\NSPointDlg.cpp"
+"C:\pacslite\NSPointDlg\PointDlg.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPE3.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP00E4.TMP" with contents
+[
+/nologo /MD /W3 /GX /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Release/NSPointDlg.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\pacslite\NSPointDlg\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP00E4.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP00E5.TMP" with contents
+[
+c:\NSLibs\NSDatabase.lib c:\NSLibs\NSUtility.lib c:\NSLibs\NSLibrary.lib /nologo /subsystem:windows /dll /incremental:no /pdb:"Release/NSPointDlg.pdb" /machine:I386 /def:".\NSPointDlg.def" /out:"c:\nsdlls\release\NSPointDlg.dll" /implib:"Release/NSPointDlg.lib" 
+.\Release\NSPointDlg.obj
+.\Release\PointDlg.obj
+.\Release\StdAfx.obj
+.\Release\NSPointDlg.res
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP00E5.TMP"
+<h3>Output Window</h3>
+Creating Type Library...
+Processing C:\pacslite\NSPointDlg\NSPointDlg.odl
+NSPointDlg.odl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\oaidl.idl
+oaidl.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\objidl.idl
+objidl.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\unknwn.idl
+unknwn.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\wtypes.idl
+wtypes.idl
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+NSPointDlg.cpp
+PointDlg.cpp
+Generating Code...
+Trace.  Tracing to a log will be available in the exe.
+
+Make sure you turn it on in the applications ini file with TraceReadINI
+
+or a direct call to TraceStart.
+
+Linking...
+   Creating library Release/NSPointDlg.lib and object Release/NSPointDlg.exp
+
+
+
+<h3>Results</h3>
+NSPointDlg.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: NSPointDlg - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "midl.exe /nologo /D "_DEBUG" /tlb "Debug/NSPointDlg.tlb" /mktyplib203 /win32 "C:\pacslite\NSPointDlg\NSPointDlg.odl""
+Creating command line "rc.exe /l 0x409 /fo"Debug/NSPointDlg.res" /i "Debug" /d "_DEBUG" /d "_AFXDLL" "C:\pacslite\NSPointDlg\NSPointDlg.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP191.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /FR"Debug/" /Fp"Debug/NSPointDlg.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\pacslite\NSPointDlg\NSPointDlg.cpp"
+"C:\pacslite\NSPointDlg\PointDlg.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP191.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP0192.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /FR"Debug/" /Fp"Debug/NSPointDlg.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\pacslite\NSPointDlg\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP0192.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP0193.TMP" with contents
+[
+c:\NSLibs\NSDatabase.lib c:\NSLibs\NSUtility.lib c:\NSLibs\NSLibrary.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug/NSPointDlg.pdb" /debug /machine:I386 /def:".\NSPointDlg.def" /out:"c:\nsdlls\Debug\NSPointDlg.dll" /implib:"Debug/NSPointDlg.lib" /pdbtype:sept 
+.\Debug\NSPointDlg.obj
+.\Debug\PointDlg.obj
+.\Debug\StdAfx.obj
+.\Debug\NSPointDlg.res
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP0193.TMP"
+<h3>Output Window</h3>
+Creating Type Library...
+Processing C:\pacslite\NSPointDlg\NSPointDlg.odl
+NSPointDlg.odl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\oaidl.idl
+oaidl.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\objidl.idl
+objidl.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\unknwn.idl
+unknwn.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\wtypes.idl
+wtypes.idl
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+NSPointDlg.cpp
+PointDlg.cpp
+Generating Code...
+Trace.  Tracing to a log will be available in the exe.
+
+Make sure you turn it on in the applications ini file with TraceReadINI
+
+or a direct call to TraceStart.
+
+Linking...
+   Creating library Debug/NSPointDlg.lib and object Debug/NSPointDlg.exp
+
+
+
+<h3>Results</h3>
+NSPointDlg.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: NSPrinterSelectDlg - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/NSPrinterSelectDlg.res" /d "NDEBUG" /d "_AFXDLL" "C:\pacslite\NSPrinterSelectDlg\NSPrinterSelectDlg.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP223.TMP" with contents
+[
+/nologo /MD /W3 /GX /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Release/NSPrinterSelectDlg.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\pacslite\NSPrinterSelectDlg\NSPrinterSelectDlg.cpp"
+"C:\pacslite\NSPrinterSelectDlg\PrinterSetupDlg.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP223.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP0224.TMP" with contents
+[
+/nologo /MD /W3 /GX /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Release/NSPrinterSelectDlg.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\pacslite\NSPrinterSelectDlg\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP0224.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP0225.TMP" with contents
+[
+c:\NSLibs\NSLibrary.lib c:\NSLibs\NSDatabase.lib c:\NSLibs\NSUtility.lib /nologo /subsystem:windows /dll /incremental:no /pdb:"Release/NSPrinterSelectDlg.pdb" /machine:I386 /def:".\NSPrinterSelectDlg.def" /out:"c:\nsdlls\release\NSPrinterSelectDlg.dll" /implib:"Release/NSPrinterSelectDlg.lib" 
+.\Release\NSPrinterSelectDlg.obj
+.\Release\PrinterSetupDlg.obj
+.\Release\StdAfx.obj
+.\Release\NSPrinterSelectDlg.res
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP0225.TMP"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+NSPrinterSelectDlg.cpp
+PrinterSetupDlg.cpp
+Generating Code...
+Trace.  Tracing to a log will be available in the exe.
+
+Make sure you turn it on in the applications ini file with TraceReadINI
+
+or a direct call to TraceStart.
+
+Linking...
+   Creating library Release/NSPrinterSelectDlg.lib and object Release/NSPrinterSelectDlg.exp
+
+
+
+<h3>Results</h3>
+NSPrinterSelectDlg.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: NSPrinterSelectDlg - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/NSPrinterSelectDlg.res" /d "_DEBUG" /d "_AFXDLL" "C:\pacslite\NSPrinterSelectDlg\NSPrinterSelectDlg.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP2A0.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Debug/NSPrinterSelectDlg.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\pacslite\NSPrinterSelectDlg\NSPrinterSelectDlg.cpp"
+"C:\pacslite\NSPrinterSelectDlg\PrinterSetupDlg.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP2A0.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP02A1.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Debug/NSPrinterSelectDlg.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\pacslite\NSPrinterSelectDlg\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP02A1.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP02A2.TMP" with contents
+[
+c:\NSLibs\NSLibrary.lib c:\NSLibs\NSDatabase.lib c:\NSLibs\NSUtility.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug/NSPrinterSelectDlg.pdb" /debug /machine:I386 /def:".\NSPrinterSelectDlg.def" /out:"c:\nsdlls\Debug\NSPrinterSelectDlg.dll" /implib:"Debug/NSPrinterSelectDlg.lib" /pdbtype:sept 
+.\Debug\NSPrinterSelectDlg.obj
+.\Debug\PrinterSetupDlg.obj
+.\Debug\StdAfx.obj
+.\Debug\NSPrinterSelectDlg.res
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP02A2.TMP"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+NSPrinterSelectDlg.cpp
+PrinterSetupDlg.cpp
+Generating Code...
+Trace.  Tracing to a log will be available in the exe.
+
+Make sure you turn it on in the applications ini file with TraceReadINI
+
+or a direct call to TraceStart.
+
+Linking...
+   Creating library Debug/NSPrinterSelectDlg.lib and object Debug/NSPrinterSelectDlg.exp
+
+
+
+<h3>Results</h3>
+NSPrinterSelectDlg.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: NSSerializationDlg - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "midl.exe /nologo /D "NDEBUG" /tlb "Release/NSSerializationDlg.tlb" /mktyplib203 /win32 "C:\pacslite\NSSerializationDlg\NSSerializationDlg.odl""
+Creating command line "rc.exe /l 0x409 /fo"Release/NSSerializationDlg.res" /i "Release" /d "NDEBUG" /d "_AFXDLL" "C:\pacslite\NSSerializationDlg\NSSerializationDlg.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP313.TMP" with contents
+[
+/nologo /MD /W3 /GX /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Release/NSSerializationDlg.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\pacslite\NSSerializationDlg\NSSerializationDlg.cpp"
+"C:\pacslite\NSSerializationDlg\SetupSerializationDlg.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP313.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP0314.TMP" with contents
+[
+/nologo /MD /W3 /GX /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Release/NSSerializationDlg.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\pacslite\NSSerializationDlg\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP0314.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP0315.TMP" with contents
+[
+/nologo /subsystem:windows /dll /incremental:no /pdb:"Release/NSSerializationDlg.pdb" /machine:I386 /def:".\NSSerializationDlg.def" /out:"c:\nsdlls\release\NSSerializationDlg.dll" /implib:"Release/NSSerializationDlg.lib" 
+.\Release\NSSerializationDlg.obj
+.\Release\SetupSerializationDlg.obj
+.\Release\StdAfx.obj
+.\Release\NSSerializationDlg.res
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP0315.TMP"
+<h3>Output Window</h3>
+Creating Type Library...
+Processing C:\pacslite\NSSerializationDlg\NSSerializationDlg.odl
+NSSerializationDlg.odl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\oaidl.idl
+oaidl.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\objidl.idl
+objidl.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\unknwn.idl
+unknwn.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\wtypes.idl
+wtypes.idl
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+NSSerializationDlg.cpp
+SetupSerializationDlg.cpp
+Generating Code...
+Linking...
+   Creating library Release/NSSerializationDlg.lib and object Release/NSSerializationDlg.exp
+
+
+
+<h3>Results</h3>
+NSSerializationDlg.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: NSSerializationDlg - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "midl.exe /nologo /D "_DEBUG" /tlb "Debug/NSSerializationDlg.tlb" /mktyplib203 /win32 "C:\pacslite\NSSerializationDlg\NSSerializationDlg.odl""
+Creating command line "rc.exe /l 0x409 /fo"Debug/NSSerializationDlg.res" /i "Debug" /d "_DEBUG" /d "_AFXDLL" "C:\pacslite\NSSerializationDlg\NSSerializationDlg.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP3B1.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Debug/NSSerializationDlg.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\pacslite\NSSerializationDlg\NSSerializationDlg.cpp"
+"C:\pacslite\NSSerializationDlg\SetupSerializationDlg.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP3B1.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP03B2.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Debug/NSSerializationDlg.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\pacslite\NSSerializationDlg\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP03B2.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP03B3.TMP" with contents
+[
+/nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug/NSSerializationDlg.pdb" /debug /machine:I386 /def:".\NSSerializationDlg.def" /out:"c:\nsdlls\Debug\NSSerializationDlg.dll" /implib:"Debug/NSSerializationDlg.lib" /pdbtype:sept 
+.\Debug\NSSerializationDlg.obj
+.\Debug\SetupSerializationDlg.obj
+.\Debug\StdAfx.obj
+.\Debug\NSSerializationDlg.res
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP03B3.TMP"
+<h3>Output Window</h3>
+Creating Type Library...
+Processing C:\pacslite\NSSerializationDlg\NSSerializationDlg.odl
+NSSerializationDlg.odl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\oaidl.idl
+oaidl.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\objidl.idl
+objidl.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\unknwn.idl
+unknwn.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\wtypes.idl
+wtypes.idl
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+NSSerializationDlg.cpp
+SetupSerializationDlg.cpp
+Generating Code...
+Linking...
+   Creating library Debug/NSSerializationDlg.lib and object Debug/NSSerializationDlg.exp
+
+
+
+<h3>Results</h3>
+NSSerializationDlg.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: NSSetupScannerDlg - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/NSSetupScannerDlg.res" /d "NDEBUG" /d "_AFXDLL" "C:\pacslite\NSSetupScannerDlg\NSSetupScannerDlg.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP1070.TMP" with contents
+[
+/nologo /MD /W3 /GX /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Release/NSSetupScannerDlg.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\pacslite\NSSetupScannerDlg\NSSetupScannerDlg.cpp"
+"C:\pacslite\NSSetupScannerDlg\ScannerSetupDlg.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP1070.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP1071.TMP" with contents
+[
+/nologo /MD /W3 /GX /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Release/NSSetupScannerDlg.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\pacslite\NSSetupScannerDlg\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP1071.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP1072.TMP" with contents
+[
+/nologo /subsystem:windows /dll /incremental:no /pdb:"Release/NSSetupScannerDlg.pdb" /machine:I386 /def:".\NSSetupScannerDlg.def" /out:"c:\nsdlls\release\NSSetupScannerDlg.dll" /implib:"Release/NSSetupScannerDlg.lib" 
+.\Release\NSSetupScannerDlg.obj
+.\Release\ScannerSetupDlg.obj
+.\Release\StdAfx.obj
+.\Release\NSSetupScannerDlg.res
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP1072.TMP"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+NSSetupScannerDlg.cpp
+ScannerSetupDlg.cpp
+Generating Code...
+Linking...
+   Creating library Release/NSSetupScannerDlg.lib and object Release/NSSetupScannerDlg.exp
+
+
+
+<h3>Results</h3>
+NSSetupScannerDlg.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: NSSetupScannerDlg - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/NSSetupScannerDlg.res" /d "_DEBUG" /d "_AFXDLL" "C:\pacslite\NSSetupScannerDlg\NSSetupScannerDlg.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP10F0.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Debug/NSSetupScannerDlg.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\pacslite\NSSetupScannerDlg\NSSetupScannerDlg.cpp"
+"C:\pacslite\NSSetupScannerDlg\ScannerSetupDlg.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP10F0.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP10F1.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Debug/NSSetupScannerDlg.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\pacslite\NSSetupScannerDlg\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP10F1.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP10F2.TMP" with contents
+[
+/nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug/NSSetupScannerDlg.pdb" /debug /machine:I386 /def:".\NSSetupScannerDlg.def" /out:"c:\nsdlls\Debug\NSSetupScannerDlg.dll" /implib:"Debug/NSSetupScannerDlg.lib" /pdbtype:sept 
+.\Debug\NSSetupScannerDlg.obj
+.\Debug\ScannerSetupDlg.obj
+.\Debug\StdAfx.obj
+.\Debug\NSSetupScannerDlg.res
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP10F2.TMP"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+NSSetupScannerDlg.cpp
+ScannerSetupDlg.cpp
+Generating Code...
+Linking...
+   Creating library Debug/NSSetupScannerDlg.lib and object Debug/NSSetupScannerDlg.exp
+
+
+
+<h3>Results</h3>
+NSSetupScannerDlg.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: NSStatisticsDB - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/NSStatisticsDB.res" /d "NDEBUG" /d "_AFXDLL" "C:\pacslite\NSStatisticsDB\NSStatisticsDB.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP1156.TMP" with contents
+[
+/nologo /MD /W3 /GX /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Release/NSStatisticsDB.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\pacslite\NSStatisticsDB\NSStatisticsDB.cpp"
+"C:\pacslite\NSStatisticsDB\Statistics.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP1156.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP1157.TMP" with contents
+[
+/nologo /MD /W3 /GX /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Release/NSStatisticsDB.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\pacslite\NSStatisticsDB\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP1157.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP1158.TMP" with contents
+[
+/nologo /subsystem:windows /dll /incremental:no /pdb:"Release/NSStatisticsDB.pdb" /machine:I386 /def:".\NSStatisticsDB.def" /out:"c:\nsdlls\Release\NSStatisticsDB.dll" /implib:"Release/NSStatisticsDB.lib" 
+.\Release\NSStatisticsDB.obj
+.\Release\Statistics.obj
+.\Release\StdAfx.obj
+.\Release\NSStatisticsDB.res
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP1158.TMP"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+NSStatisticsDB.cpp
+Statistics.cpp
+Generating Code...
+Linking...
+   Creating library Release/NSStatisticsDB.lib and object Release/NSStatisticsDB.exp
+
+
+
+<h3>Results</h3>
+NSStatisticsDB.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: NSStatisticsDB - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/NSStatisticsDB.res" /d "_DEBUG" /d "_AFXDLL" "C:\pacslite\NSStatisticsDB\NSStatisticsDB.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP11F0.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Debug/NSStatisticsDB.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\pacslite\NSStatisticsDB\NSStatisticsDB.cpp"
+"C:\pacslite\NSStatisticsDB\Statistics.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP11F0.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP11F1.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Debug/NSStatisticsDB.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\pacslite\NSStatisticsDB\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP11F1.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP11F2.TMP" with contents
+[
+/nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug/NSStatisticsDB.pdb" /debug /machine:I386 /def:".\NSStatisticsDB.def" /out:"c:\nsdlls\debug\NSStatisticsDB.dll" /implib:"Debug/NSStatisticsDB.lib" /pdbtype:sept 
+.\Debug\NSStatisticsDB.obj
+.\Debug\Statistics.obj
+.\Debug\StdAfx.obj
+.\Debug\NSStatisticsDB.res
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP11F2.TMP"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+NSStatisticsDB.cpp
+Statistics.cpp
+Generating Code...
+Linking...
+   Creating library Debug/NSStatisticsDB.lib and object Debug/NSStatisticsDB.exp
+
+
+
+<h3>Results</h3>
+NSStatisticsDB.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: NSSystemDB - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "midl.exe /nologo /D "NDEBUG" /tlb "Release/NSSystemDB.tlb" /mktyplib203 /win32 "C:\pacslite\NSSystemDB\NSSystemDB.odl""
+Creating command line "rc.exe /l 0x409 /fo"Release/NSSystemDB.res" /i "Release" /d "NDEBUG" /d "_AFXDLL" "C:\pacslite\NSSystemDB\NSSystemDB.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP1264.TMP" with contents
+[
+/nologo /MD /W3 /GX /Zi /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /FR"Release/" /Fp"Release/NSSystemDB.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\pacslite\NSSystemDB\NSSysDBase.cpp"
+"C:\pacslite\NSSystemDB\NSSystemDB.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP1264.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP1265.TMP" with contents
+[
+/nologo /MD /W3 /GX /Zi /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /FR"Release/" /Fp"Release/NSSystemDB.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\pacslite\NSSystemDB\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP1265.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP1266.TMP" with contents
+[
+c:\NSlibs\logtrace.lib /nologo /subsystem:windows /dll /incremental:no /pdb:"Release/NSSystemDB.pdb" /machine:I386 /def:".\NSSystemDB.def" /out:"c:\nsdlls\release\NSSystemDB.dll" /implib:"Release/NSSystemDB.lib" 
+.\Release\NSSysDBase.obj
+.\Release\NSSystemDB.obj
+.\Release\StdAfx.obj
+.\Release\NSSystemDB.res
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP1266.TMP"
+<h3>Output Window</h3>
+Creating Type Library...
+Processing C:\pacslite\NSSystemDB\NSSystemDB.odl
+NSSystemDB.odl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\oaidl.idl
+oaidl.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\objidl.idl
+objidl.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\unknwn.idl
+unknwn.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\wtypes.idl
+wtypes.idl
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+NSSysDBase.cpp
+NSSystemDB.cpp
+Trace.  Tracing to a log will be available in the exe.
+
+Make sure you turn it on in the applications ini file with TraceReadINI
+
+or a direct call to TraceStart.
+
+Generating Code...
+Linking...
+   Creating library Release/NSSystemDB.lib and object Release/NSSystemDB.exp
+
+
+
+<h3>Results</h3>
+NSSystemDB.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: NSSystemDB - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "midl.exe /nologo /D "_DEBUG" /tlb "Debug/NSSystemDB.tlb" /mktyplib203 /win32 "C:\pacslite\NSSystemDB\NSSystemDB.odl""
+Creating command line "rc.exe /l 0x409 /fo"Debug/NSSystemDB.res" /i "Debug" /d "_DEBUG" /d "_AFXDLL" "C:\pacslite\NSSystemDB\NSSystemDB.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP1322.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /FR"Debug/" /Fp"Debug/NSSystemDB.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\pacslite\NSSystemDB\NSSysDBase.cpp"
+"C:\pacslite\NSSystemDB\NSSystemDB.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP1322.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP1323.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /FR"Debug/" /Fp"Debug/NSSystemDB.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\pacslite\NSSystemDB\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP1323.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP1324.TMP" with contents
+[
+c:\NSlibs\logtrace.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug/NSSystemDB.pdb" /debug /machine:I386 /def:".\NSSystemDB.def" /out:"c:\nsdlls\Debug\NSSystemDB.dll" /implib:"Debug/NSSystemDB.lib" /pdbtype:sept 
+.\Debug\NSSysDBase.obj
+.\Debug\NSSystemDB.obj
+.\Debug\StdAfx.obj
+.\Debug\NSSystemDB.res
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP1324.TMP"
+<h3>Output Window</h3>
+Creating Type Library...
+Processing C:\pacslite\NSSystemDB\NSSystemDB.odl
+NSSystemDB.odl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\oaidl.idl
+oaidl.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\objidl.idl
+objidl.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\unknwn.idl
+unknwn.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\wtypes.idl
+wtypes.idl
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+NSSysDBase.cpp
+NSSystemDB.cpp
+Trace.  Tracing to a log will be available in the exe.
+
+Make sure you turn it on in the applications ini file with TraceReadINI
+
+or a direct call to TraceStart.
+
+Generating Code...
+Linking...
+   Creating library Debug/NSSystemDB.lib and object Debug/NSSystemDB.exp
+
+
+
+<h3>Results</h3>
+NSSystemDB.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: NSTEmplateEditDlg - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/NSTEmplateEditDlg.res" /d "NDEBUG" /d "_AFXDLL" "C:\pacslite\NSTEmplateEditDlg\NSTEmplateEditDlg.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP2004.TMP" with contents
+[
+/nologo /MD /W3 /GX /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Release/NSTEmplateEditDlg.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\pacslite\NSTEmplateEditDlg\NSTEmplateEditDlg.cpp"
+"C:\pacslite\NSTEmplateEditDlg\TemplateEditDlg.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP2004.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP2005.TMP" with contents
+[
+/nologo /MD /W3 /GX /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Release/NSTEmplateEditDlg.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\pacslite\NSTEmplateEditDlg\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP2005.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP2006.TMP" with contents
+[
+c:\NSLibs\NSTemplateNameDlg.lib c:\NSLibs\NSDatabase.lib c:\NSLibs\NSLibrary.lib /nologo /subsystem:windows /dll /incremental:no /pdb:"Release/NSTEmplateEditDlg.pdb" /machine:I386 /def:".\NSTEmplateEditDlg.def" /out:"c:\nsdlls\Release\NSTEmplateEditDlg.dll" /implib:"Release/NSTEmplateEditDlg.lib" 
+.\Release\NSTEmplateEditDlg.obj
+.\Release\StdAfx.obj
+.\Release\TemplateEditDlg.obj
+.\Release\NSTEmplateEditDlg.res
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP2006.TMP"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+NSTEmplateEditDlg.cpp
+TemplateEditDlg.cpp
+Generating Code...
+Trace.  Tracing to a log will be available in the exe.
+
+Make sure you turn it on in the applications ini file with TraceReadINI
+
+or a direct call to TraceStart.
+
+Linking...
+   Creating library Release/NSTEmplateEditDlg.lib and object Release/NSTEmplateEditDlg.exp
+
+
+
+<h3>Results</h3>
+NSTEmplateEditDlg.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: NSTEmplateEditDlg - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/NSTEmplateEditDlg.res" /d "_DEBUG" /d "_AFXDLL" "C:\pacslite\NSTEmplateEditDlg\NSTEmplateEditDlg.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP2083.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Debug/NSTEmplateEditDlg.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\pacslite\NSTEmplateEditDlg\NSTEmplateEditDlg.cpp"
+"C:\pacslite\NSTEmplateEditDlg\TemplateEditDlg.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP2083.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP2084.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Debug/NSTEmplateEditDlg.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\pacslite\NSTEmplateEditDlg\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP2084.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP2085.TMP" with contents
+[
+c:\NSLibs\NSTemplateNameDlg.lib c:\NSLibs\NSDatabase.lib c:\NSLibs\NSLibrary.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug/NSTEmplateEditDlg.pdb" /debug /machine:I386 /def:".\NSTEmplateEditDlg.def" /out:"c:\nsdlls\Debug\NSTEmplateEditDlg.dll" /implib:"Debug/NSTEmplateEditDlg.lib" /pdbtype:sept 
+.\Debug\NSTEmplateEditDlg.obj
+.\Debug\StdAfx.obj
+.\Debug\TemplateEditDlg.obj
+.\Debug\NSTEmplateEditDlg.res
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP2085.TMP"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+NSTEmplateEditDlg.cpp
+TemplateEditDlg.cpp
+Generating Code...
+Trace.  Tracing to a log will be available in the exe.
+
+Make sure you turn it on in the applications ini file with TraceReadINI
+
+or a direct call to TraceStart.
+
+Linking...
+   Creating library Debug/NSTEmplateEditDlg.lib and object Debug/NSTEmplateEditDlg.exp
+
+
+
+<h3>Results</h3>
+NSTEmplateEditDlg.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: NSTemplateNameDlg - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/NSTemplateNameDlg.res" /d "NDEBUG" /d "_AFXDLL" "C:\pacslite\NSTemplateNameDlg\NSTemplateNameDlg.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP2100.TMP" with contents
+[
+/nologo /MD /W3 /GX /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Release/NSTemplateNameDlg.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\pacslite\NSTemplateNameDlg\NSTemplateNameDlg.cpp"
+"C:\pacslite\NSTemplateNameDlg\TemplateNameDlg.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP2100.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP2101.TMP" with contents
+[
+/nologo /MD /W3 /GX /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Release/NSTemplateNameDlg.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\pacslite\NSTemplateNameDlg\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP2101.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP2102.TMP" with contents
+[
+/nologo /subsystem:windows /dll /incremental:no /pdb:"Release/NSTemplateNameDlg.pdb" /machine:I386 /def:".\NSTemplateNameDlg.def" /out:"c:\nsdlls\release\NSTemplateNameDlg.dll" /implib:"Release/NSTemplateNameDlg.lib" 
+.\Release\NSTemplateNameDlg.obj
+.\Release\StdAfx.obj
+.\Release\TemplateNameDlg.obj
+.\Release\NSTemplateNameDlg.res
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP2102.TMP"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+NSTemplateNameDlg.cpp
+TemplateNameDlg.cpp
+Generating Code...
+Linking...
+   Creating library Release/NSTemplateNameDlg.lib and object Release/NSTemplateNameDlg.exp
+
+
+
+<h3>Results</h3>
+NSTemplateNameDlg.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: NSTemplateNameDlg - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/NSTemplateNameDlg.res" /d "_DEBUG" /d "_AFXDLL" "C:\pacslite\NSTemplateNameDlg\NSTemplateNameDlg.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP2173.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Debug/NSTemplateNameDlg.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\pacslite\NSTemplateNameDlg\NSTemplateNameDlg.cpp"
+"C:\pacslite\NSTemplateNameDlg\TemplateNameDlg.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP2173.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP2174.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Debug/NSTemplateNameDlg.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\pacslite\NSTemplateNameDlg\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP2174.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP2175.TMP" with contents
+[
+/nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug/NSTemplateNameDlg.pdb" /debug /machine:I386 /def:".\NSTemplateNameDlg.def" /out:"c:\nsdlls\Debug\NSTemplateNameDlg.dll" /implib:"Debug/NSTemplateNameDlg.lib" /pdbtype:sept 
+.\Debug\NSTemplateNameDlg.obj
+.\Debug\StdAfx.obj
+.\Debug\TemplateNameDlg.obj
+.\Debug\NSTemplateNameDlg.res
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP2175.TMP"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+NSTemplateNameDlg.cpp
+TemplateNameDlg.cpp
+Generating Code...
+Linking...
+   Creating library Debug/NSTemplateNameDlg.lib and object Debug/NSTemplateNameDlg.exp
+
+
+
+<h3>Results</h3>
+NSTemplateNameDlg.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: NSTemplateSetupDlg - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/NSTemplateSetupDlg.res" /d "NDEBUG" /d "_AFXDLL" "C:\pacslite\NSTemplateSetupDlg\NSTemplateSetupDlg.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP21E2.TMP" with contents
+[
+/nologo /MD /W3 /GX /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Release/NSTemplateSetupDlg.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\pacslite\NSTemplateSetupDlg\NSTemplateSetupDlg.cpp"
+"C:\pacslite\NSTemplateSetupDlg\TemplateSetupDlg.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP21E2.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP21E3.TMP" with contents
+[
+/nologo /MD /W3 /GX /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Release/NSTemplateSetupDlg.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\pacslite\NSTemplateSetupDlg\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP21E3.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP21E4.TMP" with contents
+[
+c:\NSLibs\NSDatabase.lib c:\NSLibs\NSTemplateEditDlg.lib c:\NSlibs\NsLibrary.lib /nologo /subsystem:windows /dll /incremental:no /pdb:"Release/NSTemplateSetupDlg.pdb" /machine:I386 /def:".\NSTemplateSetupDlg.def" /out:"c:\nsdlls\release\NSTemplateSetupDlg.dll" /implib:"Release/NSTemplateSetupDlg.lib" 
+.\Release\NSTemplateSetupDlg.obj
+.\Release\StdAfx.obj
+.\Release\TemplateSetupDlg.obj
+.\Release\NSTemplateSetupDlg.res
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP21E4.TMP"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+NSTemplateSetupDlg.cpp
+TemplateSetupDlg.cpp
+Generating Code...
+Trace.  Tracing to a log will be available in the exe.
+
+Make sure you turn it on in the applications ini file with TraceReadINI
+
+or a direct call to TraceStart.
+
+Linking...
+   Creating library Release/NSTemplateSetupDlg.lib and object Release/NSTemplateSetupDlg.exp
+
+
+
+<h3>Results</h3>
+NSTemplateSetupDlg.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: NSTemplateSetupDlg - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/NSTemplateSetupDlg.res" /d "_DEBUG" /d "_AFXDLL" "C:\pacslite\NSTemplateSetupDlg\NSTemplateSetupDlg.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP2264.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Debug/NSTemplateSetupDlg.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\pacslite\NSTemplateSetupDlg\NSTemplateSetupDlg.cpp"
+"C:\pacslite\NSTemplateSetupDlg\TemplateSetupDlg.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP2264.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP2265.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Debug/NSTemplateSetupDlg.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\pacslite\NSTemplateSetupDlg\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP2265.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP2266.TMP" with contents
+[
+c:\NSLibs\NSDatabase.lib c:\NSLibs\NSTemplateEditDlg.lib c:\NSlibs\NsLibrary.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug/NSTemplateSetupDlg.pdb" /debug /machine:I386 /def:".\NSTemplateSetupDlg.def" /out:"c:\nsdlls\Debug\NSTemplateSetupDlg.dll" /implib:"Debug/NSTemplateSetupDlg.lib" /pdbtype:sept 
+.\Debug\NSTemplateSetupDlg.obj
+.\Debug\StdAfx.obj
+.\Debug\TemplateSetupDlg.obj
+.\Debug\NSTemplateSetupDlg.res
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP2266.TMP"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+NSTemplateSetupDlg.cpp
+TemplateSetupDlg.cpp
+Generating Code...
+Trace.  Tracing to a log will be available in the exe.
+
+Make sure you turn it on in the applications ini file with TraceReadINI
+
+or a direct call to TraceStart.
+
+Linking...
+   Creating library Debug/NSTemplateSetupDlg.lib and object Debug/NSTemplateSetupDlg.exp
+
+
+
+<h3>Results</h3>
+NSTemplateSetupDlg.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: NSUpdateIntervalDlg - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/NSUpdateIntervalDlg.res" /d "NDEBUG" /d "_AFXDLL" "C:\pacslite\NSUpdateIntervalDlg\NSUpdateIntervalDlg.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP22E1.TMP" with contents
+[
+/nologo /MD /W3 /GX /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Release/NSUpdateIntervalDlg.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\pacslite\NSUpdateIntervalDlg\NSUpdateIntervalDlg.cpp"
+"C:\pacslite\NSUpdateIntervalDlg\UpdateIntervalDlg.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP22E1.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP22E2.TMP" with contents
+[
+/nologo /MD /W3 /GX /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Release/NSUpdateIntervalDlg.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\pacslite\NSUpdateIntervalDlg\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP22E2.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP22E3.TMP" with contents
+[
+c:\NSLibs\NSUtility.lib /nologo /subsystem:windows /dll /incremental:no /pdb:"Release/NSUpdateIntervalDlg.pdb" /machine:I386 /def:".\NSUpdateIntervalDlg.def" /out:"c:\nsdlls\release\NSUpdateIntervalDlg.dll" /implib:"Release/NSUpdateIntervalDlg.lib" 
+.\Release\NSUpdateIntervalDlg.obj
+.\Release\StdAfx.obj
+.\Release\UpdateIntervalDlg.obj
+.\Release\NSUpdateIntervalDlg.res
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP22E3.TMP"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+NSUpdateIntervalDlg.cpp
+UpdateIntervalDlg.cpp
+Generating Code...
+Trace.  Tracing to a log will be available in the exe.
+
+Make sure you turn it on in the applications ini file with TraceReadINI
+
+or a direct call to TraceStart.
+
+Linking...
+   Creating library Release/NSUpdateIntervalDlg.lib and object Release/NSUpdateIntervalDlg.exp
+
+
+
+<h3>Results</h3>
+NSUpdateIntervalDlg.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: NSUpdateIntervalDlg - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/NSUpdateIntervalDlg.res" /d "_DEBUG" /d "_AFXDLL" "C:\pacslite\NSUpdateIntervalDlg\NSUpdateIntervalDlg.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP2350.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Debug/NSUpdateIntervalDlg.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\pacslite\NSUpdateIntervalDlg\NSUpdateIntervalDlg.cpp"
+"C:\pacslite\NSUpdateIntervalDlg\UpdateIntervalDlg.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP2350.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP2351.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Debug/NSUpdateIntervalDlg.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\pacslite\NSUpdateIntervalDlg\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP2351.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP2352.TMP" with contents
+[
+c:\NSLibs\NSUtility.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug/NSUpdateIntervalDlg.pdb" /debug /machine:I386 /def:".\NSUpdateIntervalDlg.def" /out:"c:\nsdlls\Debug\NSUpdateIntervalDlg.dll" /implib:"Debug/NSUpdateIntervalDlg.lib" /pdbtype:sept 
+.\Debug\NSUpdateIntervalDlg.obj
+.\Debug\StdAfx.obj
+.\Debug\UpdateIntervalDlg.obj
+.\Debug\NSUpdateIntervalDlg.res
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP2352.TMP"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+NSUpdateIntervalDlg.cpp
+UpdateIntervalDlg.cpp
+Generating Code...
+Trace.  Tracing to a log will be available in the exe.
+
+Make sure you turn it on in the applications ini file with TraceReadINI
+
+or a direct call to TraceStart.
+
+Linking...
+   Creating library Debug/NSUpdateIntervalDlg.lib and object Debug/NSUpdateIntervalDlg.exp
+
+
+
+<h3>Results</h3>
+NSUpdateIntervalDlg.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: NSUtility - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/NSUtility.res" /d "NDEBUG" /d "_AFXDLL" "C:\pacslite\NSUtility\NSUtility.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP23B6.TMP" with contents
+[
+/nologo /MD /W3 /GX /ZI /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /FR"Release/" /Fp"Release/NSUtility.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\pacslite\NSUtility\NSUtility.cpp"
+"C:\pacslite\NSUtility\Utilities.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP23B6.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP23B7.TMP" with contents
+[
+/nologo /MD /W3 /GX /ZI /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /FR"Release/" /Fp"Release/NSUtility.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\pacslite\NSUtility\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP23B7.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP23B8.TMP" with contents
+[
+/nologo /subsystem:windows /dll /incremental:no /pdb:"Release/NSUtility.pdb" /machine:I386 /def:".\NSUtility.def" /out:"c:\nsdlls\release\NSUtility.dll" /implib:"Release/NSUtility.lib" 
+.\Release\NSUtility.obj
+.\Release\StdAfx.obj
+.\Release\Utilities.obj
+.\Release\NSUtility.res
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP23B8.TMP"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+NSUtility.cpp
+Utilities.cpp
+Generating Code...
+Trace.  Tracing to a log will be available in the exe.
+
+Make sure you turn it on in the applications ini file with TraceReadINI
+
+or a direct call to TraceStart.
+
+Linking...
+LINK : warning LNK4075: ignoring /EDITANDCONTINUE due to /INCREMENTAL:NO specification
+   Creating library Release/NSUtility.lib and object Release/NSUtility.exp
+
+
+
+<h3>Results</h3>
+NSUtility.dll - 0 error(s), 1 warning(s)
+<h3>
+--------------------Configuration: NSUtility - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/NSUtility.res" /d "_DEBUG" /d "_AFXDLL" "C:\pacslite\NSUtility\NSUtility.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP30B0.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /FR"Debug/" /Fp"Debug/NSUtility.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\pacslite\NSUtility\NSUtility.cpp"
+"C:\pacslite\NSUtility\Utilities.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP30B0.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP30B1.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /FR"Debug/" /Fp"Debug/NSUtility.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\pacslite\NSUtility\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP30B1.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP30B2.TMP" with contents
+[
+/nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug/NSUtility.pdb" /debug /machine:I386 /def:".\NSUtility.def" /out:"c:\nsdlls\debug\NSUtility.dll" /implib:"Debug/NSUtility.lib" /pdbtype:sept 
+.\Debug\NSUtility.obj
+.\Debug\StdAfx.obj
+.\Debug\Utilities.obj
+.\Debug\NSUtility.res
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP30B2.TMP"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+NSUtility.cpp
+Utilities.cpp
+Generating Code...
+Trace.  Tracing to a log will be available in the exe.
+
+Make sure you turn it on in the applications ini file with TraceReadINI
+
+or a direct call to TraceStart.
+
+Linking...
+   Creating library Debug/NSUtility.lib and object Debug/NSUtility.exp
+
+
+
+<h3>Results</h3>
+NSUtility.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: PACS - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "midl.exe /nologo /D "_DEBUG" /tlb "Debug/PACS.tlb" /mktyplib203 /o "NUL" /win32 "C:\pacslite\pacs\PACS.odl""
+Creating command line "rc.exe /l 0x409 /fo"Debug/PACS.res" /i "Debug" /d "_DEBUG" /d "_AFXDLL" "C:\pacslite\pacs\PACS.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP3145.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /Fr"Debug/" /Fp"Debug/PACS.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /c 
+"C:\pacslite\pacs\3Dpoint.cpp"
+"C:\pacslite\pacs\ApplicatorControl.cpp"
+"C:\pacslite\pacs\comPort.cpp"
+"C:\pacslite\pacs\DiagDlg.cpp"
+"C:\pacslite\pacs\DioController.cpp"
+"C:\pacslite\pacs\ErrorMsgDlg.cpp"
+"C:\pacslite\pacs\InitDlgMessage.cpp"
+"C:\pacslite\pacs\mscommctrl.cpp"
+"C:\pacslite\pacs\PACS.cpp"
+"C:\pacslite\pacs\PACSDlg.cpp"
+"C:\pacslite\pacs\Password.cpp"
+"C:\pacslite\pacs\Printer.cpp"
+"C:\pacslite\pacs\PrinterControl.cpp"
+"C:\pacslite\pacs\PrinterDiagDlg.cpp"
+"C:\pacslite\pacs\RescanDlg.cpp"
+"C:\pacslite\pacs\ReSyncDlg.cpp"
+"C:\pacslite\pacs\RunDialog.cpp"
+"C:\pacslite\pacs\RunProcesses.cpp"
+"C:\pacslite\pacs\ScanDiagDlg.cpp"
+"C:\pacslite\pacs\Scanner.cpp"
+"C:\pacslite\pacs\ScannerControl.cpp"
+"C:\pacslite\pacs\SetupDlg.cpp"
+"C:\pacslite\pacs\simulator.cpp"
+"C:\pacslite\pacs\SNManager.cpp"
+"C:\pacslite\pacs\StartupErrorsDlg.cpp"
+"C:\pacslite\pacs\Sxbutton.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP3145.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP3146.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /Fr"Debug/" /Fp"Debug/PACS.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /c 
+"C:\pacslite\pacs\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP3146.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP3147.TMP" with contents
+[
+c:\NSLibs\logtrace.lib c:\NSLibs\NSInternalSetup.lib c:\NSLibs\NSDatabase.lib c:\NSLibs\NSSystemDB.lib c:\NSLibs\NSUtility.lib c:\NSLibs\NSJobs.lib c:\NSLibs\NSDIODiagnostic.lib c:\NSLibs\nsdio.lib c:\NSLibs\nsmsflexgrid.lib c:\NSLibs\NSSerializationDlg.lib c:\NSLibs\NSChangePasswordDlg.lib c:\NSLibs\NSPasswordDlg.lib c:\NSLibs\NSDeleteJobDlg.lib c:\NSLibs\NSHoldDlg.lib c:\NSLibs\NSEnterJobNameDlg.lib c:\NSLibs\NSLabelSelectDlg.lib c:\NSLibs\NSPointDlg.lib c:\NSLibs\NSLibrary.lib c:\NSLibs\NSPanelLabelDlg.lib c:\NSLibs\NSPrinterSelectDlg.lib c:\NSLibs\NSSetupScannerDlg.lib c:\NSLibs\NSTemplateNameDlg.lib c:\NSLibs\NSTemplateEditDlg.lib c:\NSLibs\NSTemplateSetupDlg.lib c:\NSlibs\NSAddEditJobDlg.lib c:\NSlibs\NsUpdateIntervalDlg.lib c:\NSlibs\NSStatisticsDb.lib c:\NSLibs\CheckDgt.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/pacs.pdb" /debug /machine:I386 /out:"c:\computype\pacs\pacs.exe" /pdbtype:sept 
+.\Debug\3Dpoint.obj
+.\Debug\ApplicatorControl.obj
+.\Debug\comPort.obj
+.\Debug\DiagDlg.obj
+.\Debug\DioController.obj
+.\Debug\ErrorMsgDlg.obj
+.\Debug\InitDlgMessage.obj
+.\Debug\mscommctrl.obj
+.\Debug\PACS.obj
+.\Debug\PACSDlg.obj
+.\Debug\Password.obj
+.\Debug\Printer.obj
+.\Debug\PrinterControl.obj
+.\Debug\PrinterDiagDlg.obj
+.\Debug\RescanDlg.obj
+.\Debug\ReSyncDlg.obj
+.\Debug\RunDialog.obj
+.\Debug\RunProcesses.obj
+.\Debug\ScanDiagDlg.obj
+.\Debug\Scanner.obj
+.\Debug\ScannerControl.obj
+.\Debug\SetupDlg.obj
+.\Debug\simulator.obj
+.\Debug\SNManager.obj
+.\Debug\StartupErrorsDlg.obj
+.\Debug\StdAfx.obj
+.\Debug\Sxbutton.obj
+.\Debug\PACS.res
+.\Dio.lib
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP3147.TMP"
+<h3>Output Window</h3>
+Creating Type Library...
+PACS.odl
+oaidl.idl
+objidl.idl
+unknwn.idl
+wtypes.idl
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+3Dpoint.cpp
+ApplicatorControl.cpp
+Trace.  Tracing to a log will be available in the exe.
+
+Make sure you turn it on in the applications ini file with TraceReadINI
+
+or a direct call to TraceStart.
+
+comPort.cpp
+Trace.  Tracing to a log will be available in the exe.
+
+Make sure you turn it on in the applications ini file with TraceReadINI
+
+or a direct call to TraceStart.
+
+DiagDlg.cpp
+DioController.cpp
+Trace.  Tracing to a log will be available in the exe.
+
+Make sure you turn it on in the applications ini file with TraceReadINI
+
+or a direct call to TraceStart.
+
+ErrorMsgDlg.cpp
+Trace.  Tracing to a log will be available in the exe.
+
+Make sure you turn it on in the applications ini file with TraceReadINI
+
+or a direct call to TraceStart.
+
+InitDlgMessage.cpp
+Trace.  Tracing to a log will be available in the exe.
+
+Make sure you turn it on in the applications ini file with TraceReadINI
+
+or a direct call to TraceStart.
+
+mscommctrl.cpp
+Trace.  Tracing to a log will be available in the exe.
+
+Make sure you turn it on in the applications ini file with TraceReadINI
+
+or a direct call to TraceStart.
+
+PACS.cpp
+PACSDlg.cpp
+Trace.  Tracing to a log will be available in the exe.
+
+Make sure you turn it on in the applications ini file with TraceReadINI
+
+or a direct call to TraceStart.
+
+Password.cpp
+Trace.  Tracing to a log will be available in the exe.
+
+Make sure you turn it on in the applications ini file with TraceReadINI
+
+or a direct call to TraceStart.
+
+Printer.cpp
+Trace.  Tracing to a log will be available in the exe.
+
+Make sure you turn it on in the applications ini file with TraceReadINI
+
+or a direct call to TraceStart.
+
+PrinterControl.cpp
+Trace.  Tracing to a log will be available in the exe.
+
+Make sure you turn it on in the applications ini file with TraceReadINI
+
+or a direct call to TraceStart.
+
+PrinterDiagDlg.cpp
+Trace.  Tracing to a log will be available in the exe.
+
+Make sure you turn it on in the applications ini file with TraceReadINI
+
+or a direct call to TraceStart.
+
+RescanDlg.cpp
+Trace.  Tracing to a log will be available in the exe.
+
+Make sure you turn it on in the applications ini file with TraceReadINI
+
+or a direct call to TraceStart.
+
+ReSyncDlg.cpp
+Trace.  Tracing to a log will be available in the exe.
+
+Make sure you turn it on in the applications ini file with TraceReadINI
+
+or a direct call to TraceStart.
+
+RunDialog.cpp
+Trace.  Tracing to a log will be available in the exe.
+
+Make sure you turn it on in the applications ini file with TraceReadINI
+
+or a direct call to TraceStart.
+
+RunProcesses.cpp
+Trace.  Tracing to a log will be available in the exe.
+
+Make sure you turn it on in the applications ini file with TraceReadINI
+
+or a direct call to TraceStart.
+
+ScanDiagDlg.cpp
+Trace.  Tracing to a log will be available in the exe.
+
+Make sure you turn it on in the applications ini file with TraceReadINI
+
+or a direct call to TraceStart.
+
+Scanner.cpp
+Trace.  Tracing to a log will be available in the exe.
+
+Make sure you turn it on in the applications ini file with TraceReadINI
+
+or a direct call to TraceStart.
+
+Generating Code...
+Trace.  Tracing to a log will be available in the exe.
+
+Make sure you turn it on in the applications ini file with TraceReadINI
+
+or a direct call to TraceStart.
+
+Compiling...
+ScannerControl.cpp
+SetupDlg.cpp
+Trace.  Tracing to a log will be available in the exe.
+
+Make sure you turn it on in the applications ini file with TraceReadINI
+
+or a direct call to TraceStart.
+
+simulator.cpp
+Trace.  Tracing to a log will be available in the exe.
+
+Make sure you turn it on in the applications ini file with TraceReadINI
+
+or a direct call to TraceStart.
+
+SNManager.cpp
+StartupErrorsDlg.cpp
+Trace.  Tracing to a log will be available in the exe.
+
+Make sure you turn it on in the applications ini file with TraceReadINI
+
+or a direct call to TraceStart.
+
+Sxbutton.cpp
+Trace.  Tracing to a log will be available in the exe.
+
+Make sure you turn it on in the applications ini file with TraceReadINI
+
+or a direct call to TraceStart.
+
+Generating Code...
+Linking...
+   Creating library c:\computype\pacs\pacs.lib and object c:\computype\pacs\pacs.exp
+
+
+
+<h3>Results</h3>
+PACS.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

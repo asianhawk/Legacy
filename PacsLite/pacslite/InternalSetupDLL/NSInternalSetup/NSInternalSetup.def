@@ -1,0 +1,7 @@
+; NSInternalSetup.def : Declares the module parameters for the DLL.
+
+LIBRARY      "NSInternalSetup"
+DESCRIPTION  'NSInternalSetup Windows Dynamic Link Library'
+
+EXPORTS
+    ; Explicit exports can go here

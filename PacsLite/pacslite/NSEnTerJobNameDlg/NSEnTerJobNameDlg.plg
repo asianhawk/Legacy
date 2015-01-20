@@ -1,0 +1,49 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: NSEnTerJobNameDlg - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/NSEnTerJobNameDlg.res" /d "NDEBUG" /d "_AFXDLL" "F:\PACSLite\NSEnTerJobNameDlg\NSEnTerJobNameDlg.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP3084.TMP" with contents
+[
+/nologo /MD /W3 /GX /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Release/NSEnTerJobNameDlg.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\PACSLite\NSEnTerJobNameDlg\JobNameDlg.cpp"
+"F:\PACSLite\NSEnTerJobNameDlg\NSEnTerJobNameDlg.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP3084.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP3085.TMP" with contents
+[
+/nologo /MD /W3 /GX /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Release/NSEnTerJobNameDlg.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\PACSLite\NSEnTerJobNameDlg\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP3085.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP3086.TMP" with contents
+[
+/nologo /subsystem:windows /dll /incremental:no /pdb:"Release/NSEnTerJobNameDlg.pdb" /machine:I386 /def:".\NSEnTerJobNameDlg.def" /out:"c:\nsdlls\release\NSEnTerJobNameDlg.dll" /implib:"Release/NSEnTerJobNameDlg.lib" 
+.\Release\JobNameDlg.obj
+.\Release\NSEnTerJobNameDlg.obj
+.\Release\StdAfx.obj
+.\Release\NSEnTerJobNameDlg.res
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP3086.TMP"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+JobNameDlg.cpp
+NSEnTerJobNameDlg.cpp
+Generating Code...
+Linking...
+   Creating library Release/NSEnTerJobNameDlg.lib and object Release/NSEnTerJobNameDlg.exp
+
+
+
+<h3>Results</h3>
+NSEnTerJobNameDlg.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,63 @@
+// MAKEHELP.BAT generated Help Map file.  Used by PACS.HPJ. 
+ 
+// Commands (ID_* and IDM_*) 
+HID_UPDATE                              0x10003
+HIDM_ABOUTBOX                           0x10010
+ 
+// Prompts (IDP_*) 
+HIDP_OLE_INIT_FAILED                    0x30064
+HIDP_SOCKETS_INIT_FAILED                0x30067
+ 
+// Resources (IDR_*) 
+HIDR_MAINFRAME                          0x20080
+ 
+// Dialogs (IDD_*) 
+HIDD_ABOUTBOX                           0x20064
+HIDD_PACS_DIALOG                        0x20066
+HIDD_BYPASS_DIALOG                      0x20083
+HIDD_SETUP_DLG                          0x20084
+HIDD_SYSTEM_SETUP_DLG                   0x20086
+HIDD_SETUP_SCANNER_DLG                  0x20088
+HIDD_CHANGE_PASSWORD_DLG                0x2008A
+HIDD_EDIT_JOB_DLG                       0x2008C
+HIDD_POINT_DLG                          0x2008E
+HIDD_UPDATE_INTERVAL_DLG                0x20090
+HIDD_INIT_DLG_MESSAGE                   0x20092
+HIDD_DIALOG1                            0x20095
+HIDD_PASSWORD_DLG                       0x20096
+HIDD_SETUP_PRINTER_DLG                  0x20098
+HIDD_DATABASE_PANEL_LABEL_SETUP_DLG     0x2009A
+HIDD_TEMPLATE_EDIT_DLG                  0x2009C
+HIDD_TEMPLATENAME_DLG                   0x2009E
+HIDD_DELETE_JOB_DLG                     0x200A0
+HIDD_PRINTER_SELECT                     0x200A2
+HIDD_SELECT_PRINTER_DLG                 0x200A2
+HIDD_HOLD_DLG                           0x200A4
+HIDD_RUN_DIALOG                         0x200A5
+HIDD_ADD_EDIT_JOB_DLG                   0x200A8
+HIDD_DB_PANEL_LABEL_DLG                 0x200AA
+HIDD_SETUP_FEEDER_DLG                   0x200AC
+HIDD_RESCAN_DLG                         0x200AE
+HIDD_MC_DIAGNOSTICS                     0x200B0
+HIDD_DIAG_MSG_DLG                       0x200B2
+HIDD_JOB_NAME_DLG                       0x200B4
+HIDD_PRINTER_DIAGNOSTICS                0x200B5
+HIDD_DIO_DIAGNOSTICS                    0x200B7
+HIDD_LABEL_SELECT_DLG                   0x200B8
+HIDD_DIAGNOSTICS                        0x200B9
+HIDD_SCANNER_DIAGNOSTICS                0x200BA
+HIDD_WYSIWYG_PANEL_LABEL_DLG            0x200BB
+HIDD_LABELS_PER_CYCLE                   0x200BD
+HIDD_SETUP_SERIALIZATION_DLG            0x200BF
+HIDD_INTERNAL_SETUP_DL                  0x200C1
+HIDD_TEMPLATE_SETUP                     0x200C3
+HIDD_STARTUP_ERRORS                     0x200C5
+HIDD_PRINTER_TYPE_DLG                   0x200C7
+HIDD_DIALOG2                            0x200CA
+HIDD_TEACH                              0x200CB
+HIDD_PLACEMENT                          0x200D3
+HIDD_PLACEMENT_SCHEMATIC                0x200D6
+HIDD_RESYNC                             0x200D7
+HIDD_DLG_ERRORMESSAGE                   0x200D8
+ 
+// Frame Controls (IDW_*) 

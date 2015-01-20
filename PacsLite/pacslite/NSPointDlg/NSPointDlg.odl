@@ -1,0 +1,16 @@
+// NSPointDlg.odl : type library source for NSPointDlg.dll
+
+// This file will be processed by the MIDL compiler to produce the
+// type library (NSPointDlg.tlb).
+
+[ uuid(B58596F7-32FE-11D4-BCC7-006097D3FAC7), version(1.0) ]
+library NSPointDlg
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+
+
+	//{{AFX_APPEND_ODL}}
+	//}}AFX_APPEND_ODL}}
+};

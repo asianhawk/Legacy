@@ -1,0 +1,91 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: NSStatisticsDB - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/NSStatisticsDB.res" /d "NDEBUG" /d "_AFXDLL" "F:\PACSLite\NSStatisticsDB\NSStatisticsDB.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP4.TMP" with contents
+[
+/nologo /MD /W3 /GX /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Release/NSStatisticsDB.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\PACSLite\NSStatisticsDB\NSStatisticsDB.cpp"
+"F:\PACSLite\NSStatisticsDB\Statistics.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP4.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP0005.TMP" with contents
+[
+/nologo /MD /W3 /GX /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Release/NSStatisticsDB.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\PACSLite\NSStatisticsDB\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP0005.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP0006.TMP" with contents
+[
+/nologo /subsystem:windows /dll /incremental:no /pdb:"Release/NSStatisticsDB.pdb" /machine:I386 /def:".\NSStatisticsDB.def" /out:"c:\nsdlls\Release\NSStatisticsDB.dll" /implib:"Release/NSStatisticsDB.lib" 
+.\Release\NSStatisticsDB.obj
+.\Release\Statistics.obj
+.\Release\StdAfx.obj
+.\Release\NSStatisticsDB.res
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP0006.TMP"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+NSStatisticsDB.cpp
+Statistics.cpp
+Generating Code...
+Linking...
+   Creating library Release/NSStatisticsDB.lib and object Release/NSStatisticsDB.exp
+
+
+
+<h3>Results</h3>
+NSStatisticsDB.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: NSStatisticsDB - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/NSStatisticsDB.res" /d "_DEBUG" /d "_AFXDLL" "F:\PACSLite\NSStatisticsDB\NSStatisticsDB.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP70.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Debug/NSStatisticsDB.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\PACSLite\NSStatisticsDB\NSStatisticsDB.cpp"
+"F:\PACSLite\NSStatisticsDB\Statistics.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP70.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP0071.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Debug/NSStatisticsDB.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\PACSLite\NSStatisticsDB\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP0071.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP0072.TMP" with contents
+[
+/nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug/NSStatisticsDB.pdb" /debug /machine:I386 /def:".\NSStatisticsDB.def" /out:"c:\nsdlls\debug\NSStatisticsDB.dll" /implib:"Debug/NSStatisticsDB.lib" /pdbtype:sept 
+.\Debug\NSStatisticsDB.obj
+.\Debug\Statistics.obj
+.\Debug\StdAfx.obj
+.\Debug\NSStatisticsDB.res
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP0072.TMP"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+NSStatisticsDB.cpp
+Statistics.cpp
+Generating Code...
+Linking...
+   Creating library Debug/NSStatisticsDB.lib and object Debug/NSStatisticsDB.exp
+
+
+
+<h3>Results</h3>
+NSStatisticsDB.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

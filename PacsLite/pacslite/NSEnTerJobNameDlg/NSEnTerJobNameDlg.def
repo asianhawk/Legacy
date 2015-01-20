@@ -1,0 +1,7 @@
+; NSEnTerJobNameDlg.def : Declares the module parameters for the DLL.
+
+LIBRARY      "NSEnTerJobNameDlg"
+DESCRIPTION  'NSEnTerJobNameDlg Windows Dynamic Link Library'
+
+EXPORTS
+    ; Explicit exports can go here

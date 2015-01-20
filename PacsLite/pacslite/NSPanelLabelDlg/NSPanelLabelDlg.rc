@@ -1,0 +1,244 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "NSPanelLabelResource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "NSPanelLabelResource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif\r\n"
+    "#include ""res\\PACS.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DB_PANEL_LABEL_DLG DIALOG DISCARDABLE  0, 0, 258, 210
+STYLE DS_MODALFRAME | DS_CONTEXTHELP | WS_POPUP | WS_CAPTION
+CAPTION "Panel/Label Setup"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "",IDC_LABEL6,"{978C9E23-D4B0-11CE-BF2D-00AA003F40D0}",
+                    0x0,37,33,184,11
+    LISTBOX         IDC_LABEL_POSITIONS,19,47,216,50,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_HSCROLL | WS_TABSTOP
+    CONTROL         "",IDC_POINT_EDIT,"{D7053240-CE69-11CD-A777-00DD01143C57}",
+                    WS_TABSTOP,104,128,52,16
+    CONTROL         "",IDOK,"{D7053240-CE69-11CD-A777-00DD01143C57}",
+                    WS_TABSTOP,184,155,60,18
+    CONTROL         "",IDCANCEL,"{D7053240-CE69-11CD-A777-00DD01143C57}",
+                    WS_TABSTOP,184,177,60,18
+    CONTROL         "",IDC_LABEL33,"{978C9E23-D4B0-11CE-BF2D-00AA003F40D0}",
+                    0x0,80,11,104,13
+    GROUPBOX        "",IDC_STATIC,7,28,234,93
+    CONTROL         "",IDC_POINT_ADD_1,
+                    "{D7053240-CE69-11CD-A777-00DD01143C57}",WS_TABSTOP,43,
+                    128,52,16
+    CONTROL         "",IDC_POINT_DELETE_1,
+                    "{D7053240-CE69-11CD-A777-00DD01143C57}",WS_TABSTOP,165,
+                    128,52,16
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "PACS MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "PACS\0"
+            VALUE "LegalCopyright", "Copyright (C) 1998\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "PACS.EXE\0"
+            VALUE "ProductName", "PACS Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_DB_PANEL_LABEL_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 251
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 203
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_DB_PANEL_LABEL_DLG DLGINIT
+BEGIN
+    IDC_LABEL6, 0x376, 88, 0
+0x0000, 0x0000, 0x0200, 0x0038, 0x002b, 0x0000, 0x0000, 0x0000, 0xc0c0, 
+0x00c0, 0x001e, 0x8000, 0x6554, 0x706d, 0x616c, 0x6574, 0x202c, 0x7250, 
+0x6e69, 0x6574, 0x2c72, 0x4520, 0x616e, 0x6c62, 0x2065, 0x6353, 0x6e61, 
+0x0049, 0x1c87, 0x0000, 0x01dc, 0x0000, 0x0200, 0x0014, 0x00f6, 0x0000, 
+0x0001, 0x4000, 0x00a5, 0x0000, 0x0200, 0x0003, 0x02bc, 0x0000, 
+    IDC_POINT_EDIT, 0x376, 52, 0
+0x0000, 0x0000, 0x0200, 0x0014, 0x0028, 0x0000, 0x0004, 0x8000, 0x6445, 
+0x7469, 0x0810, 0x0000, 0x02b0, 0x0000, 0x0200, 0x0014, 0x00f6, 0x0000, 
+0x0001, 0x4000, 0x00a5, 0x0000, 0x0200, 0x0003, 0x02bc, 0x0000, 
+    IDOK, 0x376, 52, 0
+0x0000, 0x0000, 0x0200, 0x0014, 0x0028, 0x0000, 0x0002, 0x8000, 0x4b4f, 
+0x0049, 0x094d, 0x0000, 0x02ff, 0x0000, 0x0200, 0x0014, 0x00f6, 0x0000, 
+0x0001, 0x4000, 0x00c3, 0x0000, 0x0200, 0x0003, 0x02bc, 0x0000, 
+    IDCANCEL, 0x376, 56, 0
+0x0000, 0x0000, 0x0200, 0x0018, 0x0028, 0x0000, 0x0006, 0x8000, 0x6143, 
+0x636e, 0x6c65, 0x0045, 0x094d, 0x0000, 0x02ff, 0x0000, 0x0200, 0x0014, 
+0x00f6, 0x0000, 0x0001, 0x4000, 0x00c3, 0x0000, 0x0200, 0x0003, 0x02bc, 
+0x0000, 
+    IDC_LABEL33, 0x376, 68, 0
+0x0000, 0x0000, 0x0200, 0x0024, 0x002b, 0x0000, 0x0000, 0x0000, 0xc0c0, 
+0x00c0, 0x000b, 0x8000, 0x614c, 0x6562, 0x206c, 0x6553, 0x7574, 0x0070, 
+0x1020, 0x0000, 0x022c, 0x0000, 0x0200, 0x0014, 0x00f6, 0x0000, 0x0001, 
+0x4000, 0x00c3, 0x0000, 0x0200, 0x0003, 0x02bc, 0x0000, 
+    IDC_POINT_ADD_1, 0x376, 52, 0
+0x0000, 0x0000, 0x0200, 0x0014, 0x0028, 0x0000, 0x0003, 0x8000, 0x6441, 
+0x0064, 0x0810, 0x0000, 0x02b0, 0x0000, 0x0200, 0x0014, 0x00f6, 0x0000, 
+0x0001, 0x4000, 0x00a5, 0x0000, 0x0200, 0x0003, 0x02bc, 0x0000, 
+    IDC_POINT_DELETE_1, 0x376, 56, 0
+0x0000, 0x0000, 0x0200, 0x0018, 0x0028, 0x0000, 0x0006, 0x8000, 0x6544, 
+0x656c, 0x6574, 0x0045, 0x0810, 0x0000, 0x02b0, 0x0000, 0x0200, 0x0014, 
+0x00f6, 0x0000, 0x0001, 0x4000, 0x00a5, 0x0000, 0x0200, 0x0003, 0x02bc, 
+0x0000, 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_TEMPLATE_CHANGED    "Reminder: A printer template has been changed and saved to the database."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_SELECT_LABEL        "Please select a label."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_EMPTY_LABEL_LIST    "The label positions list must not be empty."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif
+//#include "res\PACS.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

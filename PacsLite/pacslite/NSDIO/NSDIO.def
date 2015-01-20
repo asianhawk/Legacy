@@ -1,0 +1,7 @@
+; NSDIO.def : Declares the module parameters for the DLL.
+
+LIBRARY      "NSDIO"
+DESCRIPTION  'NSDIO Windows Dynamic Link Library'
+
+EXPORTS
+    ; Explicit exports can go here

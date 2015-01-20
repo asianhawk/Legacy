@@ -1,0 +1,103 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: NSPrinterSelectDlg - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/NSPrinterSelectDlg.res" /d "NDEBUG" /d "_AFXDLL" "F:\PACSLite\NSPrinterSelectDlg\NSPrinterSelectDlg.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP3144.TMP" with contents
+[
+/nologo /MD /W3 /GX /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Release/NSPrinterSelectDlg.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\PACSLite\NSPrinterSelectDlg\NSPrinterSelectDlg.cpp"
+"F:\PACSLite\NSPrinterSelectDlg\PrinterSetupDlg.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP3144.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP3145.TMP" with contents
+[
+/nologo /MD /W3 /GX /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Release/NSPrinterSelectDlg.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\PACSLite\NSPrinterSelectDlg\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP3145.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP3146.TMP" with contents
+[
+c:\NSLibs\NSLibrary.lib c:\NSLibs\NSDatabase.lib c:\NSLibs\NSUtility.lib /nologo /subsystem:windows /dll /incremental:no /pdb:"Release/NSPrinterSelectDlg.pdb" /machine:I386 /def:".\NSPrinterSelectDlg.def" /out:"c:\nsdlls\release\NSPrinterSelectDlg.dll" /implib:"Release/NSPrinterSelectDlg.lib" 
+.\Release\NSPrinterSelectDlg.obj
+.\Release\PrinterSetupDlg.obj
+.\Release\StdAfx.obj
+.\Release\NSPrinterSelectDlg.res
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP3146.TMP"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+NSPrinterSelectDlg.cpp
+PrinterSetupDlg.cpp
+Generating Code...
+Trace.  Tracing to a log will be available in the exe.
+
+Make sure you turn it on in the applications ini file with TraceReadINI
+
+or a direct call to TraceStart.
+
+Linking...
+   Creating library Release/NSPrinterSelectDlg.lib and object Release/NSPrinterSelectDlg.exp
+
+
+
+<h3>Results</h3>
+NSPrinterSelectDlg.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: NSPrinterSelectDlg - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/NSPrinterSelectDlg.res" /d "_DEBUG" /d "_AFXDLL" "F:\PACSLite\NSPrinterSelectDlg\NSPrinterSelectDlg.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP31B2.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Debug/NSPrinterSelectDlg.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\PACSLite\NSPrinterSelectDlg\NSPrinterSelectDlg.cpp"
+"F:\PACSLite\NSPrinterSelectDlg\PrinterSetupDlg.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP31B2.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP31B3.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Debug/NSPrinterSelectDlg.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\PACSLite\NSPrinterSelectDlg\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP31B3.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP31B4.TMP" with contents
+[
+c:\NSLibs\NSLibrary.lib c:\NSLibs\NSDatabase.lib c:\NSLibs\NSUtility.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug/NSPrinterSelectDlg.pdb" /debug /machine:I386 /def:".\NSPrinterSelectDlg.def" /out:"c:\nsdlls\Debug\NSPrinterSelectDlg.dll" /implib:"Debug/NSPrinterSelectDlg.lib" /pdbtype:sept 
+.\Debug\NSPrinterSelectDlg.obj
+.\Debug\PrinterSetupDlg.obj
+.\Debug\StdAfx.obj
+.\Debug\NSPrinterSelectDlg.res
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP31B4.TMP"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+NSPrinterSelectDlg.cpp
+PrinterSetupDlg.cpp
+Generating Code...
+Trace.  Tracing to a log will be available in the exe.
+
+Make sure you turn it on in the applications ini file with TraceReadINI
+
+or a direct call to TraceStart.
+
+Linking...
+   Creating library Debug/NSPrinterSelectDlg.lib and object Debug/NSPrinterSelectDlg.exp
+
+
+
+<h3>Results</h3>
+NSPrinterSelectDlg.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

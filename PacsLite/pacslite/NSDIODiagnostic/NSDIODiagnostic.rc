@@ -1,0 +1,649 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif\r\n"
+    "#include ""res\\PACS.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIO_DIAGNOSTICS DIALOG DISCARDABLE  0, 0, 411, 239
+STYLE DS_MODALFRAME | DS_CONTEXTHELP | WS_POPUP | WS_CAPTION
+CAPTION "Digital Input/Output Diagnostics"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "",IDC_SET_INPUT_ADDRESS,
+                    "{D7053240-CE69-11CD-A777-00DD01143C57}",WS_TABSTOP,328,
+                    52,67,16
+    CONTROL         "",IDC_INPUT0,"{D7053240-CE69-11CD-A777-00DD01143C57}",
+                    0x0,9,32,8,8
+    CONTROL         "",IDC_INPUT1,"{D7053240-CE69-11CD-A777-00DD01143C57}",
+                    0x0,9,41,8,8
+    CONTROL         "",IDC_INPUT2,"{D7053240-CE69-11CD-A777-00DD01143C57}",
+                    0x0,9,52,8,7
+    CONTROL         "",IDC_INPUT3,"{D7053240-CE69-11CD-A777-00DD01143C57}",
+                    0x0,9,60,8,8
+    CONTROL         "",IDC_INPUT4,"{D7053240-CE69-11CD-A777-00DD01143C57}",
+                    0x0,9,71,8,8
+    CONTROL         "",IDC_INPUT5,"{D7053240-CE69-11CD-A777-00DD01143C57}",
+                    0x0,9,79,8,8
+    CONTROL         "",IDC_INPUT6,"{D7053240-CE69-11CD-A777-00DD01143C57}",
+                    0x0,9,89,8,8
+    CONTROL         "",IDC_INPUT7,"{D7053240-CE69-11CD-A777-00DD01143C57}",
+                    0x0,9,98,8,8
+    CONTROL         "",IDC_INPUT8,"{D7053240-CE69-11CD-A777-00DD01143C57}",
+                    0x0,104,32,8,8
+    CONTROL         "",IDC_INPUT9,"{D7053240-CE69-11CD-A777-00DD01143C57}",
+                    0x0,104,41,8,8
+    CONTROL         "",IDC_INPUT10,"{D7053240-CE69-11CD-A777-00DD01143C57}",
+                    0x0,104,51,8,8
+    CONTROL         "",IDC_INPUT11,"{D7053240-CE69-11CD-A777-00DD01143C57}",
+                    0x0,104,60,8,8
+    CONTROL         "",IDC_INPUT12,"{D7053240-CE69-11CD-A777-00DD01143C57}",
+                    0x0,104,70,8,8
+    CONTROL         "",IDC_INPUT13,"{D7053240-CE69-11CD-A777-00DD01143C57}",
+                    0x0,104,79,8,8
+    CONTROL         "",IDC_INPUT14,"{D7053240-CE69-11CD-A777-00DD01143C57}",
+                    0x0,104,89,8,8
+    CONTROL         "",IDC_INPUT15,"{D7053240-CE69-11CD-A777-00DD01143C57}",
+                    0x0,104,97,8,8
+    CONTROL         "",IDC_INPUT16,"{D7053240-CE69-11CD-A777-00DD01143C57}",
+                    0x0,168,32,8,8
+    CONTROL         "",IDC_INPUT17,"{D7053240-CE69-11CD-A777-00DD01143C57}",
+                    0x0,168,41,8,8
+    CONTROL         "",IDC_INPUT18,"{D7053240-CE69-11CD-A777-00DD01143C57}",
+                    0x0,168,52,8,7
+    CONTROL         "",IDC_INPUT19,"{D7053240-CE69-11CD-A777-00DD01143C57}",
+                    0x0,168,60,8,8
+    CONTROL         "",IDC_INPUT20,"{D7053240-CE69-11CD-A777-00DD01143C57}",
+                    0x0,168,70,8,8
+    CONTROL         "",IDC_INPUT21,"{D7053240-CE69-11CD-A777-00DD01143C57}",
+                    0x0,168,79,8,8
+    CONTROL         "",IDC_INPUT22,"{D7053240-CE69-11CD-A777-00DD01143C57}",
+                    0x0,168,89,8,8
+    CONTROL         "",IDC_INPUT23,"{D7053240-CE69-11CD-A777-00DD01143C57}",
+                    0x0,168,97,8,8
+    CONTROL         "",IDC_INPUT24,"{D7053240-CE69-11CD-A777-00DD01143C57}",
+                    0x0,249,32,8,8
+    CONTROL         "",IDC_INPUT25,"{D7053240-CE69-11CD-A777-00DD01143C57}",
+                    0x0,249,41,8,8
+    CONTROL         "",IDC_INPUT26,"{D7053240-CE69-11CD-A777-00DD01143C57}",
+                    0x0,249,51,8,8
+    CONTROL         "",IDC_INPUT27,"{D7053240-CE69-11CD-A777-00DD01143C57}",
+                    0x0,249,60,8,8
+    CONTROL         "",IDC_INPUT28,"{D7053240-CE69-11CD-A777-00DD01143C57}",
+                    0x0,249,70,8,8
+    CONTROL         "",IDC_INPUT29,"{D7053240-CE69-11CD-A777-00DD01143C57}",
+                    0x0,249,78,8,8
+    CONTROL         "",IDC_INPUT30,"{D7053240-CE69-11CD-A777-00DD01143C57}",
+                    0x0,249,87,8,8
+    CONTROL         "",IDC_INPUT31,"{D7053240-CE69-11CD-A777-00DD01143C57}",
+                    0x0,249,97,8,8
+    CONTROL         "",IDC_SET_OUTPUT_ADDRESS,
+                    "{D7053240-CE69-11CD-A777-00DD01143C57}",WS_TABSTOP,328,
+                    154,67,16
+    CONTROL         "",IDC_CHECK0,"Button",BS_AUTOCHECKBOX | BS_PUSHLIKE | 
+                    WS_TABSTOP,9,140,8,8
+    CONTROL         "",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | BS_PUSHLIKE | 
+                    WS_TABSTOP,9,148,8,8
+    CONTROL         "",IDC_CHECK2,"Button",BS_AUTOCHECKBOX | BS_PUSHLIKE | 
+                    WS_TABSTOP,9,155,8,8
+    CONTROL         "",IDC_CHECK3,"Button",BS_AUTOCHECKBOX | BS_PUSHLIKE | 
+                    WS_TABSTOP,9,162,8,9
+    CONTROL         "",IDC_CHECK4,"Button",BS_AUTOCHECKBOX | BS_PUSHLIKE | 
+                    WS_TABSTOP,9,171,8,8
+    CONTROL         "",IDC_CHECK5,"Button",BS_AUTOCHECKBOX | BS_PUSHLIKE | 
+                    WS_TABSTOP,9,179,8,8
+    CONTROL         "",IDC_CHECK6,"Button",BS_AUTOCHECKBOX | BS_PUSHLIKE | 
+                    WS_TABSTOP,9,187,8,8
+    CONTROL         "",IDC_CHECK7,"Button",BS_AUTOCHECKBOX | BS_PUSHLIKE | 
+                    WS_TABSTOP,9,194,8,8
+    CONTROL         "",IDC_CHECK8,"Button",BS_AUTOCHECKBOX | BS_PUSHLIKE | 
+                    WS_TABSTOP,100,140,8,8
+    CONTROL         "",IDC_CHECK9,"Button",BS_AUTOCHECKBOX | BS_PUSHLIKE | 
+                    WS_TABSTOP,100,148,8,8
+    CONTROL         "",IDC_CHECK10,"Button",BS_AUTOCHECKBOX | BS_PUSHLIKE | 
+                    WS_TABSTOP,100,155,8,8
+    CONTROL         "",IDC_CHECK11,"Button",BS_AUTOCHECKBOX | BS_PUSHLIKE | 
+                    WS_TABSTOP,100,162,8,9
+    CONTROL         "",IDC_CHECK12,"Button",BS_AUTOCHECKBOX | BS_PUSHLIKE | 
+                    WS_TABSTOP,100,171,8,8
+    CONTROL         "",IDC_CHECK13,"Button",BS_AUTOCHECKBOX | BS_PUSHLIKE | 
+                    WS_TABSTOP,100,179,8,8
+    CONTROL         "",IDC_CHECK14,"Button",BS_AUTOCHECKBOX | BS_PUSHLIKE | 
+                    WS_TABSTOP,100,187,8,8
+    CONTROL         "",IDC_CHECK15,"Button",BS_AUTOCHECKBOX | BS_PUSHLIKE | 
+                    WS_TABSTOP,100,194,8,8
+    CONTROL         "",IDC_CHECK16,"Button",BS_AUTOCHECKBOX | BS_PUSHLIKE | 
+                    WS_TABSTOP,168,140,8,8
+    CONTROL         "",IDC_CHECK17,"Button",BS_AUTOCHECKBOX | BS_PUSHLIKE | 
+                    WS_TABSTOP,168,148,8,8
+    CONTROL         "",IDC_CHECK18,"Button",BS_AUTOCHECKBOX | BS_PUSHLIKE | 
+                    WS_TABSTOP,168,155,8,8
+    CONTROL         "",IDC_CHECK19,"Button",BS_AUTOCHECKBOX | BS_PUSHLIKE | 
+                    WS_TABSTOP,168,162,8,9
+    CONTROL         "",IDC_CHECK20,"Button",BS_AUTOCHECKBOX | BS_PUSHLIKE | 
+                    WS_TABSTOP,168,171,8,8
+    CONTROL         "",IDC_CHECK21,"Button",BS_AUTOCHECKBOX | BS_PUSHLIKE | 
+                    WS_TABSTOP,168,179,8,8
+    CONTROL         "",IDC_CHECK22,"Button",BS_AUTOCHECKBOX | BS_PUSHLIKE | 
+                    WS_TABSTOP,168,187,8,8
+    CONTROL         "",IDC_CHECK23,"Button",BS_AUTOCHECKBOX | BS_PUSHLIKE | 
+                    WS_TABSTOP,168,194,8,8
+    CONTROL         "",IDC_CHECK24,"Button",BS_AUTOCHECKBOX | BS_PUSHLIKE | 
+                    WS_TABSTOP,249,140,8,8
+    CONTROL         "",IDC_CHECK25,"Button",BS_AUTOCHECKBOX | BS_PUSHLIKE | 
+                    WS_TABSTOP,249,148,8,8
+    CONTROL         "",IDC_CHECK26,"Button",BS_AUTOCHECKBOX | BS_PUSHLIKE | 
+                    WS_TABSTOP,249,155,8,8
+    CONTROL         "",IDC_CHECK27,"Button",BS_AUTOCHECKBOX | BS_PUSHLIKE | 
+                    WS_TABSTOP,249,162,8,9
+    CONTROL         "",IDC_CHECK28,"Button",BS_AUTOCHECKBOX | BS_PUSHLIKE | 
+                    WS_TABSTOP,249,171,8,8
+    CONTROL         "",IDC_CHECK29,"Button",BS_AUTOCHECKBOX | BS_PUSHLIKE | 
+                    WS_TABSTOP,249,179,8,8
+    CONTROL         "",IDC_CHECK30,"Button",BS_AUTOCHECKBOX | BS_PUSHLIKE | 
+                    WS_TABSTOP,249,187,8,8
+    CONTROL         "",IDC_CHECK31,"Button",BS_AUTOCHECKBOX | BS_PUSHLIKE | 
+                    WS_TABSTOP,249,194,8,8
+    CONTROL         "",IDC_CLOSE_DIO_DIAGNOSTICS,
+                    "{D7053240-CE69-11CD-A777-00DD01143C57}",WS_TABSTOP,344,
+                    215,60,18
+    CONTROL         "",1013,"{978C9E23-D4B0-11CE-BF2D-00AA003F40D0}",0x0,295,
+                    17,98,8
+    CONTROL         "",IDC_LABEL1,"{978C9E23-D4B0-11CE-BF2D-00AA003F40D0}",
+                    0x0,295,125,102,8
+    GROUPBOX        "Inputs",IDC_STATIC,6,7,398,104
+    GROUPBOX        "Outputs",IDC_STATIC,6,112,398,97
+    EDITTEXT        IDC_OUTPUT_ADDRESS,335,135,55,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_INPUT_ADDRESS,337,34,55,13,ES_AUTOHSCROLL
+    LTEXT           "Bit 0",IDC_STATIC_INPUT_BIT_0,20,32,75,8
+    LTEXT           "Bit 1",IDC_STATIC_INPUT_BIT_1,20,41,75,8
+    LTEXT           "Bit 2",IDC_STATIC_INPUT_BIT_2,20,51,75,8
+    LTEXT           "Bit 3",IDC_STATIC_INPUT_BIT_3,20,60,75,8
+    LTEXT           "Bit 4",IDC_STATIC_INPUT_BIT_4,20,71,75,8
+    LTEXT           "Bit 5",IDC_STATIC_INPUT_BIT_5,20,79,75,8
+    LTEXT           "Bit 6",IDC_STATIC_INPUT_BIT_6,20,90,75,8
+    LTEXT           "Bit 7",IDC_STATIC_INPUT_BIT_7,20,98,75,8
+    LTEXT           "Bit 8",IDC_STATIC_INPUT_BIT_8,114,32,52,8
+    LTEXT           "Bit 9",IDC_STATIC_INPUT_BIT_9,114,41,52,8
+    LTEXT           "Bit 10",IDC_STATIC_INPUT_BIT_10,114,51,52,8
+    LTEXT           "Bit 11",IDC_STATIC_INPUT_BIT_11,114,60,52,8
+    LTEXT           "Bit 12",IDC_STATIC_INPUT_BIT_12,114,70,52,8
+    LTEXT           "Bit 13",IDC_STATIC_INPUT_BIT_13,114,78,52,8
+    LTEXT           "Bit 14",IDC_STATIC_INPUT_BIT_14,114,89,52,8
+    LTEXT           "Bit 15",IDC_STATIC_INPUT_BIT_15,114,97,52,8
+    LTEXT           "Bit 16",IDC_STATIC_INPUT_BIT_16,183,32,63,8
+    LTEXT           "Bit 17",IDC_STATIC_INPUT_BIT_17,183,41,63,8
+    LTEXT           "Bit 18",IDC_STATIC_INPUT_BIT_18,183,51,63,8
+    LTEXT           "Bit 19",IDC_STATIC_INPUT_BIT_19,183,60,63,8
+    LTEXT           "Bit 20",IDC_STATIC_INPUT_BIT_20,183,69,63,9
+    LTEXT           "Bit 21",IDC_STATIC_INPUT_BIT_21,183,79,63,8
+    LTEXT           "Bit 22",IDC_STATIC_INPUT_BIT_22,183,89,63,8
+    LTEXT           "Bit 23",IDC_STATIC_INPUT_BIT_23,183,97,63,8
+    LTEXT           "Bit 24",IDC_STATIC_INPUT_BIT_24,260,32,62,8
+    LTEXT           "Bit 25",IDC_STATIC_INPUT_BIT_25,260,41,65,8
+    LTEXT           "Bit 26",IDC_STATIC_INPUT_BIT_26,260,51,68,8
+    LTEXT           "Bit 27",IDC_STATIC_INPUT_BIT_27,260,59,46,9
+    LTEXT           "Bit 28",IDC_STATIC_INPUT_BIT_28,260,70,68,8
+    LTEXT           "Bit 29",IDC_STATIC_INPUT_BIT_29,260,79,68,8
+    LTEXT           "Bit 30",IDC_STATIC_INPUT_BIT_30,260,89,68,8
+    LTEXT           "Bit 31",IDC_STATIC_INPUT_BIT_31,260,97,68,8
+    LTEXT           "Bit 0",IDC_STATIC_OUTPUT_BIT_0,20,140,75,8
+    LTEXT           "Bit 1",IDC_STATIC_OUTPUT_BIT_1,20,148,75,8
+    LTEXT           "Bit 2",IDC_STATIC_OUTPUT_BIT_2,20,155,75,8
+    LTEXT           "Bit 3",IDC_STATIC_OUTPUT_BIT_3,20,162,75,9
+    LTEXT           "Bit 4",IDC_STATIC_OUTPUT_BIT_4,20,171,75,8
+    LTEXT           "Bit 5",IDC_STATIC_OUTPUT_BIT_5,20,179,75,8
+    LTEXT           "Bit 6",IDC_STATIC_OUTPUT_BIT_6,20,187,75,8
+    LTEXT           "Bit 7",IDC_STATIC_OUTPUT_BIT_7,20,194,75,8
+    LTEXT           "Bit 8",IDC_STATIC_OUTPUT_BIT_8,114,140,52,8
+    LTEXT           "Bit 9",IDC_STATIC_OUTPUT_BIT_9,114,148,52,8
+    LTEXT           "Bit 10",IDC_STATIC_OUTPUT_BIT_10,114,155,52,8
+    LTEXT           "Bit 11",IDC_STATIC_OUTPUT_BIT_11,114,162,52,9
+    LTEXT           "Bit 12",IDC_STATIC_OUTPUT_BIT_12,114,171,52,8
+    LTEXT           "Bit 13",IDC_STATIC_OUTPUT_BIT_13,114,179,52,8
+    LTEXT           "Bit 14",IDC_STATIC_OUTPUT_BIT_14,114,187,52,8
+    LTEXT           "Bit 15",IDC_STATIC_OUTPUT_BIT_15,114,194,52,8
+    LTEXT           "Bit 16",IDC_STATIC_OUTPUT_BIT_16,183,140,46,8
+    LTEXT           "Bit 17",IDC_STATIC_OUTPUT_BIT_17,183,148,63,8
+    LTEXT           "Bit 18",IDC_STATIC_OUTPUT_BIT_18,183,155,63,8
+    LTEXT           "Bit 19",IDC_STATIC_OUTPUT_BIT_19,183,162,63,9
+    LTEXT           "Bit 20",IDC_STATIC_OUTPUT_BIT_20,183,171,63,8
+    LTEXT           "Bit 21",IDC_STATIC_OUTPUT_BIT_21,183,179,63,8
+    LTEXT           "Bit 22",IDC_STATIC_OUTPUT_BIT_22,183,187,63,8
+    LTEXT           "Bit 23",IDC_STATIC_OUTPUT_BIT_23,183,194,63,8
+    LTEXT           "Bit 24",IDC_STATIC_OUTPUT_BIT_24,260,140,68,8
+    LTEXT           "Bit 25",IDC_STATIC_OUTPUT_BIT_25,260,148,68,8
+    LTEXT           "Bit 26",IDC_STATIC_OUTPUT_BIT_26,260,155,68,8
+    LTEXT           "Bit 27",IDC_STATIC_OUTPUT_BIT_27,260,162,68,9
+    LTEXT           "Bit 28",IDC_STATIC_OUTPUT_BIT_28,260,171,68,8
+    LTEXT           "Bit 29",IDC_STATIC_OUTPUT_BIT_29,260,179,68,8
+    LTEXT           "Bit 30",IDC_STATIC_OUTPUT_BIT_30,260,187,68,8
+    LTEXT           "Bit 31",IDC_STATIC_OUTPUT_BIT_31,260,194,68,8
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "PACS MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "PACS\0"
+            VALUE "LegalCopyright", "Copyright (C) 1998\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "PACS.EXE\0"
+            VALUE "ProductName", "PACS Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_DIO_DIAGNOSTICS, DIALOG
+    BEGIN
+        LEFTMARGIN, 6
+        RIGHTMARGIN, 404
+        VERTGUIDE, 17
+        VERTGUIDE, 20
+        VERTGUIDE, 95
+        VERTGUIDE, 98
+        VERTGUIDE, 100
+        VERTGUIDE, 112
+        VERTGUIDE, 114
+        VERTGUIDE, 166
+        VERTGUIDE, 168
+        VERTGUIDE, 178
+        VERTGUIDE, 183
+        VERTGUIDE, 246
+        VERTGUIDE, 257
+        VERTGUIDE, 260
+        VERTGUIDE, 328
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 232
+        HORZGUIDE, 40
+        HORZGUIDE, 49
+        HORZGUIDE, 59
+        HORZGUIDE, 68
+        HORZGUIDE, 78
+        HORZGUIDE, 87
+        HORZGUIDE, 97
+        HORZGUIDE, 148
+        HORZGUIDE, 155
+        HORZGUIDE, 162
+        HORZGUIDE, 171
+        HORZGUIDE, 179
+        HORZGUIDE, 187
+        HORZGUIDE, 194
+        HORZGUIDE, 200
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_DIO_DIAGNOSTICS DLGINIT
+BEGIN
+    IDC_SET_INPUT_ADDRESS, 0x376, 60, 0
+0x0000, 0x0000, 0x0200, 0x001c, 0x0028, 0x0000, 0x000b, 0x8000, 0x6553, 
+0x2074, 0x6441, 0x7264, 0x7365, 0x0073, 0x0a70, 0x0000, 0x02b0, 0x0000, 
+0x0200, 0x0014, 0x00f6, 0x0000, 0x0001, 0x4000, 0x00c3, 0x0000, 0x0200, 
+0x0003, 0x02bc, 0x0000, 
+    IDC_INPUT0, 0x376, 44, 0
+0x0000, 0x0000, 0x0200, 0x0014, 0x0026, 0x0000, 0x00ff, 0x0000, 0x001f, 
+0x0000, 0x013e, 0x0000, 0x0158, 0x0000, 0x0200, 0x000c, 0x0074, 0x0000, 
+0x00a5, 0x0000, 0x0200, 0x0003, 
+    IDC_INPUT1, 0x376, 44, 0
+0x0000, 0x0000, 0x0200, 0x0014, 0x0026, 0x0000, 0x00ff, 0x0000, 0x001f, 
+0x0000, 0x013e, 0x0000, 0x0158, 0x0000, 0x0200, 0x000c, 0x0074, 0x0000, 
+0x00a5, 0x0000, 0x0200, 0x0003, 
+    IDC_INPUT2, 0x376, 44, 0
+0x0000, 0x0000, 0x0200, 0x0014, 0x0026, 0x0000, 0x00ff, 0x0000, 0x001f, 
+0x0000, 0x013e, 0x0000, 0x0123, 0x0000, 0x0200, 0x000c, 0x0074, 0x0000, 
+0x00a5, 0x0000, 0x0200, 0x0003, 
+    IDC_INPUT3, 0x376, 44, 0
+0x0000, 0x0000, 0x0200, 0x0014, 0x0026, 0x0000, 0x00ff, 0x0000, 0x001f, 
+0x0000, 0x013e, 0x0000, 0x0158, 0x0000, 0x0200, 0x000c, 0x0074, 0x0000, 
+0x00a5, 0x0000, 0x0200, 0x0003, 
+    IDC_INPUT4, 0x376, 44, 0
+0x0000, 0x0000, 0x0200, 0x0014, 0x0026, 0x0000, 0x00ff, 0x0000, 0x001f, 
+0x0000, 0x013e, 0x0000, 0x0158, 0x0000, 0x0200, 0x000c, 0x0074, 0x0000, 
+0x00a5, 0x0000, 0x0200, 0x0003, 
+    IDC_INPUT5, 0x376, 44, 0
+0x0000, 0x0000, 0x0200, 0x0014, 0x0026, 0x0000, 0x00ff, 0x0000, 0x001f, 
+0x0000, 0x013e, 0x0000, 0x0158, 0x0000, 0x0200, 0x000c, 0x0074, 0x0000, 
+0x00a5, 0x0000, 0x0200, 0x0003, 
+    IDC_INPUT6, 0x376, 44, 0
+0x0000, 0x0000, 0x0200, 0x0014, 0x0026, 0x0000, 0x00ff, 0x0000, 0x001f, 
+0x0000, 0x013e, 0x0000, 0x0158, 0x0000, 0x0200, 0x000c, 0x0074, 0x0000, 
+0x00a5, 0x0000, 0x0200, 0x0003, 
+    IDC_INPUT7, 0x376, 44, 0
+0x0000, 0x0000, 0x0200, 0x0014, 0x0026, 0x0000, 0x00ff, 0x0000, 0x001f, 
+0x0000, 0x013e, 0x0000, 0x0158, 0x0000, 0x0200, 0x000c, 0x0074, 0x0000, 
+0x00a5, 0x0000, 0x0200, 0x0003, 
+    IDC_INPUT8, 0x376, 44, 0
+0x0000, 0x0000, 0x0200, 0x0014, 0x0026, 0x0000, 0x00ff, 0x0000, 0x001f, 
+0x0000, 0x013e, 0x0000, 0x0158, 0x0000, 0x0200, 0x000c, 0x0074, 0x0000, 
+0x00a5, 0x0000, 0x0200, 0x0003, 
+    IDC_INPUT9, 0x376, 44, 0
+0x0000, 0x0000, 0x0200, 0x0014, 0x0026, 0x0000, 0x00ff, 0x0000, 0x001f, 
+0x0000, 0x013e, 0x0000, 0x0158, 0x0000, 0x0200, 0x000c, 0x0074, 0x0000, 
+0x00a5, 0x0000, 0x0200, 0x0003, 
+    IDC_INPUT10, 0x376, 44, 0
+0x0000, 0x0000, 0x0200, 0x0014, 0x0026, 0x0000, 0x00ff, 0x0000, 0x001f, 
+0x0000, 0x013e, 0x0000, 0x0158, 0x0000, 0x0200, 0x000c, 0x0074, 0x0000, 
+0x00a5, 0x0000, 0x0200, 0x0003, 
+    IDC_INPUT11, 0x376, 44, 0
+0x0000, 0x0000, 0x0200, 0x0014, 0x0026, 0x0000, 0x00ff, 0x0000, 0x001f, 
+0x0000, 0x013e, 0x0000, 0x0158, 0x0000, 0x0200, 0x000c, 0x0074, 0x0000, 
+0x00a5, 0x0000, 0x0200, 0x0003, 
+    IDC_INPUT12, 0x376, 44, 0
+0x0000, 0x0000, 0x0200, 0x0014, 0x0026, 0x0000, 0x00ff, 0x0000, 0x001f, 
+0x0000, 0x013e, 0x0000, 0x0158, 0x0000, 0x0200, 0x000c, 0x0074, 0x0000, 
+0x00a5, 0x0000, 0x0200, 0x0003, 
+    IDC_INPUT13, 0x376, 44, 0
+0x0000, 0x0000, 0x0200, 0x0014, 0x0026, 0x0000, 0x00ff, 0x0000, 0x001f, 
+0x0000, 0x013e, 0x0000, 0x0158, 0x0000, 0x0200, 0x000c, 0x0074, 0x0000, 
+0x00a5, 0x0000, 0x0200, 0x0003, 
+    IDC_INPUT14, 0x376, 44, 0
+0x0000, 0x0000, 0x0200, 0x0014, 0x0026, 0x0000, 0x00ff, 0x0000, 0x001f, 
+0x0000, 0x013e, 0x0000, 0x0158, 0x0000, 0x0200, 0x000c, 0x0074, 0x0000, 
+0x00a5, 0x0000, 0x0200, 0x0003, 
+    IDC_INPUT15, 0x376, 44, 0
+0x0000, 0x0000, 0x0200, 0x0014, 0x0026, 0x0000, 0x00ff, 0x0000, 0x001f, 
+0x0000, 0x013e, 0x0000, 0x0158, 0x0000, 0x0200, 0x000c, 0x0074, 0x0000, 
+0x00a5, 0x0000, 0x0200, 0x0003, 
+    IDC_INPUT16, 0x376, 44, 0
+0x0000, 0x0000, 0x0200, 0x0014, 0x0026, 0x0000, 0x00ff, 0x0000, 0x001f, 
+0x0000, 0x013e, 0x0000, 0x0158, 0x0000, 0x0200, 0x000c, 0x0074, 0x0000, 
+0x00a5, 0x0000, 0x0200, 0x0003, 
+    IDC_INPUT17, 0x376, 44, 0
+0x0000, 0x0000, 0x0200, 0x0014, 0x0026, 0x0000, 0x00ff, 0x0000, 0x001f, 
+0x0000, 0x013e, 0x0000, 0x0158, 0x0000, 0x0200, 0x000c, 0x0074, 0x0000, 
+0x00a5, 0x0000, 0x0200, 0x0003, 
+    IDC_INPUT18, 0x376, 44, 0
+0x0000, 0x0000, 0x0200, 0x0014, 0x0026, 0x0000, 0x00ff, 0x0000, 0x001f, 
+0x0000, 0x013e, 0x0000, 0x0123, 0x0000, 0x0200, 0x000c, 0x0074, 0x0000, 
+0x00a5, 0x0000, 0x0200, 0x0003, 
+    IDC_INPUT19, 0x376, 44, 0
+0x0000, 0x0000, 0x0200, 0x0014, 0x0026, 0x0000, 0x00ff, 0x0000, 0x001f, 
+0x0000, 0x013e, 0x0000, 0x0158, 0x0000, 0x0200, 0x000c, 0x0074, 0x0000, 
+0x00a5, 0x0000, 0x0200, 0x0003, 
+    IDC_INPUT20, 0x376, 44, 0
+0x0000, 0x0000, 0x0200, 0x0014, 0x0026, 0x0000, 0x00ff, 0x0000, 0x001f, 
+0x0000, 0x013e, 0x0000, 0x0158, 0x0000, 0x0200, 0x000c, 0x0074, 0x0000, 
+0x00a5, 0x0000, 0x0200, 0x0003, 
+    IDC_INPUT21, 0x376, 44, 0
+0x0000, 0x0000, 0x0200, 0x0014, 0x0026, 0x0000, 0x00ff, 0x0000, 0x001f, 
+0x0000, 0x013e, 0x0000, 0x0158, 0x0000, 0x0200, 0x000c, 0x0074, 0x0000, 
+0x00a5, 0x0000, 0x0200, 0x0003, 
+    IDC_INPUT22, 0x376, 44, 0
+0x0000, 0x0000, 0x0200, 0x0014, 0x0026, 0x0000, 0x00ff, 0x0000, 0x001f, 
+0x0000, 0x013e, 0x0000, 0x0158, 0x0000, 0x0200, 0x000c, 0x0074, 0x0000, 
+0x00a5, 0x0000, 0x0200, 0x0003, 
+    IDC_INPUT23, 0x376, 44, 0
+0x0000, 0x0000, 0x0200, 0x0014, 0x0026, 0x0000, 0x00ff, 0x0000, 0x001f, 
+0x0000, 0x013e, 0x0000, 0x0158, 0x0000, 0x0200, 0x000c, 0x0074, 0x0000, 
+0x00a5, 0x0000, 0x0200, 0x0003, 
+    IDC_INPUT24, 0x376, 44, 0
+0x0000, 0x0000, 0x0200, 0x0014, 0x0026, 0x0000, 0x00ff, 0x0000, 0x001f, 
+0x0000, 0x013e, 0x0000, 0x0158, 0x0000, 0x0200, 0x000c, 0x0074, 0x0000, 
+0x00a5, 0x0000, 0x0200, 0x0003, 
+    IDC_INPUT25, 0x376, 44, 0
+0x0000, 0x0000, 0x0200, 0x0014, 0x0026, 0x0000, 0x00ff, 0x0000, 0x001f, 
+0x0000, 0x013e, 0x0000, 0x0158, 0x0000, 0x0200, 0x000c, 0x0074, 0x0000, 
+0x00a5, 0x0000, 0x0200, 0x0003, 
+    IDC_INPUT26, 0x376, 44, 0
+0x0000, 0x0000, 0x0200, 0x0014, 0x0026, 0x0000, 0x00ff, 0x0000, 0x001f, 
+0x0000, 0x013e, 0x0000, 0x0158, 0x0000, 0x0200, 0x000c, 0x0074, 0x0000, 
+0x00a5, 0x0000, 0x0200, 0x0003, 
+    IDC_INPUT27, 0x376, 44, 0
+0x0000, 0x0000, 0x0200, 0x0014, 0x0026, 0x0000, 0x00ff, 0x0000, 0x001f, 
+0x0000, 0x013e, 0x0000, 0x0158, 0x0000, 0x0200, 0x000c, 0x0074, 0x0000, 
+0x00a5, 0x0000, 0x0200, 0x0003, 
+    IDC_INPUT28, 0x376, 44, 0
+0x0000, 0x0000, 0x0200, 0x0014, 0x0026, 0x0000, 0x00ff, 0x0000, 0x001f, 
+0x0000, 0x013e, 0x0000, 0x0158, 0x0000, 0x0200, 0x000c, 0x0074, 0x0000, 
+0x00a5, 0x0000, 0x0200, 0x0003, 
+    IDC_INPUT29, 0x376, 44, 0
+0x0000, 0x0000, 0x0200, 0x0014, 0x0026, 0x0000, 0x00ff, 0x0000, 0x001f, 
+0x0000, 0x013e, 0x0000, 0x0158, 0x0000, 0x0200, 0x000c, 0x0074, 0x0000, 
+0x00a5, 0x0000, 0x0200, 0x0003, 
+    IDC_INPUT30, 0x376, 44, 0
+0x0000, 0x0000, 0x0200, 0x0014, 0x0026, 0x0000, 0x00ff, 0x0000, 0x001f, 
+0x0000, 0x013e, 0x0000, 0x0158, 0x0000, 0x0200, 0x000c, 0x0074, 0x0000, 
+0x00a5, 0x0000, 0x0200, 0x0003, 
+    IDC_INPUT31, 0x376, 44, 0
+0x0000, 0x0000, 0x0200, 0x0014, 0x0026, 0x0000, 0x00ff, 0x0000, 0x001f, 
+0x0000, 0x013e, 0x0000, 0x0158, 0x0000, 0x0200, 0x000c, 0x0074, 0x0000, 
+0x00a5, 0x0000, 0x0200, 0x0003, 
+    IDC_SET_OUTPUT_ADDRESS, 0x376, 60, 0
+0x0000, 0x0000, 0x0200, 0x001c, 0x0028, 0x0000, 0x000b, 0x8000, 0x6553, 
+0x2074, 0x6441, 0x7264, 0x7365, 0x0073, 0x0a70, 0x0000, 0x02b0, 0x0000, 
+0x0200, 0x0014, 0x00f6, 0x0000, 0x0001, 0x4000, 0x00c3, 0x0000, 0x0200, 
+0x0003, 0x02bc, 0x0000, 
+    IDC_CLOSE_DIO_DIAGNOSTICS, 0x376, 56, 0
+0x0000, 0x0000, 0x0200, 0x0018, 0x0028, 0x0000, 0x0005, 0x8000, 0x6c43, 
+0x736f, 0x0065, 0x0045, 0x094d, 0x0000, 0x02ff, 0x0000, 0x0200, 0x0014, 
+0x00f6, 0x0000, 0x0001, 0x4000, 0x00c3, 0x0000, 0x0200, 0x0003, 0x02bc, 
+0x0000, 
+    1013, 0x376, 72, 0
+0x0000, 0x0000, 0x0200, 0x002c, 0x002b, 0x0000, 0x0000, 0x0000, 0xc0c0, 
+0x00c0, 0x0013, 0x8000, 0x6142, 0x6573, 0x4120, 0x6464, 0x6572, 0x7373, 
+0x6920, 0x206e, 0x6548, 0x0078, 0x0f31, 0x0000, 0x0158, 0x0000, 0x0200, 
+0x0010, 0x00b6, 0x0000, 0x0001, 0x4000, 0x00c3, 0x0000, 0x0200, 0x02bc, 
+
+    IDC_LABEL1, 0x376, 72, 0
+0x0000, 0x0000, 0x0200, 0x002c, 0x002b, 0x0000, 0x0000, 0x0000, 0xc0c0, 
+0x00c0, 0x0013, 0x8000, 0x6142, 0x6573, 0x4120, 0x6464, 0x6572, 0x7373, 
+0x6920, 0x206e, 0x6548, 0x0078, 0x0fd0, 0x0000, 0x0158, 0x0000, 0x0200, 
+0x0010, 0x00b6, 0x0000, 0x0001, 0x4000, 0x00c3, 0x0000, 0x0200, 0x02bc, 
+
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDP_OLE_INIT_FAILED     "OLE initialization failed.  Make sure that the OLE libraries are the correct version."
+    IDS_APP_DOORS           "Please make sure all the applicator doors are closed."
+    IDS_ERR_EE_RETRACT      "The end-effector could not retract. Please call your engineer."
+    IDS_ERR_MOVE_PLACE      "Error during move to place position. Please call your engineer."
+    IDS_ERR_CONVEYOR        "There is an error with the conveyor. Please remove all the boards from the conveyor."
+    IDS_ERR_STILL_CONVEYOR  "There is still an error with the conveyor. Please call your engineer."
+    IDS_ERR_EE_EXTEND       "The end-effector could not extend. Please call your engineer."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ERR_MOVE_SCAN       "Error during move to scan position. Please call your engineer."
+    IDS_REMOVE_BOARDS       "Please remove all boards from the conveyor."
+    IDS_INVALID_INTERVAL    "The update interval must be less than 10000."
+    IDS_INIT_DATABASE_ERR   "Error: The database has not been initialized. Exit and restart PACS."
+    IDS_INVALID_PRINTER_DATABASE 
+                            "Invalid printer information in the database."
+    IDS_INVALID_POSITION    "Illegal point values found. Please check data in the database."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_UNSUPPORTED_SCANNER "Unsupported scanner type found in the database."
+    IDS_NO_DATABASE         "The program could not find the job administration database.\nThe JobAdmin.mdb database file should reside in the  c:\\computype\\database folder and it should NOT have the read only attribute set.\n\nPlease exit the program."
+    IDS_ERR_OPEN_COMPORT    "The com port is not opened."
+    IDS_ERR_CONVEYOR_INIT   "Error initializing conveyor object."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_INVALID_CONVEYORIO_DATABASE 
+                            "Unable to find valid conveyor digital I/O base address settings in the database."
+    IDS_ERR_INIT_DIO        "Applicator could not initialize the digital I/O boards. Please call your engineer."
+    IDS_INVALID_SYSTEMIO_DATABASE 
+                            "Unable to find valid system digital I/O base address settings in the database."
+    IDS_CONVEYOR_ERR        "There is an error with the conveyor. Please remove all the boards from conveyor and try again."
+    IDS_ERR_POWER_OFF       "The power for the applicator is not ON. Please turn on the power and try again."
+    IDS_ERR_DOOR_OPEN       "A door of the applicator is open. Please close all doors and try again."
+    IDS_ERR_NO_AIR          "The air for the applicator is low or disconnected. Please turn on the air and try again."
+    IDS_BYPASS_ON           "The bypass switch has been turned on. This job will be stopped."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_NO_PASSWORD_DATA    "Unable to find password information in the database."
+    IDS_ORIGIN_ERR_TYPE     "Origin Position Error"
+    IDS_PARK_ERR_TYPE       "Park Position Error"
+    IDS_NO_STATISTICS_DATA  "Unable to find statisitcal information in the database."
+    IDS_INVALID_PICKPOS     "Invalid Pick position format. X and Y need to be 6 digits ( 000000 ) and rotation needs to be 0 or 90."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_CONVEYOR_ERROR      "An error has occured with the conveyor. Please remove any boards from the conveyor."
+    IDS_INVALID_CONVEYORINFO_DATABASE 
+                            "Invalid conveyor information in the database."
+    IDS_NO_SN_DATABASE      "There is no serial number information in the database."
+    IDS_ERR_PRINTER_REFRESH "Unable to update the printer control with the new attributes. Exit the PACS software and restart. Then check the printer setup parameters."
+    IDS_CONVEYOR_CONTROL_CHANGE 
+                            "The control of the conveyor system has changed. Please exit PACS and restart."
+    IDS_NO_MATCHING_DATABASE_TEMP "No matching template in the database."
+    IDS_ERR_JOB_DELETE      "Unable to delete the job from the database."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ERR_RETRACT         "The end-effector could not retract. Please call your engineer."
+    IDS_CLOSE_DOORS         "Please close all the applicator doors."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_NO_GENERAL_RECORDS  "Unable to find General records in the database."
+    IDS_INVALID_DEVICE      "Invalid device settings for device: "
+    IDS_INVALID_DIO_ADDRESS "Invalid DIO Address. The address must be a 3 digit hex number."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif
+#include "afxres.rc"         // Standard components
+#endif
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
