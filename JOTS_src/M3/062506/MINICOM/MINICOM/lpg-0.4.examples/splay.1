@@ -1,0 +1,24 @@
+.TH SPLAY 1 "September 1994" "splay Version 1.0"
+.SH NAME
+splay \- play .sng files to pc speaker
+.SH SYNOPSIS
+.B splay
+awaits input from stdin
+.SH DESCRIPTION
+.B splay
+reads music datas from stdin. It uses it's own sound data format
+which usually are saved in a .sng file.
+A line in a .sng file contains 2 values - the frequency and the duration
+of a tone.
+The frequency can be a numeric float value measured in Hertz or
+a music note name like c-1 or c#1.
+The duration is an integer value for the tone length in milliseconds.
+A quarter music note is usually a length of 250 ms.
+.SH EXAMPLE
+splay < music.sng
+.SH AUTHOR
+splay has been written by Sven Goldt
+.br
+<goldt@math.tu-berlin.de>
+.SH "SEE ALSO"
+.BR vplay (1)

@@ -1,0 +1,19 @@
+.TH CHECKLP 8 "September 1994" "checklp Version 1.1"
+.SH NAME
+checklp \- examine printers
+.SH DESCRIPTION
+.B checklp
+tries to obtain basic datas about your printers like IRQ settings
+and printer status report. Only root can use 
+.B checklp.
+.SH BUGS
+.B checklp
+might fail if you didn't configure the kernel printer driver correct.
+.SH AUTHOR
+checklp has been written by Sven Goldt
+.br
+<goldt@math.tu-berlin.de>
+.SH "SEE ALSO"
+.BR tunelp (8) ,
+.BR lptest (1) ,
+.BR <linux/lp.h>

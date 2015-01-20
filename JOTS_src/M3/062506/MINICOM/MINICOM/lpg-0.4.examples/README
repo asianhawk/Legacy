@@ -1,0 +1,4 @@
+How to create the example programs:
+===================================
+Look at the Makefile in the directory examples to choose what to compile.
+Just typing 'make' doesn't hurt.

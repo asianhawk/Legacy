@@ -1,0 +1,23 @@
+      Direct Serial Port
+              Connect the two computers, A and B, with a null modem cable (or
+              two modem cables interconnected with a null-modem adapter or
+              modem eliminator). From Computer A:
+                                                                                
+                set modem type none   ; There is no modem
+                set line /dev/ttyS0   ; Specify device name
+                set carrier-watch off ; If DTR CD are not cross-connected
+                set speed 57600       ; Or other desired speed
+                set flow rts/cts      ; If RTS and CTS are cross-connected
+                set parity even       ; (or "mark" or "space", if necessary)
+                set stop-bits 2       ; (rarely necessary)
+                set flow xon/xoff     ; If you can’t use RTS/CTS
+                connect               ; Enter Connect (terminal) state
+                                                                                
+              This assumes Computer B is set up to let you log in. If it
+              isn’t, you can run a copy of Kermit on Computer B and follow
+              approximately the same directions. More info: As above plus HELP
+              CONNECT.
+                                                                                
+       With modems or direct serial connections, you might also have to "set
+       parity even" (or "mark" or "space") if it’s a 7-bit connection.
+                                                                                

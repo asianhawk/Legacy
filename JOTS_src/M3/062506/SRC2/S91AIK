@@ -1,0 +1,10 @@
+#!/bin/bash
+
+
+
+
+if [ -e aik3 ] 
+then
+ mv aik3 aik5
+fi
+
