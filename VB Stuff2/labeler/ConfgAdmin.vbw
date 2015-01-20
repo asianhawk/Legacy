@@ -1,0 +1,6 @@
+frmMain = 0, 0, 0, 0, C, 132, 132, 499, 470, C
+modAPI = 0, 0, 0, 0, C
+modError = 0, 0, 0, 0, C
+modUtilities = 0, 0, 0, 0, C
+modResources = 0, 0, 0, 0, C
+frmMessage = 0, 0, 0, 0, C, 66, 66, 317, 328, C

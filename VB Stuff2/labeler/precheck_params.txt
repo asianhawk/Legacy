@@ -1,0 +1,5 @@
+PreCheckAllJobs=FALSE
+PreCheckSomeJobs=TRUE
+[JobNames]
+alpha11
+BAckInBlack

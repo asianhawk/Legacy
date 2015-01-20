@@ -1,0 +1,1421 @@
+\plain \fs20 \f1 E:\\Ford Markam\\Labeler\\Labeler.vbp\par
+E:\\Ford Markam\\Labeler\\Main.bas\par
+	Start Private Sub SetDefaults metrics\par
+		McCabe \par
+			Cyclomatic complexity : 116\par
+			Understanding : high\par
+			Bad fix probability : 40%
+\par
+		Myers \par
+			Extended complexity : 116:242\par
+			Understanding : high\par
+			Bad fix probability : 40%\par
+		Halstead \par
+			Program Length : 619\par
+			Program Vocabulary : 181.\par
+			Program Volume : 4642.4\par
+			Program Level : .35
+\par
+			Intelligence Content : 1630.41\par
+			Language Level : 572.409\par
+			Programming Effort : 13218.6919\par
+			Programming Time (in hours) : .734\par
+		Lines \par
+			Total : 504\par
+			Code : 301\par
+			Blank : 122\par
+			Comment : 81\par
+	
+		Pct. comments : 16%\par
+	Stop Private Sub SetDefaults metrics\par
+\par
+	Start E:\\Ford Markam\\Labeler\\Main.bas module level metrics\par
+	McCabe \par
+		Cyclomatic complexity : 117\par
+		Understanding : high\par
+		Bad fix probability : 40%\par
+
+	Myers \par
+		Extended complexity : 116:243\par
+		Understanding : high\par
+		Bad fix probability : 40%\par
+	Halstead \par
+		Program Length (Avg.): 310\par
+		Program Vocabulary (Avg.): 90.5\par
+		Program Volume (Avg.): 2321.2\par
+		Program Level (
+Avg.): .28\par
+		Intelligence Content (Avg.): 815.21\par
+		Language Level (Avg.): .351\par
+		Programming Effort (Avg.): 6609.35\par
+		Programming Time (in hours) (Avg.): .367\par
+	Function points (back fired)\par
+		Total : 4.9531\par
+		Adjusted : 
+3.4672\par
+	Procedures\par
+		Total : 1\par
+		Sub routines : 1\par
+		Early exits : 3\par
+	Lines \par
+		Total : 504\par
+		Code : 301\par
+		Blank : 122\par
+		Comment : 81\par
+		Pct. comments : 16%\par
+	Stop E:\\Ford Markam\\Labeler\\Main.bas modu
+le level metrics\par
+\par
+E:\\Ford Markam\\Labeler\\Labeler.cls\par
+	Start Public Function Version metrics\par
+		McCabe \par
+			Cyclomatic complexity : 335\par
+			Understanding : high\par
+			Bad fix probability : 40%\par
+		Myers \par
+			Extended
+ complexity : 335:864\par
+			Understanding : high\par
+			Bad fix probability : 40%\par
+		Halstead \par
+			Program Length : 2450\par
+			Program Vocabulary : 446.\par
+			Program Volume : 21562.2\par
+			Program Level : .13\par
+			Intelligence Conten
+t : 2988.52\par
+			Language Level : 413.994\par
+			Programming Effort : 155571.4632\par
+			Programming Time (in hours) : 8.643\par
+		Lines \par
+			Total : 1599\par
+			Code : 944\par
+			Blank : 438\par
+			Comment : 217\par
+			Pct. comments : 14%
+\par
+	Stop Public Function Version metrics\par
+\par
+	Start E:\\Ford Markam\\Labeler\\Labeler.cls module level metrics\par
+	McCabe \par
+		Cyclomatic complexity : 336\par
+		Understanding : high\par
+		Bad fix probability : 40%\par
+	Myers \par
+		Exte
+nded complexity : 335:865\par
+		Understanding : high\par
+		Bad fix probability : 40%\par
+	Halstead \par
+		Program Length (Avg.): 1225\par
+		Program Vocabulary (Avg.): 223.\par
+		Program Volume (Avg.): 10781.1\par
+		Program Level (Avg.): .20\par
+	
+	Intelligence Content (Avg.): 1494.26\par
+		Language Level (Avg.): .139\par
+		Programming Effort (Avg.): 77785.73\par
+		Programming Time (in hours) (Avg.): 4.321\par
+	Function points (back fired)\par
+		Total : 13.5078\par
+		Adjusted : 9.4555\par
+	
+Procedures\par
+		Total : 1\par
+		Functions : 1\par
+	Lines \par
+		Total : 1599\par
+		Code : 944\par
+		Blank : 438\par
+		Comment : 217\par
+		Pct. comments : 14%\par
+	Stop E:\\Ford Markam\\Labeler\\Labeler.cls module level metrics\par
+\par
+E:\\Fo
+rd Markam\\Labeler\\LabelPrint.cls\par
+	Start Public Function MaxHome metrics\par
+		McCabe \par
+			Cyclomatic complexity : 77\par
+			Understanding : high\par
+			Bad fix probability : 40%\par
+		Myers \par
+			Extended complexity : 77:203\par
+			Und
+erstanding : high\par
+			Bad fix probability : 40%\par
+		Halstead \par
+			Program Length : 580\par
+			Program Vocabulary : 116.\par
+			Program Volume : 3977.63\par
+			Program Level : .17\par
+			Intelligence Content : 700.86\par
+			Language Level 
+: 123.307\par
+			Programming Effort : 22574.5119\par
+			Programming Time (in hours) : 1.254\par
+		Lines \par
+			Total : 296\par
+			Code : 148\par
+			Blank : 111\par
+			Comment : 37\par
+			Pct. comments : 13%\par
+	Stop Public Function MaxHome met
+rics\par
+\par
+	Start E:\\Ford Markam\\Labeler\\LabelPrint.cls module level metrics\par
+	McCabe \par
+		Cyclomatic complexity : 78\par
+		Understanding : high\par
+		Bad fix probability : 40%\par
+	Myers \par
+		Extended complexity : 77:204\par
+		Unde
+rstanding : high\par
+		Bad fix probability : 40%\par
+	Halstead \par
+		Program Length (Avg.): 290\par
+		Program Vocabulary (Avg.): 58.\par
+		Program Volume (Avg.): 1988.81\par
+		Program Level (Avg.): .61\par
+		Intelligence Content (Avg.): 350.43
+\par
+		Language Level (Avg.): .176\par
+		Programming Effort (Avg.): 11287.26\par
+		Programming Time (in hours) (Avg.): .627\par
+	Function points (back fired)\par
+		Total : 3.3281\par
+		Adjusted : 2.3297\par
+	Procedures\par
+		Total : 1\par
+		Functio
+ns : 1\par
+	Lines \par
+		Total : 296\par
+		Code : 148\par
+		Blank : 111\par
+		Comment : 37\par
+		Pct. comments : 13%\par
+	Stop E:\\Ford Markam\\Labeler\\LabelPrint.cls module level metrics\par
+\par
+E:\\Ford Markam\\Labeler\\SerialComm.cls\par
+	
+Start Public Sub SetMyForm metrics\par
+		McCabe \par
+			Cyclomatic complexity : 59\par
+			Understanding : high\par
+			Bad fix probability : 40%\par
+		Myers \par
+			Extended complexity : 59:141\par
+			Understanding : high\par
+			Bad fix probabilit
+y : 40%\par
+		Halstead \par
+			Program Length : 386\par
+			Program Vocabulary : 102.\par
+			Program Volume : 2575.56\par
+			Program Level : .19\par
+			Intelligence Content : 502.49\par
+			Language Level : 98.129\par
+			Programming Effort : 13201.
+2107\par
+			Programming Time (in hours) : .733\par
+		Lines \par
+			Total : 298\par
+			Code : 142\par
+			Blank : 121\par
+			Comment : 35\par
+			Pct. comments : 12%\par
+	Stop Public Sub SetMyForm metrics\par
+\par
+	Start E:\\Ford Markam\\Labeler\\
+SerialComm.cls module level metrics\par
+	McCabe \par
+		Cyclomatic complexity : 60\par
+		Understanding : high\par
+		Bad fix probability : 40%\par
+	Myers \par
+		Extended complexity : 59:142\par
+		Understanding : high\par
+		Bad fix probability : 40%
+\par
+	Halstead \par
+		Program Length (Avg.): 193\par
+		Program Vocabulary (Avg.): 51.\par
+		Program Volume (Avg.): 1287.78\par
+		Program Level (Avg.): .49\par
+		Intelligence Content (Avg.): 251.25\par
+		Language Level (Avg.): .195\par
+		Programmi
+ng Effort (Avg.): 6600.61\par
+		Programming Time (in hours) (Avg.): .367\par
+	Function points (back fired)\par
+		Total : 3.3438\par
+		Adjusted : 2.3407\par
+	Procedures\par
+		Total : 1\par
+		Sub routines : 1\par
+		Early exits : 9\par
+	Lines 
+\par
+		Total : 298\par
+		Code : 142\par
+		Blank : 121\par
+		Comment : 35\par
+		Pct. comments : 12%\par
+	Stop E:\\Ford Markam\\Labeler\\SerialComm.cls module level metrics\par
+\par
+E:\\Ford Markam\\Labeler\\API.bas\par
+	Start Public Sub SleepSec metri
+cs\par
+		McCabe \par
+			Cyclomatic complexity : 14\par
+			Understanding : average\par
+			Bad fix probability : 20%\par
+		Myers \par
+			Extended complexity : 14:31\par
+			Understanding : high\par
+			Bad fix probability : 20%\par
+		Halstead \par
+
+			Program Length : 81\par
+			Program Vocabulary : 29.\par
+			Program Volume : 393.5\par
+			Program Level : .22\par
+			Intelligence Content : 88.73\par
+			Language Level : 20.029\par
+			Programming Effort : 1744.9956\par
+			Programming Time (in ho
+urs) : .097\par
+		Lines \par
+			Total : 54\par
+			Code : 28\par
+			Blank : 16\par
+			Comment : 10\par
+			Pct. comments : 19%\par
+	Stop Public Sub SleepSec metrics\par
+\par
+	Start E:\\Ford Markam\\Labeler\\API.bas module level metrics\par
+	McCab
+e \par
+		Cyclomatic complexity : 15\par
+		Understanding : average\par
+		Bad fix probability : 20%\par
+	Myers \par
+		Extended complexity : 14:32\par
+		Understanding : high\par
+		Bad fix probability : 20%\par
+	Halstead \par
+		Program Length (Avg.)
+: 41\par
+		Program Vocabulary (Avg.): 14.5\par
+		Program Volume (Avg.): 196.75\par
+		Program Level (Avg.): .10\par
+		Intelligence Content (Avg.): 44.37\par
+		Language Level (Avg.): .226\par
+		Programming Effort (Avg.): 872.5\par
+		Programming Time
+ (in hours) (Avg.): .048\par
+	Function points (back fired)\par
+		Total : 1.4375\par
+		Adjusted : 1.0062\par
+	Procedures\par
+		Total : 1\par
+		Sub routines : 1\par
+		Early exits : 1\par
+	Lines \par
+		Total : 54\par
+		Code : 28\par
+		Blank : 16
+\par
+		Comment : 10\par
+		Pct. comments : 19%\par
+	Stop E:\\Ford Markam\\Labeler\\API.bas module level metrics\par
+\par
+E:\\Ford Markam\\Labeler\\Utilities.bas\par
+	Start Public Sub Log metrics\par
+		McCabe \par
+			Cyclomatic complexity : 60\par
+
+			Understanding : high\par
+			Bad fix probability : 40%\par
+		Myers \par
+			Extended complexity : 60:156\par
+			Understanding : high\par
+			Bad fix probability : 40%\par
+		Halstead \par
+			Program Length : 443\par
+			Program Vocabulary : 104.
+\par
+			Program Volume : 2968.29\par
+			Program Level : .12\par
+			Intelligence Content : 371.04\par
+			Language Level : 46.305\par
+			Programming Effort : 23746.3584\par
+			Programming Time (in hours) : 1.319\par
+		Lines \par
+			Total : 204\par
+		
+	Code : 96\par
+			Blank : 76\par
+			Comment : 32\par
+			Pct. comments : 16%\par
+	Stop Public Sub Log metrics\par
+\par
+	Start E:\\Ford Markam\\Labeler\\Utilities.bas module level metrics\par
+	McCabe \par
+		Cyclomatic complexity : 61\par
+		Underst
+anding : high\par
+		Bad fix probability : 40%\par
+	Myers \par
+		Extended complexity : 60:157\par
+		Understanding : high\par
+		Bad fix probability : 40%\par
+	Halstead \par
+		Program Length (Avg.): 222\par
+		Program Vocabulary (Avg.): 52.\par
+		Pr
+ogram Volume (Avg.): 1484.15\par
+		Program Level (Avg.): .23\par
+		Intelligence Content (Avg.): 185.52\par
+		Language Level (Avg.): .125\par
+		Programming Effort (Avg.): 11873.18\par
+		Programming Time (in hours) (Avg.): .66\par
+	Function points (b
+ack fired)\par
+		Total : 2.6094\par
+		Adjusted : 1.8266\par
+	Procedures\par
+		Total : 1\par
+		Sub routines : 1\par
+		Early exits : 5\par
+	Lines \par
+		Total : 204\par
+		Code : 96\par
+		Blank : 76\par
+		Comment : 32\par
+		Pct. comments : 16%
+\par
+	Stop E:\\Ford Markam\\Labeler\\Utilities.bas module level metrics\par
+\par
+E:\\Ford Markam\\Labeler\\Error.bas\par
+	Start Public Sub ProccessError metrics\par
+		McCabe \par
+			Cyclomatic complexity : 61\par
+			Understanding : high\par
+			Bad 
+fix probability : 40%\par
+		Myers \par
+			Extended complexity : 61:197\par
+			Understanding : high\par
+			Bad fix probability : 40%\par
+		Halstead \par
+			Program Length : 604\par
+			Program Vocabulary : 100.\par
+			Program Volume : 4012.89\par
+
+			Program Level : .23\par
+			Intelligence Content : 953.86\par
+			Language Level : 226.728\par
+			Programming Effort : 16882.1586\par
+			Programming Time (in hours) : .938\par
+		Lines \par
+			Total : 64\par
+			Code : 44\par
+			Blank : 17\par
+		
+	Comment : 3\par
+			Pct. comments : 5%\par
+	Stop Public Sub ProccessError metrics\par
+\par
+	Start E:\\Ford Markam\\Labeler\\Error.bas module level metrics\par
+	McCabe \par
+		Cyclomatic complexity : 62\par
+		Understanding : high\par
+		Bad fix prob
+ability : 40%\par
+	Myers \par
+		Extended complexity : 61:198\par
+		Understanding : high\par
+		Bad fix probability : 40%\par
+	Halstead \par
+		Program Length (Avg.): 302\par
+		Program Vocabulary (Avg.): 50.\par
+		Program Volume (Avg.): 2006.44
+\par
+		Program Level (Avg.): .11\par
+		Intelligence Content (Avg.): 476.93\par
+		Language Level (Avg.): .238\par
+		Programming Effort (Avg.): 8441.08\par
+		Programming Time (in hours) (Avg.): .469\par
+	Function points (back fired)\par
+		Total : 1.5156
+\par
+		Adjusted : 1.0609\par
+	Procedures\par
+		Total : 1\par
+		Sub routines : 1\par
+		Early exits : 0\par
+	Lines \par
+		Total : 64\par
+		Code : 44\par
+		Blank : 17\par
+		Comment : 3\par
+		Pct. comments : 5%\par
+	Stop E:\\Ford Markam\\Labeler\\
+Error.bas module level metrics\par
+\par
+E:\\Ford Markam\\Labeler\\Microscan.cls\par
+	Start Public Function InitStatus metrics\par
+		McCabe \par
+			Cyclomatic complexity : 39\par
+			Understanding : high\par
+			Bad fix probability : 20%\par
+		Myers
+ \par
+			Extended complexity : 39:81\par
+			Understanding : high\par
+			Bad fix probability : 40%\par
+		Halstead \par
+			Program Length : 206\par
+			Program Vocabulary : 57.\par
+			Program Volume : 1201.58\par
+			Program Level : .65\par
+			Intel
+ligence Content : 786.79\par
+			Language Level : 515.236\par
+			Programming Effort : 1835.0264\par
+			Programming Time (in hours) : .102\par
+		Lines \par
+			Total : 219\par
+			Code : 126\par
+			Blank : 78\par
+			Comment : 15\par
+			Pct. comments
+ : 7%\par
+	Stop Public Function InitStatus metrics\par
+\par
+	Start E:\\Ford Markam\\Labeler\\Microscan.cls module level metrics\par
+	McCabe \par
+		Cyclomatic complexity : 40\par
+		Understanding : high\par
+		Bad fix probability : 20%\par
+	Myers 
+\par
+		Extended complexity : 39:82\par
+		Understanding : high\par
+		Bad fix probability : 40%\par
+	Halstead \par
+		Program Length (Avg.): 103\par
+		Program Vocabulary (Avg.): 28.5\par
+		Program Volume (Avg.): 600.79\par
+		Program Level (Avg.): .25
+\par
+		Intelligence Content (Avg.): 393.4\par
+		Language Level (Avg.): .655\par
+		Programming Effort (Avg.): 917.51\par
+		Programming Time (in hours) (Avg.): .051\par
+	Function points (back fired)\par
+		Total : 2.7266\par
+		Adjusted : 1.9086\par
+	
+Procedures\par
+		Total : 1\par
+		Functions : 1\par
+	Lines \par
+		Total : 219\par
+		Code : 126\par
+		Blank : 78\par
+		Comment : 15\par
+		Pct. comments : 7%\par
+	Stop E:\\Ford Markam\\Labeler\\Microscan.cls module level metrics\par
+\par
+E:\\Ford
+ Markam\\Labeler\\Resources.BAS\par
+	Start E:\\Ford Markam\\Labeler\\Resources.BAS module level metrics\par
+	McCabe \par
+		Cyclomatic complexity : 2\par
+		Understanding : simple\par
+		Bad fix probability : 5%\par
+	Myers \par
+		Extended complexity 
+: 39:44\par
+		Understanding : high\par
+		Bad fix probability : 20%\par
+	Halstead \par
+		Program Length (Avg.): \par
+		Program Vocabulary (Avg.): .\par
+		Program Volume (Avg.): .\par
+		Program Level (Avg.): .0\par
+		Intelligence Content (Avg.): .
+\par
+		Language Level (Avg.): .\par
+		Programming Time (in hours) (Avg.): .\par
+	Function points (back fired)\par
+		Total : 1\par
+		Adjusted : 0.7\par
+	Lines \par
+		Total : 0\par
+		Code : 0\par
+		Blank : 0\par
+		Comment : 0\par
+	Stop E:\\Ford M
+arkam\\Labeler\\Resources.BAS module level metrics\par
+\par
+E:\\Ford Markam\\Labeler\\DigitalInput.cls\par
+	Start Public Function InitStatus metrics\par
+		McCabe \par
+			Cyclomatic complexity : 30\par
+			Understanding : high\par
+			Bad fix probabi
+lity : 20%\par
+		Myers \par
+			Extended complexity : 30:61\par
+			Understanding : high\par
+			Bad fix probability : 40%\par
+		Halstead \par
+			Program Length : 153\par
+			Program Vocabulary : 52.\par
+			Program Volume : 872.17\par
+			Program Lev
+el : .52\par
+			Intelligence Content : 459.55\par
+			Language Level : 242.114\par
+			Programming Effort : 1655.2805\par
+			Programming Time (in hours) : .092\par
+		Lines \par
+			Total : 269\par
+			Code : 139\par
+			Blank : 87\par
+			Comment : 43
+\par
+			Pct. comments : 16%\par
+	Stop Public Function InitStatus metrics\par
+\par
+	Start E:\\Ford Markam\\Labeler\\DigitalInput.cls module level metrics\par
+	McCabe \par
+		Cyclomatic complexity : 31\par
+		Understanding : high\par
+		Bad fix probab
+ility : 20%\par
+	Myers \par
+		Extended complexity : 30:62\par
+		Understanding : high\par
+		Bad fix probability : 40%\par
+	Halstead \par
+		Program Length (Avg.): 77\par
+		Program Vocabulary (Avg.): 26.\par
+		Program Volume (Avg.): 436.08\par
+		Pr
+ogram Level (Avg.): .12\par
+		Intelligence Content (Avg.): 229.77\par
+		Language Level (Avg.): .527\par
+		Programming Effort (Avg.): 827.64\par
+		Programming Time (in hours) (Avg.): .046\par
+	Function points (back fired)\par
+		Total : 3.1172\par
+	
+	Adjusted : 2.182\par
+	Procedures\par
+		Total : 1\par
+		Functions : 1\par
+	Lines \par
+		Total : 269\par
+		Code : 139\par
+		Blank : 87\par
+		Comment : 43\par
+		Pct. comments : 16%\par
+	Stop E:\\Ford Markam\\Labeler\\DigitalInput.cls module level
+ metrics\par
+\par
+E:\\Ford Markam\\Labeler\\DigitalOutput.cls\par
+	Start Public Function Version metrics\par
+		McCabe \par
+			Cyclomatic complexity : 38\par
+			Understanding : high\par
+			Bad fix probability : 20%\par
+		Myers \par
+			Extended co
+mplexity : 38:79\par
+			Understanding : high\par
+			Bad fix probability : 40%\par
+		Halstead \par
+			Program Length : 201\par
+			Program Vocabulary : 57.\par
+			Program Volume : 1172.41\par
+			Program Level : .43\par
+			Intelligence Content : 514
+.69\par
+			Language Level : 225.924\par
+			Programming Effort : 2670.6399\par
+			Programming Time (in hours) : .148\par
+		Lines \par
+			Total : 303\par
+			Code : 152\par
+			Blank : 95\par
+			Comment : 56\par
+			Pct. comments : 18%\par
+	Stop Pub
+lic Function Version metrics\par
+\par
+	Start E:\\Ford Markam\\Labeler\\DigitalOutput.cls module level metrics\par
+	McCabe \par
+		Cyclomatic complexity : 39\par
+		Understanding : high\par
+		Bad fix probability : 20%\par
+	Myers \par
+		Extended comp
+lexity : 38:80\par
+		Understanding : high\par
+		Bad fix probability : 40%\par
+	Halstead \par
+		Program Length (Avg.): 101\par
+		Program Vocabulary (Avg.): 28.5\par
+		Program Volume (Avg.): 586.21\par
+		Program Level (Avg.): .11\par
+		Intelligence
+ Content (Avg.): 257.34\par
+		Language Level (Avg.): .439\par
+		Programming Effort (Avg.): 1335.32\par
+		Programming Time (in hours) (Avg.): .074\par
+	Function points (back fired)\par
+		Total : 3.3828\par
+		Adjusted : 2.368\par
+	Procedures\par
+		
+Total : 1\par
+		Functions : 1\par
+	Lines \par
+		Total : 303\par
+		Code : 152\par
+		Blank : 95\par
+		Comment : 56\par
+		Pct. comments : 18%\par
+	Stop E:\\Ford Markam\\Labeler\\DigitalOutput.cls module level metrics\par
+\par
+E:\\Ford Markam\\Labe
+ler\\DigitalConstants.bas\par
+	Start E:\\Ford Markam\\Labeler\\DigitalConstants.bas module level metrics\par
+	McCabe \par
+		Cyclomatic complexity : 2\par
+		Understanding : simple\par
+		Bad fix probability : 5%\par
+	Myers \par
+		Extended complexity
+ : 38:43\par
+		Understanding : high\par
+		Bad fix probability : 20%\par
+	Halstead \par
+		Program Length (Avg.): \par
+		Program Vocabulary (Avg.): .\par
+		Program Volume (Avg.): .\par
+		Program Level (Avg.): .0\par
+		Intelligence Content (Avg.): .
+\par
+		Language Level (Avg.): .\par
+		Programming Time (in hours) (Avg.): .\par
+	Function points (back fired)\par
+		Total : 1\par
+		Adjusted : 0.7\par
+	Lines \par
+		Total : 0\par
+		Code : 0\par
+		Blank : 0\par
+		Comment : 0\par
+	Stop E:\\Ford 
+Markam\\Labeler\\DigitalConstants.bas module level metrics\par
+\par
+E:\\Ford Markam\\Labeler\\Queue.cls\par
+	Start Private Sub Class_Initialize metrics\par
+		McCabe \par
+			Cyclomatic complexity : 18\par
+			Understanding : average\par
+			Bad fix p
+robability : 20%\par
+		Myers \par
+			Extended complexity : 18:36\par
+			Understanding : high\par
+			Bad fix probability : 20%\par
+		Halstead \par
+			Program Length : 89\par
+			Program Vocabulary : 27.\par
+			Program Volume : 423.19\par
+			Progra
+m Level : .69\par
+			Intelligence Content : 293.86\par
+			Language Level : 204.06\par
+			Programming Effort : 609.4254\par
+			Programming Time (in hours) : .034\par
+		Lines \par
+			Total : 90\par
+			Code : 44\par
+			Blank : 36\par
+			Comment : 1
+0\par
+			Pct. comments : 11%\par
+	Stop Private Sub Class_Initialize metrics\par
+\par
+	Start E:\\Ford Markam\\Labeler\\Queue.cls module level metrics\par
+	McCabe \par
+		Cyclomatic complexity : 19\par
+		Understanding : average\par
+		Bad fix probabi
+lity : 20%\par
+	Myers \par
+		Extended complexity : 18:37\par
+		Understanding : high\par
+		Bad fix probability : 20%\par
+	Halstead \par
+		Program Length (Avg.): 45\par
+		Program Vocabulary (Avg.): 13.5\par
+		Program Volume (Avg.): 211.59\par
+		Pr
+ogram Level (Avg.): .10\par
+		Intelligence Content (Avg.): 146.93\par
+		Language Level (Avg.): .694\par
+		Programming Effort (Avg.): 304.71\par
+		Programming Time (in hours) (Avg.): .017\par
+	Function points (back fired)\par
+		Total : 1.7188\par
+	
+	Adjusted : 1.2032\par
+	Procedures\par
+		Total : 1\par
+		Sub routines : 1\par
+		Early exits : 0\par
+	Lines \par
+		Total : 90\par
+		Code : 44\par
+		Blank : 36\par
+		Comment : 10\par
+		Pct. comments : 11%\par
+	Stop E:\\Ford Markam\\Labeler\\Queu
+e.cls module level metrics\par
+\par
+E:\\Ford Markam\\Labeler\\DigitalCommon.cls\par
+	Start Public Function Version metrics\par
+		McCabe \par
+			Cyclomatic complexity : 44\par
+			Understanding : high\par
+			Bad fix probability : 20%\par
+		Myers 
+\par
+			Extended complexity : 44:91\par
+			Understanding : high\par
+			Bad fix probability : 40%\par
+		Halstead \par
+			Program Length : 231\par
+			Program Vocabulary : 66.\par
+			Program Volume : 1396.26\par
+			Program Level : .68\par
+			Intellig
+ence Content : 950.71\par
+			Language Level : 647.304\par
+			Programming Effort : 2050.6021\par
+			Programming Time (in hours) : .114\par
+		Lines \par
+			Total : 203\par
+			Code : 112\par
+			Blank : 70\par
+			Comment : 21\par
+			Pct. comments : 
+10%\par
+	Stop Public Function Version metrics\par
+\par
+	Start E:\\Ford Markam\\Labeler\\DigitalCommon.cls module level metrics\par
+	McCabe \par
+		Cyclomatic complexity : 45\par
+		Understanding : high\par
+		Bad fix probability : 20%\par
+	Myers 
+\par
+		Extended complexity : 44:92\par
+		Understanding : high\par
+		Bad fix probability : 40%\par
+	Halstead \par
+		Program Length (Avg.): 116\par
+		Program Vocabulary (Avg.): 33.\par
+		Program Volume (Avg.): 698.13\par
+		Program Level (Avg.): .32
+\par
+		Intelligence Content (Avg.): 475.36\par
+		Language Level (Avg.): .681\par
+		Programming Effort (Avg.): 1025.3\par
+		Programming Time (in hours) (Avg.): .057\par
+	Function points (back fired)\par
+		Total : 2.6016\par
+		Adjusted : 1.8211\par
+	P
+rocedures\par
+		Total : 1\par
+		Functions : 1\par
+	Lines \par
+		Total : 203\par
+		Code : 112\par
+		Blank : 70\par
+		Comment : 21\par
+		Pct. comments : 10%\par
+	Stop E:\\Ford Markam\\Labeler\\DigitalCommon.cls module level metrics\par
+\par
+E:\\
+Ford Markam\\Labeler\\Move.cls\par
+	Start Public Sub Hide metrics\par
+		McCabe \par
+			Cyclomatic complexity : 83\par
+			Understanding : high\par
+			Bad fix probability : 40%\par
+		Myers \par
+			Extended complexity : 83:214\par
+			Understanding :
+ high\par
+			Bad fix probability : 40%\par
+		Halstead \par
+			Program Length : 606\par
+			Program Vocabulary : 127.\par
+			Program Volume : 4235.14\par
+			Program Level : .31\par
+			Intelligence Content : 1336.19\par
+			Language Level : 421.397
+\par
+			Programming Effort : 13423.5908\par
+			Programming Time (in hours) : .746\par
+		Lines \par
+			Total : 347\par
+			Code : 192\par
+			Blank : 110\par
+			Comment : 45\par
+			Pct. comments : 13%\par
+	Stop Public Sub Hide metrics\par
+\par
+	Sta
+rt E:\\Ford Markam\\Labeler\\Move.cls module level metrics\par
+	McCabe \par
+		Cyclomatic complexity : 84\par
+		Understanding : high\par
+		Bad fix probability : 40%\par
+	Myers \par
+		Extended complexity : 83:215\par
+		Understanding : high\par
+		Ba
+d fix probability : 40%\par
+	Halstead \par
+		Program Length (Avg.): 303\par
+		Program Vocabulary (Avg.): 63.5\par
+		Program Volume (Avg.): 2117.57\par
+		Program Level (Avg.): .21\par
+		Intelligence Content (Avg.): 668.09\par
+		Language Level (Avg.
+): .316\par
+		Programming Effort (Avg.): 6711.8\par
+		Programming Time (in hours) (Avg.): .373\par
+	Function points (back fired)\par
+		Total : 3.7266\par
+		Adjusted : 2.6086\par
+	Procedures\par
+		Total : 1\par
+		Sub routines : 1\par
+		Early exit
+s : 6\par
+	Lines \par
+		Total : 347\par
+		Code : 192\par
+		Blank : 110\par
+		Comment : 45\par
+		Pct. comments : 13%\par
+	Stop E:\\Ford Markam\\Labeler\\Move.cls module level metrics\par
+\par
+E:\\Ford Markam\\Labeler\\MoveConstants.bas\par
+	Star
+t E:\\Ford Markam\\Labeler\\MoveConstants.bas module level metrics\par
+	McCabe \par
+		Cyclomatic complexity : 2\par
+		Understanding : simple\par
+		Bad fix probability : 5%\par
+	Myers \par
+		Extended complexity : 83:133\par
+		Understanding : high
+\par
+		Bad fix probability : 40%\par
+	Halstead \par
+		Program Length (Avg.): \par
+		Program Vocabulary (Avg.): .\par
+		Program Volume (Avg.): .\par
+		Program Level (Avg.): .0\par
+		Intelligence Content (Avg.): .\par
+		Language Level (Avg.): .\par
+
+		Programming Time (in hours) (Avg.): .\par
+	Function points (back fired)\par
+		Total : 1\par
+		Adjusted : 0.7\par
+	Lines \par
+		Total : 0\par
+		Code : 0\par
+		Blank : 0\par
+		Comment : 0\par
+	Stop E:\\Ford Markam\\Labeler\\MoveConstants.bas mod
+ule level metrics\par
+\par
+E:\\Ford Markam\\Labeler\\Beckon.cls\par
+	Start Public Function Initialize metrics\par
+		McCabe \par
+			Cyclomatic complexity : 10\par
+			Understanding : average\par
+			Bad fix probability : 20%\par
+		Myers \par
+			Ext
+ended complexity : 10:19\par
+			Understanding : average\par
+			Bad fix probability : 20%\par
+		Halstead \par
+			Program Length : 45\par
+			Program Vocabulary : 15.\par
+			Program Volume : 175.81\par
+			Program Level : .72\par
+			Intelligence Cont
+ent : 126.97\par
+			Language Level : 91.703\par
+			Programming Effort : 243.4369\par
+			Programming Time (in hours) : .014\par
+		Lines \par
+			Total : 208\par
+			Code : 119\par
+			Blank : 69\par
+			Comment : 20\par
+			Pct. comments : 10%\par
+	S
+top Public Function Initialize metrics\par
+\par
+	Start E:\\Ford Markam\\Labeler\\Beckon.cls module level metrics\par
+	McCabe \par
+		Cyclomatic complexity : 11\par
+		Understanding : average\par
+		Bad fix probability : 20%\par
+	Myers \par
+		Extende
+d complexity : 10:20\par
+		Understanding : average\par
+		Bad fix probability : 20%\par
+	Halstead \par
+		Program Length (Avg.): 23\par
+		Program Vocabulary (Avg.): 7.5\par
+		Program Volume (Avg.): 87.91\par
+		Program Level (Avg.): .45\par
+		Intell
+igence Content (Avg.): 63.49\par
+		Language Level (Avg.): .722\par
+		Programming Effort (Avg.): 121.72\par
+		Programming Time (in hours) (Avg.): .007\par
+	Function points (back fired)\par
+		Total : 2.6406\par
+		Adjusted : 1.8484\par
+	Procedures
+\par
+		Total : 1\par
+		Functions : 1\par
+	Lines \par
+		Total : 208\par
+		Code : 119\par
+		Blank : 69\par
+		Comment : 20\par
+		Pct. comments : 10%\par
+	Stop E:\\Ford Markam\\Labeler\\Beckon.cls module level metrics\par
+\par
+E:\\Ford Markam\\Labele
+r\\BeckonConstants.bas\par
+	Start E:\\Ford Markam\\Labeler\\BeckonConstants.bas module level metrics\par
+	McCabe \par
+		Cyclomatic complexity : 2\par
+		Understanding : simple\par
+		Bad fix probability : 5%\par
+	Myers \par
+		Extended complexity : 1
+0:11\par
+		Understanding : average\par
+		Bad fix probability : 20%\par
+	Halstead \par
+		Program Length (Avg.): \par
+		Program Vocabulary (Avg.): .\par
+		Program Volume (Avg.): .\par
+		Program Level (Avg.): .0\par
+		Intelligence Content (Avg.): .
+\par
+		Language Level (Avg.): .\par
+		Programming Time (in hours) (Avg.): .\par
+	Function points (back fired)\par
+		Total : 1\par
+		Adjusted : 0.7\par
+	Lines \par
+		Total : 0\par
+		Code : 0\par
+		Blank : 0\par
+		Comment : 0\par
+	Stop E:\\Ford M
+arkam\\Labeler\\BeckonConstants.bas module level metrics\par
+\par
+E:\\Ford Markam\\Labeler\\Main.frm\par
+	Start Public Function Initialize metrics\par
+		McCabe \par
+			Cyclomatic complexity : 205\par
+			Understanding : high\par
+			Bad fix probabil
+ity : 40%\par
+		Myers \par
+			Extended complexity : 205:452\par
+			Understanding : high\par
+			Bad fix probability : 40%\par
+		Halstead \par
+			Program Length : 1192\par
+			Program Vocabulary : 315.\par
+			Program Volume : 9892.66\par
+			Program
+ Level : .20\par
+			Intelligence Content : 2062.62\par
+			Language Level : 430.331\par
+			Programming Effort : 47446.7914\par
+			Programming Time (in hours) : 2.636\par
+		Lines \par
+			Total : 853\par
+			Code : 458\par
+			Blank : 277\par
+			Comm
+ent : 118\par
+			Pct. comments : 14%\par
+	Stop Public Function Initialize metrics\par
+\par
+	Start E:\\Ford Markam\\Labeler\\Main.frm module level metrics\par
+	McCabe \par
+		Cyclomatic complexity : 206\par
+		Understanding : high\par
+		Bad fix prob
+ability : 40%\par
+	Myers \par
+		Extended complexity : 205:453\par
+		Understanding : high\par
+		Bad fix probability : 40%\par
+	Halstead \par
+		Program Length (Avg.): 596\par
+		Program Vocabulary (Avg.): 157.5\par
+		Program Volume (Avg.): 4946.33
+\par
+		Program Level (Avg.): .21\par
+		Intelligence Content (Avg.): 1031.31\par
+		Language Level (Avg.): .209\par
+		Programming Effort (Avg.): 23723.4\par
+		Programming Time (in hours) (Avg.): 1.318\par
+	Function points (back fired)\par
+		Total : 7.
+6797\par
+		Adjusted : 5.3758\par
+	Procedures\par
+		Total : 1\par
+		Functions : 1\par
+	Lines \par
+		Total : 853\par
+		Code : 458\par
+		Blank : 277\par
+		Comment : 118\par
+		Pct. comments : 14%\par
+	Marquis GUI Metrics\par
+		GUI length : 84
+\par
+		GUI vocabulary : 35\par
+		GUI volume : 430.8598\par
+		GUI level : 1.7267\par
+		GUI intelligence : 743.9656\par
+		GUI effort : 249.527885562055\par
+		GUI programming time (in hours) : .014\par
+		GUI complexity : very high\par
+	Stop E:\\Ford Mar
+kam\\Labeler\\Main.frm module level metrics\par
+\par
+E:\\Ford Markam\\Labeler\\Splash.frm\par
+	Start Private Sub Form_Load metrics\par
+		McCabe \par
+			Cyclomatic complexity : 31\par
+			Understanding : high\par
+			Bad fix probability : 20%\par
+		Myers \par
+			Extended complexity : 31:70
+\par
+			Understanding : high\par
+			Bad fix probability : 40%\par
+		Halstead \par
+			Program Length : 186\par
+			Program Vocabulary : 52.\par
+			Program Volume : 1060.28\par
+			Program Level : .41\par
+			Intelligence Content : 444.05\par
+			Langua
+ge Level : 185.973\par
+			Programming Effort : 2531.7139\par
+			Programming Time (in hours) : .141\par
+		Lines \par
+			Total : 107\par
+			Code : 54\par
+			Blank : 41\par
+			Comment : 12\par
+			Pct. comments : 11%\par
+	Stop Private Sub Form_Load 
+metrics\par
+\par
+	Start E:\\Ford Markam\\Labeler\\Splash.frm module level metrics\par
+	McCabe \par
+		Cyclomatic complexity : 32\par
+		Understanding : high\par
+		Bad fix probability : 20%\par
+	Myers \par
+		Extended complexity : 31:71\par
+		Unders
+tanding : high\par
+		Bad fix probability : 40%\par
+	Halstead \par
+		Program Length (Avg.): 93\par
+		Program Vocabulary (Avg.): 26.\par
+		Program Volume (Avg.): 530.14\par
+		Program Level (Avg.): .92\par
+		Intelligence Content (Avg.): 222.02\par
+	
+	Language Level (Avg.): .419\par
+		Programming Effort (Avg.): 1265.86\par
+		Programming Time (in hours) (Avg.): .07\par
+	Function points (back fired)\par
+		Total : 1.8516\par
+		Adjusted : 1.2961\par
+	Procedures\par
+		Total : 1\par
+		Sub routines 
+: 1\par
+		Early exits : 0\par
+	Lines \par
+		Total : 107\par
+		Code : 54\par
+		Blank : 41\par
+		Comment : 12\par
+		Pct. comments : 11%\par
+	Marquis GUI Metrics\par
+		GUI length : 5\par
+		GUI vocabulary : 5\par
+		GUI volume : 11.6096\par
+		GUI 
+level : 7\par
+		GUI intelligence : 81.2672\par
+		GUI effort : 1.65851428571429\par
+		GUI programming time (in hours) : .\par
+		GUI complexity : simple\par
+	Stop E:\\Ford Markam\\Labeler\\Splash.frm module level metrics\par
+\par
+E:\\Ford Markam\\La
+beler\\About.frm\par
+	Start Private Sub cmdOK_Click metrics\par
+		McCabe \par
+			Cyclomatic complexity : 21\par
+			Understanding : high\par
+			Bad fix probability : 20%\par
+		Myers \par
+			Extended complexity : 21:56\par
+			Understanding : high
+\par
+			Bad fix probability : 40%\par
+		Halstead \par
+			Program Length : 160\par
+			Program Vocabulary : 38.\par
+			Program Volume : 839.67\par
+			Program Level : .51\par
+			Intelligence Content : 431.84\par
+			Language Level : 222.092\par
+			Pro
+gramming Effort : 1632.6432\par
+			Programming Time (in hours) : .091\par
+		Lines \par
+			Total : 32\par
+			Code : 14\par
+			Blank : 12\par
+			Comment : 6\par
+			Pct. comments : 19%\par
+	Stop Private Sub cmdOK_Click metrics\par
+\par
+	Start E:\\
+Ford Markam\\Labeler\\About.frm module level metrics\par
+	McCabe \par
+		Cyclomatic complexity : 22\par
+		Understanding : high\par
+		Bad fix probability : 20%\par
+	Myers \par
+		Extended complexity : 21:57\par
+		Understanding : high\par
+		Bad fix p
+robability : 40%\par
+	Halstead \par
+		Program Length (Avg.): 80\par
+		Program Vocabulary (Avg.): 19.\par
+		Program Volume (Avg.): 419.83\par
+		Program Level (Avg.): .11\par
+		Intelligence Content (Avg.): 215.92\par
+		Language Level (Avg.): .514
+\par
+		Programming Effort (Avg.): 816.32\par
+		Programming Time (in hours) (Avg.): .045\par
+	Function points (back fired)\par
+		Total : 1.2656\par
+		Adjusted : 0.8859\par
+	Procedures\par
+		Total : 1\par
+		Sub routines : 1\par
+		Early exits : 0
+\par
+	Lines \par
+		Total : 32\par
+		Code : 14\par
+		Blank : 12\par
+		Comment : 6\par
+		Pct. comments : 19%\par
+	Marquis GUI Metrics\par
+		GUI length : 8\par
+		GUI vocabulary : 6\par
+		GUI volume : 20.6797\par
+		GUI level : 6\par
+		GUI intelligence
+ : 124.0782\par
+		GUI effort : 3.44661666666667\par
+		GUI programming time (in hours) : .\par
+		GUI complexity : simple\par
+	Stop E:\\Ford Markam\\Labeler\\About.frm module level metrics\par
+\par
+E:\\Ford Markam\\Labeler\\OpenJob.frm\par
+	Start Pr
+ivate Sub cmdCancel_Click metrics\par
+		McCabe \par
+			Cyclomatic complexity : 16\par
+			Understanding : average\par
+			Bad fix probability : 20%\par
+		Myers \par
+			Extended complexity : 16:37\par
+			Understanding : high\par
+			Bad fix probabili
+ty : 20%\par
+		Halstead \par
+			Program Length : 99\par
+			Program Vocabulary : 34.\par
+			Program Volume : 503.66\par
+			Program Level : .49\par
+			Intelligence Content : 247.85\par
+			Language Level : 121.986\par
+			Programming Effort : 1023.48
+87\par
+			Programming Time (in hours) : .057\par
+		Lines \par
+			Total : 121\par
+			Code : 50\par
+			Blank : 54\par
+			Comment : 17\par
+			Pct. comments : 14%\par
+	Stop Private Sub cmdCancel_Click metrics\par
+\par
+	Start Public Sub JobUpdate me
+trics\par
+		McCabe \par
+			Cyclomatic complexity : 48\par
+			Understanding : high\par
+			Bad fix probability : 20%\par
+		Myers \par
+			Extended complexity : 48:112\par
+			Understanding : high\par
+			Bad fix probability : 40%\par
+		Halstead 
+\par
+			Program Length : 303\par
+			Program Vocabulary : 56.\par
+			Program Volume : 1759.63\par
+			Program Level : .20\par
+			Intelligence Content : 357.38\par
+			Language Level : 72.497\par
+			Programming Effort : 8663.8528\par
+			Programming Time (
+in hours) : .481\par
+		Lines \par
+			Total : 119\par
+			Code : 87\par
+			Blank : 21\par
+			Comment : 11\par
+			Pct. comments : 9%\par
+	Stop Public Sub JobUpdate metrics\par
+\par
+	Start E:\\Ford Markam\\Labeler\\OpenJob.frm module level metrics
+\par
+	McCabe \par
+		Cyclomatic complexity : 33\par
+		Understanding : high\par
+		Bad fix probability : 20%\par
+	Myers \par
+		Extended complexity : 48:97\par
+		Understanding : high\par
+		Bad fix probability : 40%\par
+	Halstead \par
+		Program Length
+ (Avg.): 134\par
+		Program Vocabulary (Avg.): 30.\par
+		Program Volume (Avg.): 754.43\par
+		Program Level (Avg.): .64\par
+		Intelligence Content (Avg.): 201.74\par
+		Language Level (Avg.): .463\par
+		Programming Effort (Avg.): 1627.8\par
+		Program
+ming Time (in hours) (Avg.): .179\par
+	Function points (back fired)\par
+		Total : 2.9062\par
+		Adjusted : 2.0343\par
+	Procedures\par
+		Total : 2\par
+		Sub routines : 2\par
+		Early exits : 5\par
+	Lines \par
+		Total : 240\par
+		Code : 137\par
+		
+Blank : 75\par
+		Comment : 28\par
+		Pct. comments : 12%\par
+	Marquis GUI Metrics\par
+		GUI length : 15\par
+		GUI vocabulary : 6\par
+		GUI volume : 38.7744\par
+		GUI level : 3.2\par
+		GUI intelligence : 124.0781\par
+		GUI effort : 12.117\par
+		G
+UI programming time (in hours) : .001\par
+		GUI complexity : average\par
+	Stop E:\\Ford Markam\\Labeler\\OpenJob.frm module level metrics\par
+\par
+E:\\Ford Markam\\Labeler\\Message.frm\par
+	Start Public Sub MessageDisplay metrics\par
+		McCabe 
+\par
+			Cyclomatic complexity : 8\par
+			Understanding : average\par
+			Bad fix probability : 5%\par
+		Myers \par
+			Extended complexity : 8:15\par
+			Understanding : average\par
+			Bad fix probability : 20%\par
+		Halstead \par
+			Program Length : 35
+\par
+			Program Vocabulary : 13.\par
+			Program Volume : 129.52\par
+			Program Level : .17\par
+			Intelligence Content : 222.03\par
+			Language Level : 380.62\par
+			Programming Effort : 75.55\par
+			Programming Time (in hours) : .004\par
+		Lines
+ \par
+			Total : 44\par
+			Code : 19\par
+			Blank : 20\par
+			Comment : 5\par
+			Pct. comments : 11%\par
+	Stop Public Sub MessageDisplay metrics\par
+\par
+	Start E:\\Ford Markam\\Labe

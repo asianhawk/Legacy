@@ -1,0 +1,72 @@
+[SetupWiz]
+VBExe=C:\Program Files\Microsoft Visual Basic\vb32.exe
+SetupProj=C:\Program Files\Microsoft Visual Basic\setupkit\setup1\setup1.vbp
+BootStrap=C:\Program Files\Microsoft Visual Basic\setupkit\kitfil32\setup.exe
+RemoveInstallEXE=C:\Program Files\Microsoft Visual Basic\setupkit\kitfil32\ST4UNST.EXE
+CompressToDir=S:\SoftwareDevelopment\Projects\Motorola_FL\JobAdmin\SetupWiz\
+
+[Flags]
+AppTitle=JobAdmin
+DefaultDir=$(ProgramFiles)\JobAdmin
+MakeFilePath=S:\SoftwareDevelopment\Projects\Motorola_FL\JobAdmin\JobAdmin.vbp,0
+Disk Drive=-1
+Disk Type=S:\SoftwareDevelopment\Projects\Motorola_FL\setup\jobadmin\
+AppExeName=S:\SoftwareDevelopment\Projects\Motorola_FL\JobAdmin\JobAdmin.exe
+Deployment=0
+RemoteProvider=0
+DataAccess=-1
+FilesChanged=0
+CheckSum=261348
+
+[Dependencies]
+File1=C:\WINDOWS\SYSTEM\TABCTL32.OCX,0,32764
+File2=C:\WINDOWS\SYSTEM\DBGRID32.OCX,0,32764
+File3=C:\WINDOWS\SYSTEM\OLEPRO32.DLL,0,32763
+File4=C:\PROGRAM FILES\COMMON FILES\MICROSOFT SHARED\DAO\DAO3032.DLL,0,32763
+File5=C:\WINDOWS\SYSTEM\THREED32.OCX,0,32764
+File6=C:\WINDOWS\SYSTEM\COMDLG32.OCX,0,32764
+File7=C:\WINDOWS\SYSTEM\COMCTL32.OCX,0,32764
+
+[DB Drivers]
+File1=dBase III,dBase III,1,0
+File2=FoxPro DBC,FoxPro DBC,1,0
+File3=FoxPro 2.0,FoxPro 2.0,1,0
+File4=FoxPro 3.0,FoxPro 3.0,1,0
+File5=FoxPro 2.5,FoxPro 2.5,1,0
+File6=FoxPro 2.6,FoxPro 2.6,1,0
+File7=dBase IV,dBase IV,1,0
+File8=Excel 3.0,Excel 3.0,1,0
+File9=Text,Text,1,0
+File10=Excel 4.0,Excel 4.0,1,0
+File11=dBase 5.0,dBase 5.0,1,0
+File12=Excel 5.0,Excel 5.0,1,0
+File13=Jet 2.x,Jet 2.x,1,0
+
+[Files]
+File1=C:\WINDOWS\SYSTEM\VB40032.DLL,0,$(WinSysPath),,|32767|,-1,-1,0,0,,,0
+File2=C:\WINDOWS\SYSTEM\ven2232.olb,0,$(WinSysPathSysFile),,|32767|11|,-1,0,0,0,,,0
+File3=C:\Program Files\Microsoft Visual Basic\setupkit\kitfil32\Sys32\olepro32.dll,0,$(WinSysPath),$(DLLSelfRegister),|32767|6|8|32763|22|23|24|,-1,-1,0,0,,,0
+File4=C:\WINDOWS\SYSTEM\msvcrt20.dll,0,$(WinSysPathSysFile),,|32767|,-1,0,0,0,,,0
+File5=C:\Program Files\Microsoft Visual Basic\setupkit\kitfil32\Sys32\msvcrt40.dll,0,$(WinSysPath),,|32767|6|8|22|23|24|,-1,-1,0,0,,,0
+File6=C:\Program Files\Microsoft Visual Basic\setupkit\kitfil32\Sys32\ctl3d32.dll,0,$(WinSysPathSysFile),,|32767|,-1,0,0,0,,,0
+File7=C:\WINDOWS\SYSTEM\TABCTL32.OCX,0,$(WinSysPath),$(DLLSelfRegister),|32764|,-1,-1,0,0,,,0
+File8=C:\Program Files\Microsoft Visual Basic\setupkit\kitfil32\Sys32\MFC40.DLL,0,$(WinSysPath),$(DLLSelfRegister),|6|8|22|23|24|,-1,-1,0,0,,,0
+File9=C:\WINDOWS\SYSTEM\DBGRID32.OCX,0,$(WinSysPath),$(DLLSelfRegister),|32764|,-1,-1,0,0,,,0
+File10=C:\WINDOWS\SYSTEM\GRDKRN32.DLL,0,$(WinSysPath),,|8|,-1,-1,0,0,,,0
+File11=C:\PROGRAM FILES\COMMON FILES\MICROSOFT SHARED\DAO\DAO3032.DLL,0,$(MSDAOPath),$(DLLSelfRegister),|32763|,-1,-1,0,0,,,0
+File12=C:\WINDOWS\SYSTEM\MSJT3032.DLL,0,$(WinSysPathSysFile),,|10|,-1,0,0,0,,,0
+File13=C:\WINDOWS\SYSTEM\MSJTER32.DLL,0,$(WinSysPathSysFile),,|11|,-1,0,0,0,,,0
+File14=C:\WINDOWS\SYSTEM\MSJINT32.DLL,0,$(WinSysPathSysFile),,|11|,-1,0,0,0,,,0
+File15=C:\WINDOWS\SYSTEM\VBAJET32.DLL,0,$(WinSysPathSysFile),,|11|,-1,0,0,0,,,0
+File16=C:\WINDOWS\SYSTEM\VBDB32.DLL,0,$(WinSysPath),,|11|,-1,-1,0,0,,,0
+File17=C:\WINDOWS\SYSTEM\MSRD2X32.DLL,0,$(WinSysPathSysFile),$(DLLSelfRegister),|11|,-1,0,0,0,,,0
+File18=C:\WINDOWS\SYSTEM\MSWNG300.DLL,0,$(WinSysPathSysFile),,|11|,-1,0,0,0,,,0
+File19=C:\WINDOWS\SYSTEM\ODBCJT32.DLL,0,$(WinSysPathSysFile),,|11|,-1,0,0,0,,,0
+File20=C:\WINDOWS\SYSTEM\ODBCJI32.DLL,0,$(WinSysPathSysFile),,|11|,-1,0,0,0,,,0
+File21=C:\WINDOWS\SYSTEM\ODBCTL32.DLL,0,$(WinSysPathSysFile),,|11|,-1,0,0,0,,,0
+File22=C:\WINDOWS\SYSTEM\VBAR2232.DLL,0,$(WinSysPathSysFile),,|11|,-1,0,0,0,,,0
+File23=C:\WINDOWS\SYSTEM\THREED32.OCX,0,$(WinSysPath),$(DLLSelfRegister),|32764|,-1,-1,0,0,,,0
+File24=C:\WINDOWS\SYSTEM\COMDLG32.OCX,0,$(WinSysPath),$(DLLSelfRegister),|32764|,-1,-1,0,0,,,0
+File25=C:\WINDOWS\SYSTEM\COMCTL32.OCX,0,$(WinSysPath),$(DLLSelfRegister),|32764|,-1,-1,0,0,,,0
+File26=S:\SoftwareDevelopment\Projects\Motorola_FL\JobAdmin\Jobadmin.hlp,0,$(AppPath),,|32765|,-1,0,0,0,,,0
+File27=S:\SoftwareDevelopment\Projects\Motorola_FL\JobAdmin\JobAdmin.exe,0,$(AppPath),$(EXESelfRegister),|32766|,-1,0,0,0,,,0

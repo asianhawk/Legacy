@@ -1,0 +1,8 @@
+modMain = 129, 103, 579, 391, 
+modUtilities = 129, 103, 579, 391, 
+JobAdminResource = 88, 88, 569, 298, 
+modError = 0, 0, 0, 0, C
+frmJobFileAdmin = 129, 103, 579, 391, , 66, 66, 547, 276, C
+frmSplash = 129, 103, 579, 391, , 88, 88, 569, 298, C
+frmAbout = 0, 0, 0, 0, C, 0, 0, 481, 210, C
+frmAddDataPoint = 0, 0, 0, 0, C, 0, 0, 481, 210, C

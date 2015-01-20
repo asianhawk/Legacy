@@ -1,0 +1,301 @@
+clslabeler
+in the header section
+
+'  used to determane if seq num to be incermented
+
+Private m_blnPreCheckSerialNumbers As Boolean
+Private m_blnNextLabel As Boolean
+Dim sBadNumbers(500, 2)  As String
+Dim m_nNoOfBadSerialNumbers As Long
+Dim m_blnBAD_SerialDB_Found As Boolean
+
+
+
+
+in the initialize function
+--------------------------
+after variables are initialized
+
+
+   Dim DBase As Database
+   Dim Table As Recordset
+   Dim nCount As Integer
+   Dim strDBPath As String
+   m_blnBAD_SerialDB_Found = False
+   
+   
+   '  set job state
+   m_blnInitStatus = True
+   
+    strDBPath = App.Path + Trim("\BadSN.mdb")
+   
+    If (Dir(strDBPath, vbNormal) <> "") Then
+        Set DBase = OpenDatabase(strDBPath)
+        Set Table = DBase.OpenRecordset("Table", dbOpenTable)
+   
+        Table.MoveFirst
+    
+        m_nNoOfBadSerialNumbers = Table.RecordCount
+        
+        For nCount = 1 To m_nNoOfBadSerialNumbers
+            sBadNumbers(nCount, 1) = Table("First")
+            sBadNumbers(nCount, 2) = Table("Second")
+            Table.MoveNext
+        Next
+   
+        Table.Close
+        DBase.Close
+        m_blnBAD_SerialDB_Found = True
+    End If
+   
+
+
+
+
+
+Private Function PreScanCheck(strNewSerialNumber As String) As Boolean
+ 
+    
+    Dim iSeed As Long
+    Dim iBoard As Integer
+    Dim hSeed As String
+    Dim bBoard As String
+    Dim hBoard As String
+    Dim iZeros As Integer
+    Dim hNumber As String
+    Dim FirstBad As String
+    Dim SecondBad As String
+    Dim i As Integer
+    Dim j As Integer
+    Dim iMB As Long
+    Dim iDB As Integer
+    Dim sSecond As String
+    Dim sFirst As String
+    Dim iChecksum As Integer
+    Dim sChecksum As String
+    Dim FNum As Integer
+    Dim iNewSeed As Long
+    Dim iCount As Long
+    Dim nMaxCount As Long
+    
+    On Error GoTo Process_Error
+                
+    
+    iCount = 0
+    
+    
+    
+     For iDB = 1 To 20
+         
+         iSeed = Val(strNewSerialNumber) * 2
+         iBoard = iDB
+ 
+         If iBoard > 15 Then
+              iSeed = iSeed + 1
+              iBoard = iBoard - 16
+        End If
+
+         
+         hSeed = Hex(iSeed)
+         hBoard = Hex(iBoard)
+         
+         hNumber = hSeed & hBoard
+         
+         iZeros = 10 - Len(hNumber)
+         
+         For i = 1 To iZeros
+             hNumber = 0 & hNumber
+         Next i
+             
+         sFirst = Mid(hNumber, 1, 2)
+         sSecond = Mid(hNumber, 3, 2)
+         sChecksum = Hex(Val("&H" & sFirst) Xor Val("&H" & sSecond))
+         
+         For i = 1 To 3
+             sSecond = Mid(hNumber, (i * 2) + 3, 2)
+             sChecksum = Hex(Val("&H" & sChecksum) Xor Val("&H" & sSecond))
+         Next i
+         
+         sChecksum = Hex(Val("&H55") Xor Val("&H" & sChecksum))
+         
+         hNumber = hNumber & sChecksum
+             
+         For i = 0 To 4
+             sFirst = Mid(hNumber, (i * 2) + 1, 2)
+             sSecond = Mid(hNumber, (i * 2) + 3, 2)
+             For j = 1 To m_nNoOfBadSerialNumbers
+                 FirstBad = sBadNumbers(j, 1)
+                 SecondBad = sBadNumbers(j, 2)
+                 If ((sFirst = FirstBad) And (sSecond = SecondBad)) Then
+                    
+                    If g_blnSimulator Then
+                      FNum = FreeFile
+                      Open "c:\BadSN4.txt" For Append As FNum
+                      Print #FNum, strNewSerialNumber, hNumber & "," & Str$(iNewSeed + iMB) & "," & Str$(iDB) & "," & sFirst & sSecond
+                      Close FNum
+                    End If
+                    
+                    PreScanCheck = False
+                    Exit Function
+                 End If
+             Next j
+         Next i
+     Next iDB
+    
+    PreScanCheck = True
+    
+    Exit Function
+    
+Process_Error:
+
+   ProccessError "PreScanCheck", "Error=", Err.Number, Err.Description
+
+    
+End Function
+
+
+Public Property Get IsPreSerialNumberChk() As Boolean
+
+ IsPreSerialNumberChk = m_blnPreCheckSerialNumbers
+
+End Property
+
+Public Property Let IsPreSerialNumberChk(blnCheckSerialNumber As Boolean)
+
+   m_blnPreCheckSerialNumbers = blnCheckSerialNumber
+
+End Property
+
+
+GetNextLabel...
+
+Dim clsStopWatch As CStopWatch
+Dim FNum As Integer
+Dim blnCheck As Boolean
+Dim strPass As String
+
+   Set clsStopWatch = New CStopWatch
+   strPass = "True"
+   blnCheck = False
+
+
+
+    If m_blnBAD_SerialDB_Found Then
+        If (IsPreSerialNumberChk And (Not m_blnManualFeed)) Then
+            
+            clsStopWatch.Reset
+            
+            If Not PreScanCheck(m_strLabelDataPrinted) Then
+               blnCheck = True
+               strPass = "Fail"
+            End If
+        
+            If g_blnSimulator Then
+              FNum = FreeFile
+              Open "c:\testres.txt" For Append As FNum
+              Print #FNum, m_strLabelDataPrinted & "," & "PreCheck = " + strPass, "Process Time = " + Str(clsStopWatch.Elapsed)
+              Close FNum
+            End If
+               
+            If blnCheck Then
+              GetNextlabel
+            End If
+          End If
+    End If
+
+
+
+
+
+
+
+
+
+**************
+
+frmain the run button
+
+   If labTextJobName.Caption <> "" Then
+      m_objLabeler.IsPreSerialNumberChk = PreCheckSerialNumbers(labTextJobName.Caption)
+   End If
+
+
+
+modmain
+**************
+
+Public Function PreCheckSerialNumbers(strJobName As String) As Boolean
+
+Dim strFileName As String
+Dim nFH As Long
+Dim strBuffer As String
+Dim blnFound As Boolean
+Dim nJobNameCount As Integer
+Dim nIndex As Integer
+
+   On Error GoTo Error_DataValues
+   
+   
+   PreCheckSerialNumbers = False
+   
+   nFH = FreeFile
+   strFileName = App.Path + "\" + "precheck_params.txt"
+   
+   If (Dir(strFileName, vbNormal) <> "") Then
+   
+      Open strFileName For Input As nFH
+      
+      While (Not EOF(nFH))
+         Line Input #nFH, strBuffer
+         
+         
+         If (InStr(UCase(strBuffer), "PRECHECKALLJOBS")) Then
+            If ((InStr(UCase(strBuffer), "TRUE"))) Then
+                PreCheckSerialNumbers = True
+                Close (nFH)
+                Exit Function
+            End If
+         End If
+      
+         
+         If (InStr(UCase(strBuffer), "PRECHECKSOMEJOBS")) Then
+            If (InStr(UCase(strBuffer), "TRUE") > 0) Then
+               While (Not EOF(nFH))
+                Line Input #nFH, strBuffer
+                If (InStr(strBuffer, "JobNames") > 0) Then
+                   While (Not EOF(nFH))
+                     Line Input #nFH, strBuffer
+                     If (InStr(UCase(strBuffer), UCase(strJobName)) > 0) Then
+                         PreCheckSerialNumbers = True
+                         Close (nFH)
+                         Exit Function
+                     End If
+                  Wend
+                End If
+              Wend
+           Else
+             PreCheckSerialNumbers = False
+             Close (nFH)
+             Exit Function
+           End If
+        End If
+        
+        
+      Wend
+   End If
+   
+   Close (nFH)
+
+Exit Function
+
+Error_DataValues:
+   
+   PreCheckSerialNumbers = False
+
+   ProccessError "DataValue", m_strName, Err.Number, Err.Description
+
+
+End Function
+
+
+

@@ -1,0 +1,13 @@
+frmMain = 46, 6, 649, 294, , 22, 22, 393, 284, C
+modAPI = 161, 48, 608, 456, C
+modError = 88, 88, 414, 400, 
+clsMotionControl = 134, 131, 667, 419, CZ
+clsSerialCommCtrl = 85, 168, 659, 506, C
+modUtilities = 161, 131, 611, 419, 
+modResources = 0, 0, 0, 0, C
+modMotionControl = 129, 103, 576, 511, CZ
+frmSerialComm = 161, 131, 611, 419, I, 0, 0, 251, 262, C
+frmMessage = 44, 44, 592, 254, C, 110, 110, 361, 372, C
+frmScannerOffsetTest = 129, 103, 576, 511, , 110, 110, 536, 448, C
+clsMicroscan = 129, 103, 576, 511, C
+frmCommSpecs = 0, 0, 0, 0, C, 44, 44, 159, 356, C

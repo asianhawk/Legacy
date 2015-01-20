@@ -1,0 +1,18 @@
+Microsoft (R) Help Compiler
+HCRTF 4.02.0034
+Copyright (c) Microsoft Corp 1990 - 1995. All rights reserved.
+jobadmin.hpj
+    HC3048: Warning: topic #3 of s:\softwaredevelopment\projects\motorola_fl\jobadmin\JobAdmin.rtf : 
+	Nonscrolling region defined after scrolling region.
+    HC3048: Warning: topic #4 of s:\softwaredevelopment\projects\motorola_fl\jobadmin\JobAdmin.rtf : 
+	Nonscrolling region defined after scrolling region.
+5	Topics
+0	Jumps
+5	Keywords
+4	Bitmaps
+
+
+Created s:\softwaredevelopment\projects\motorola_fl\jobadmin\jobadmin.hlp, 98,209 bytes
+Bitmaps: 84,551 bytes
+Compile time: 0 minutes, 1 second
+0 notes, 2 warnings

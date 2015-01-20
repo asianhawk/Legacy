@@ -1,0 +1,69 @@
+// String Table 
+// Generated Form:          \\NEXSTEP1\NEXSTEP\SoftwareDevelopment\Projects\Motorola_FL\JobAdmin\JobAdmin Resource.doc
+// Generated On:            09/05/97 5:32 PM
+#include "\\NEXSTEP1\NEXSTEP\SoftwareDevelopment\Projects\Motorola_FL\JobAdmin\JobAdminResource.h"
+STRINGTABLE
+BEGIN
+//            Form captions
+FORM_MAIN_CAPTION           "Job File Administration -- "
+FORM_ADD_DATA_POINT         "Add Label Data Point"
+FORM_OPEN_JOB_FILE          "Open Job File DB"
+LABEL_SPLASH_LOGO           "3-Axis Label Applicator"
+//            Menu captions
+MNU_FILE      "&File "
+MNU_EXIT      "E&xit"
+MNU_OPEN      "&Open job file..."
+MNU_HELP      "&Help"
+MNU_CONTENTS  "&Contents"
+MNU_ABOUT     "&About"
+//            Tab control labels
+TAB_JOBS      "&Jobs"
+TAB_COMMON    "&Common"
+//            Form labels
+LABEL_JOB_NAME              "Job Name:"
+LABEL_PART_NUMBER           "Kit Number:"
+LABEL_LOCATION_CODE         "Label location:"
+LABEL_TEMPLATE_NAME         "Label template Name:"
+LABEL_TEMPLATE_PATH         "Label template path:"
+LABEL_LABEL_LOCATION        "Label location:"
+LABEL_LAST_SEQ_NUMBER       "Last Sequence Number:"
+LABEL_LINE_CODE             "Production line code:"
+LABEL_SCAN_TRIES            "Scan Tries:"
+LABEL_KIT_FILE_NAME         "Kit File Name:"
+LABEL_KIT_FILE_PATH         "Kit File Path:"
+LABEL_LOG_FILE_NAME         "Log File Name:"
+LABEL_LOG_FILE_PATH         "Log File Path:"
+//            Command buttons captions
+CMD_SAVE      "&Save"
+CMD_DELETE    "&Delete"
+CMD_NEW       "&New"
+CMD_OK        "OK"
+CMD_CANCEL    "Cancel"
+//            Information messages
+MSG_TITEL     "Job Administration Save Reminder"
+MSG_JOB_SAVE  "Changes to the job data were not saved.\012Do you want to save these changes?"
+MSG_THATA_BAD "Theta can only be 0 or 90 "
+TITLE_BAD_ENTRY             "Entry Error"
+LABEL_DATA_CONTROL          "Job: "
+//            Misalliances messages 
+JOB_FILE_FILTER             "Job File (*.mdb)|*.mdb|All Files (*.*)|*.*"
+//            Status help messages 
+STMSG_JOB_FILE              "Job file administration."
+STMSG_JOB_NAME              "User defined name for this job.  "
+STMSG_PART_NUMBER           "Motorola Kit Number"
+STMSG_LOCATION_CODE         "Two (2) number label location code between 01 to 97.  "
+STMSG_TEMPLATE_NAME         "Name of label template.  "
+STMSG_TEMPLATE_PATH         "Full path to label template.  If left blank App path assumed.     "
+STMSG_SAVE_JOB              "Save changes to job.  "
+STMSG_NEW_JOB "Add a new job"
+STMSG_DELETE  "Delete this job."
+STMSG_LAST_SEQ_NUMBER       "Last sequence number used for this Kit Number.  "
+STMSG_DB_CONTROL            "Use to move through the jobs.   "
+STMSG_LINE_CODE             "The production line labeler is located.  "
+STMSG_KIT_FILE_NAME         "Name of file to find job name in auto run mode.  "
+STMSG_KIT_FILE_PATH         "Full path to kit file.  If left blank App path assumed."
+STMSG_LOG_FILE_NAME         "Name of labels applied log file."
+STMSG_LOG_FILE_PATH         "Full path to log file.  If left blank App path assumed."
+STMSG_SCAN_TRIES            "Number of times to scan before reporting a miss scan.  "
+END
+// End of String Resoruces

@@ -1,0 +1,7 @@
+modMain = 0, 0, 0, 0, C
+modUtilities = 0, 0, 0, 0, C
+JobAdminResource = 0, 0, 0, 0, C
+modError = 0, 0, 0, 0, C
+frmAbout = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frmJobFileAdmin = -4, -4, 460, 314, C, 0, 0, 0, 0, C
+frmSplash = 0, 0, 0, 0, C, 0, 0, 0, 0, C

@@ -1,0 +1,10 @@
+frmMain = 85, 92, 535, 380, , 22, 22, 407, 284, C
+modAPI = 0, 0, 0, 0, C
+modError = 0, 0, 0, 0, C
+clsMotionControl = 129, 103, 579, 391, 
+clsSerialCommCtrl = 129, 103, 579, 391, C
+modUtilities = 129, 103, 579, 391, 
+modResources = 0, 0, 0, 0, C
+modMotionControl = 0, 0, 0, 0, C
+frmSerialComm = 129, 103, 579, 391, , 0, 0, 251, 262, C
+frmMessage = 44, 44, 592, 254, , 110, 110, 361, 372, C

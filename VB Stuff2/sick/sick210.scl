@@ -1,0 +1,562 @@
+[SICK AG, Script CLV Language]
+
+[Created_RO]
+Date=Fri Jan 05 11:37:31 2001
+From=CLV Setup VV 3.0 - 32 Bit
+Created_by=script template 'CLV21x\scl_000.tpl'
+
+[CLV_Type_Source_RO]
+Type=   CLV210A1010
+Version=V7.10
+Index=  H742
+Valid=0
+
+[CLV_Type_Target]
+Type=21x
+Version=V7.10
+
+[Parameter]
+;COaA=1LFP1M03C000
+;COaA=0LFP1M03C000D0
+;COaA Code configuration Codabar
+;---------------------------------
+COaA=1  ;1=Code active, 0=Code inactice
+COaL=F  ;F=Free code length
+                    ;I01 50 = Intervall (01 - 50)
+        ;E01 02 03 04 00 = Up to five fix lengths defined (01 - 50)
+COaP=1     ;Transmit check digit (last character): 1=yes, 0=no
+COaM=03    ;No of multiple reads (01 - 99)
+COaC=000   ;First digit:  Start/Stop char. must be identical: 1=yes, 0=no
+           ;Second digit: Transmit Start/Stop char: 1=yes, 0=no
+           ;Third digit:  Test check digit: 1=yes, 0=no
+;COaD=0     ;No function
+
+;CObA=1LFP1M03C0000D0
+;CObA=1LFP1M03C0000X0
+;CObA Code configuration Code 39
+;-------------------------------
+CObA=1     ;1=Code active, 0=Code inactice
+CObL=F     ;F=Free code length
+           ;I01 50 = Intervall (01 - 50)
+           ;E01 02 03 04 00 = Up to five fix lengths defined (01 - 50)
+CObP=0     ;Transmit check digit (last character): 1=yes, 0=no
+CObM=03    ;No of multiple reads (01 - 99)
+CObC=0000  ;First digit:  Transmit Start/Stop char: 1=yes, 0=no
+           ;Second digit: Mode: 0=Code 39 Standard, 1=Full ASCII-Mode
+           ;Third digit:  Test check digit: 0=no, 1=Mod_10, 2=Mod_43
+           ;Forth digit:  Output conversion ASCII to Hex: 1=yes, 0=no
+
+CObX=0  ; Code 32 active  0 = No   /   1 = Yes 
+
+;CObD=0     ;No function
+
+
+;COcA=0LE00 00 00 00 00P1M03C000D1
+;COcA=0LE00 00 00 00 00P1M03C000
+;COcA Code configuration UPC
+;---------------------------
+COcA=1     ;1=Code active, 0=Code inactice (must be combined with COcC!)
+COcL=E12 06 00 00 00  ;no function
+COcP=1     ;Transmit check digit (last character): 1=yes, 0=no
+COcM=03    ;No of multiple reads (01 - 99)
+COcC=110   ;First digit:  UPC A (12 digit) active: 1=yes, 0=no
+           ;Second digit: UPC E (6 digit) active: 1=yes, 0=no
+           ;Third digit:  Add-On: 0=no, 1=2digit, 2=5digit, 3=2or5 digit
+;COcD=0     ;Decoding: 0=standard (fast), 1=expanded
+
+;COdA=0LE00 00 00 00 00P1M03C000D1
+;COdA=1LE13 08 00 00 00P1M03C110
+;COdA Code configuration EAN
+;----------------------------
+COdA=1     ;1=Code active, 0=Code inactice (must be combined with COdC!)
+COdL=E13 08 00 00 00    ;no function
+COdP=1     ;Transmit check digit (last character): 1=yes, 0=no
+COdM=03    ;No of multiple reads (01 - 99)
+COdC=110   ;First digit:  EAN 13 (13 digit) active: 1=yes, 0=no
+           ;Second digit: EAN 8 (8 digit) active: 1=yes, 0=no
+           ;Third digit:  Add-On: 0=no, 1=2digit, 2=5digit, 3=2or5 digit
+;COdD=0     ;Decoding: 0=standard (fast), 1=expanded
+
+;COeA=1LI04 50P1M03C10D0
+;COeA=1LF     P1M03C10
+;COeA Code configuration 2/5-Interleaved
+;---------------------------------------
+COeA=1     ;1=Code active, 0=Code inactice
+COeL=F ;F=Free code length (only even code length ar possible)
+           ;I02 50 = Intervall (02 - 50)
+           ;E02 04 06 08 00 = Up to five fix lengths defined (02 - 50)
+COeP=1     ;Transmit check digit (last character): 1=yes, 0=no
+COeM=03    ;No of multiple reads (01 - 99)
+COeC=11    ;First digit:  Transmit leading zero: 1=yes, 0=no
+           ;Second digit: Test check digit: 0=no, 1=Mod_10, 2=Mode_1R18
+;COeD=0     ;No function
+
+;COfA=0LFP1M03C0D0
+;COfA=0LFP1M03C0
+;COfA Code configuration 2/5- Code Industrial
+;---------------------------------------------
+COfA=1     ;1=Code active, 0=Code inactice
+COfL=F     ;F=Free code length (only even code length ar possible)
+           ;I02 50 = Intervall (02 - 50)
+           ;E02 04 06 08 00 = Up to five fix lengths defined (02 - 50)
+COfP=1     ;Transmit check digit (last character): 1=yes, 0=no
+COfM=03    ;No of multiple reads (01 - 99)
+COfC=0     ; Test check digit: 0=no, 1=Mod_10
+;COfD=0     ;No function
+
+;COiA=0LE02 06 07 10 00P0M03C0D1
+;COiA=0LF              P0M03C0
+;COiA Code configuration Code 93
+;--------------------------------
+COiA=1     ;1=Code active, 0=Code inactice
+COiL=F     ;F=Free code length
+           ;I01 50 = Intervall (01 - 50)
+           ;E01 02 03 04 00 = Up to five fix lengths defined (01 - 50)
+COiP=0     ;Transmit check digit (last character): 1=yes, 0=no
+COiM=03    ;No of multiple reads (01 - 99)
+COiC=0     ;First digit:  Output conversion ASCII to Hex: 1=yes, 0=no
+;COiD=0     ;Decoding: 0=standard (fast), 1=expanded
+
+;COjA=1LFP0M03C0D1
+;COjA=1LFP0M03C0
+;COjA Code configuration Code 128
+;--------------------------------
+COjA=1     ;1=Code active, 0=Code inactice
+COjL=F     ;F=Free code length
+           ;I01 50 = Intervall (01 - 50)
+           ;E01 02 03 04 00 = Up to five fix lengths defined (01 - 50)
+COjP=0     ;Transmit check digit (last character): 1=yes, 0=no
+COjM=03    ;No of multiple reads (01 - 99)
+COjC=0     ;First digit:  Output conversion ASCII to Hex: 1=yes, 0=no
+;COjD=0     ;Decoding: 0=standard (fast), 1=expanded
+
+; COqA=0LFP1M03C0D0
+; COqA=0LFP1M03C0
+; COfA Code configuration 2/5- Code Industrial B
+;------------------------------------------------
+; be careful, this is incompatible with 2/5 Interleaved ( no autodiscrimination )
+;
+COqA=1     ;1=Code active, 0=Code inactice
+COqL=F     ;F=Free code length (only even code length ar possible)
+           ;I02 50 = Intervall (02 - 50)
+           ;E02 04 06 08 00 = Up to five fix lengths defined (02 - 50)
+COqP=1     ;Transmit check digit (last character): 1=yes, 0=no
+COqM=03    ;No of multiple reads (01 - 99)
+COqC=0     ; Test check digit: 0=no, 1=Mod_10
+;COqD=0     ;No function
+
+;COnA=0LE00 00 00 00 00P0M03C05D43311D0000D1
+;COnA=0LF              P0M03C05D43311D0000
+;COnA Code configuration EAN 128
+;-------------------------------
+COnA=1     ;1=Code active, 0=Code inactice
+COnL=F     ;F=Free code length
+           ;I01 50 = Intervall (01 - 50)
+           ;E01 02 03 04 00 = Up to five fix lengths defined (01 - 50)
+COnP=0     ;no function (check digit is never transmitted)
+COnM=03    ;No of multiple reads (01 - 99)
+COnC=05D43311D0000       ;13 digits
+           ;First digit: Output conversion ASCII to Hex: 1=yes, 0=no
+           ;                 Interpretaion of FC1 character:
+           ;Next two digits: 1st Pos: 1st char: 00 - 7F (normal=5D)
+           ;Next two digits: 1st Pos: 2st char: 00 - 7F (normal=43)
+           ;Next two digits: 1st Pos: 3st char: 00 - 7F (normal=31)
+           ;Next two digits: middle: 1st char: 00 - 7F (normal=1D)
+           ;Next two digits: middle: 2st char: 00 - 7F (normal=00)
+           ;Next two digits: middle: 3st char: 00 - 7F (normal=00)
+;COnD=0     ;Decoding: 0=standard (fast), 1=expanded
+
+
+;COoA Code configuration Pharmacode
+;COoA=0LE04M03C00
+;-----------------
+COoA=0    ;1=Code active, 0=Code inactice
+COoL=E08    ;E=Fix code length (04 - 20)
+COoM=02    ;No of multiple reads (01 - 99)
+COoC=00    ;First digit:  Module width: 0=auto, 1=0.35 mm, 2=0.5 mm
+               ;Second digit:  Direction: 0=forward, 1=reverse
+;COoD=0     ;No function
+
+
+
+
+;LKL=0900     B035S8F1200V4MaaR0Z10P000Q100
+;LKL=0040A0100B050S9MaaR0Z10P000Q100N0O100
+;LK Reading configuration
+;-------------------------
+LKL=0040   ;Min. reading distance in: 0030 - 0600 mm 
+;LKA=$$LKA    ;Maximum Reading distance , 0030 - 0600 mm
+LKB=033    ;Min. bar width: 020 - 200 x 0.01 mm 
+LKS=2      ;Scanfrequency
+            ; CLV220
+            ;Scanfr./Hz	200	250	300	350	400	450	500	550	600	650	700
+            ;Values 	  1	  2	  3	  4	  5	  6	  7	  8	  9	  :	  ;
+            ;Scanfr./Hz	750	800	850	900	950	1000	1050	1100	1150	1200
+            ;Werte x	  <	  =	  >	  ?	  @	  A	    B	    C	    D	    E
+            ; CLV21x
+            ;Scanfr./Hz	200	250	300	350	400	450	500	550	600	650	700
+            ;Values 	  1	  2	 
+
+;LKF=$$LKF   ;Focus Distance 0500 - 2200 mm   , not relevant for 210 / 220
+;LKV=$$LKV      ;Pre Amplifier Mode, Values 1,2,3,4,5   , not relevant for 210 / 220
+LKM=aa     ;Min. value for Start/Stop-Ratio: aa=auto, 04-11 free selection
+LKR=0      ;Result Output, Obsolete for 210 / 220 , see EX cmd
+LKZ=10     ;Pulse width of Switching Outputs, 0 = permanent,
+            ; 01 .. 99 multiples of 10 ms , 10 - 990 ms duration
+            ; Obsolete for 210 / 220 , see EX cmd
+            
+LKP=000    ;Min. CP (Code position): 000 - 100 (normal=000)
+LKQ=100    ;Max. CP (Code position): 000 - 100 (normal=100)
+
+LKN=0      ;Segmentation made by: 0=Start/Stop-Ratio, 1=Fix width
+LKO=100    ;Absolute value for segmentation by fixed width: 001 - 255 mm
+
+;LKT=$$LKT    ;Segmentation Preprocessing 0 = std / 1 = enhanced
+
+
+;LTM=1T050E0C0Z0100A0B4BS49F0
+;LTM=1T050E0C0Z0100A0B4BS49F0
+;LT Reading trigger
+;------------------
+LTM=4      ;Trigger source:
+           ;1=Sensor active high
+           ;2=Sensor active low
+           ;3=Serial interface (Software trigger with command string)
+           ;4=Free running (with timeout)
+           ;5= OPC Trigger    ( invalid for 210 / 220 )
+           ;6=Auto Clock 
+           ;7=Auto Clock 2 
+LTT=050    ;Timeout for free running: 001 - 999 x 10 ms
+LTE=0      ;Sensor input debounce ( 0=Std. 20..30 ms , 1=fast 3..6 ms )
+LTC=0      ;End of reading gate: 0=by trigger source, 1=by timer (LTZ)
+LTZ=0100   ;Timer for reading gate duration: 0001 - 9999 x 10 ms
+           ;If reading gate end initiated by timer
+LTA=0      ;Mode of software trigger: 0=standard commands, 1=single char.
+           ;Standard cmds: Start: <STX> 2 1 <ETX>, Stop: <STX> 2 2 <ETX>
+LTB=4B     ;Single character for software trigger start: 01 - 7F
+LTS=49     ;Single character for software trigger stop: 01 - 7F
+LTF=0      ;First Trigger 0 = dynamic (edge triggered) , 1 = static
+
+;GN=01
+;GN Device number
+;----------------
+GN=01      ;Device number, 01-99 generell use, 01-31 SICK network
+
+;TFH=00SST00T0D0A00R1L00B00F0A00M00N40
+;TFH=00SST00T0D0A00R1L00B00F0A00M00C00
+;TF Telegram format to Host
+;---------------------------
+TFH=3E00     ;Header, String with each 2 char build a constant, 00=end
+           ;  01-7F=hex constant, CC=No of codes read(2 digit)
+           ;GN=Device Number (2 digit)
+TFS=ST00   ;Separator, String with each 2 char build a constant, 00=end
+           ;  01-7F=hex constant, CA=Required scans (3 digit)
+           ;CS=Code reliability (3 digit), CK=Code continuity (3 digit)
+           ;CG=Identification quality (3 digit %),
+           ;CL=Length of Code-Output-String (2 digit)
+           ;CP=Code position (3 digit) (Posistion in V-Shape, 50=middle)
+           ;ID=Code ID (Symbology) (1 char)
+           ;  a=Codabar, b=Code 39, c=UPC, d=EAN, e=2/5-Interleaved,
+           ;  i=Code 93, j=Code 128, n=EAN 128, o=Pharmacode
+           ;ST=Error status (1 char), 0=ok, 1=Check digit error,
+           ;  2=No code, 3=Device err., 5=less scans, 6=Master/Slave err.,
+           ;  7=Aux. input, 8=Network error, 9=Code don't match
+TFT=3C00 ;Terminator, String with each 2 char build a constant, 00=end
+           ;  01-7F=hex constant, CC=No of codes read (2 digit),
+           ;GN=Device Number (2 digit)
+           ;MG=Average identification quality (3 digit %),
+           ;TT=Time for reading gate (4 digit x 10 ms)
+TFR=1      ;Code sorting:1=Code position, 2=Time, 3=Time back,
+           ;4=Code length list
+TFL=00     ;Code length list, each 2 digits builds a length,
+           ;max. 10 length, if less defined close with 00
+
+TFB=00     ;Cancel/Bel Compatibility Mode
+           ;if in doubt, use default 00  !!!!
+           ;first digit: 0=Code 1=CAN on NOREAD or misread
+           ;secnd digit: 0=no terminator with CAN/BEL 1 = with terminator
+
+TFF=0      ; F-Format : 0=off 1=on
+
+TFA=00     ;A Version
+           ;if in doubt, use default 00  !!!!
+           ;first digit: 0=off 1=on
+           ;secnd digit: 0=Version B-C  1=Version C-B
+
+TFM=00     ;Format mask, each 2 digits builds a value, max. 50, 00=end
+           ;Example: 01021700 ==> Send out char no 1, 2 and 17 of the code
+
+TFC=00  ; character for Shift to 8 - Bit Char Set, Default = 0
+
+
+
+;SPT=1O005B02E03F02G03X0C0M4
+;SPT=1O005B02E03F02G03X0C0M4
+;SP Interface protocol
+;---------------------
+SPT=1      ;Type of protocol:
+           ;1=NAK, 2=NAK framed, 3=ACK/NAK, 4=ACK/NAK framed,
+           ;5=Network CLX Standard, 6=Network ACK/NAK, 7=No Handshake
+           ;8= 3964 / RK512 ( Siemens PLC )
+SPO=005    ;Timeout for protocol 1-4: 001-999 x 10 ms
+SPB=02     ;Protocol send start char:    00-7F, 02=<STX>, 00=none
+SPE=03     ;Protocol send stop char:     00-7F, 03=<ETX>, 00=none
+SPF=02     ;Protocol receive start char: 01-7F, 02=<STX>
+SPG=03     ;Protocol receive stop char:  01-7F, 03=<ETX>
+SPX=0      ;Xon/Xoff for protocol 1-4 and 7: 0=inactive, 1=active
+SPC=0      ;Block check: 0=inactive, 1=active
+SPM=1      ;Priority/Blockcheck of 3964
+           ; 1=3964 / low Prio
+           ; 2=3964 / high Prio
+           ; 3=3964-R / low Prio with Blockcheck
+           ; 4=3964-R / high Prio with Blockcheck
+
+;ESN=01S00C0A0
+;ESN=01S00C0A0
+;ES Error string
+;---------------
+ESN=01     ;Number of char for error string, 00-50
+ESS=00     ;Error string, each 2 digits (01-7F) build a value,
+           ;max. 30, 00=end
+ESC=0      ;Output on status 5: 0=erros string, 1=code string
+ESA=0      ;Check max. no of codes: 0=no,
+           ;1=produce NoReads if no of codes exceeds max. no of codes
+
+;TSA=0S5400I030
+;TSA=0S5400I030
+;TS Test string
+;--------------
+TSA=0        ;Teststring: 0=inactive, 1=inactive
+TSS=5400     ;Test string content, each 2 char build a char, 00=end
+             ;max. 15 char, GN=Device Number (2 digit)
+TSI=030      ;Test string intervall: 001-999 x 10 s
+
+;SZE=0S1I01A01V1T0M0H1
+;SZE=1S1I01A01V0D050T0M0H0
+;SZ Sending points
+;-----------------
+SZE=1        ;Sending GoodRead: 0=end of clock, 1=immedeate
+SZS=1        ;Sending point separator, 0=before code, 1=after code
+SZI=01       ;Min. no of codes, which the scanner shoud read: 01-10
+SZA=01       ;max. no of codes, which are allowed to output to the
+             ;host: 01-10
+SZV=0        ;Code position compare: Codes which are only different in CP:
+             ;0=use them as one code, 1=accept them as two or more codes
+SZD=051        ;Code distance at CP-Comp.
+SZT=0        ;T-Codes 0=no 1=yes, only relevant for halfcode decoder 
+SZM=0        ;multiple codes on object, only relevant for halfcode decoder 
+SZH=0        ;Select Decoder 1=Halfcode ( 210...280 ) 0=Standard
+
+;Terminal interface Mode
+;-----------------------
+BT=3         ; 1= Aux. Input
+             ; 2= Reading Diagnosis
+             ; 3= Monitor Host Interface
+
+; Language of user menue
+;-------------------------------------------------------
+;LCL=$$LCL 
+
+
+; Matchcode Comparison
+;CVA=0B0IxJxC00D00F0G0T0R0
+;----------------------
+CVA=0        ; Match of Matchcode 1  ;  0=inactive, 1=active
+CVB=0        ; Match of Matchcode 2  ;  0=inactive, 1=active
+CVI=x        ; Matchcode 1 Code ID (Symbology): x=don't care, a,b,c,d,e,i,j,n:
+             ;   a=Codabar, b=Code 39, c=UPC, d=EAN, e=2/5-Interleaved,
+             ;   i=Code 93, j=Code 128, n=EAN 128, o=Pharmacode
+CVJ=x        ; Matchcode 2 Code ID (Symbology)
+CVC=00       ; Matcode 1 : Code content: First two digits: No of following char.
+             ;              Following char: match code content
+
+CVD=00       ; Matcode 2 : Code content: First two digits: No of following char.
+             ;              Following char: match code content
+
+CVF=0    ; Match Result 1 is Filter for output 0=no   1=yes
+CVG=0    ; Match Result 2 is Filter for output 0=no   1=yes
+
+CVT=0    ; Dynamic Teach in Mode
+		         ; 0	Teach-In dynamisch ( konventionell wie bisher)
+		         ; 1	Teach-In static without Pharmacode
+		         ; 2	Teach-In static with    Pharmacode
+
+CVR=0    ; Reset Counters with teach in 0=No / 1 = Yes
+
+
+
+;Output Expander
+;-----------------
+
+;EXX=0R1S0T10A0B1C2D6E7F8G9H5I00UDV0L00000080MAN1O00000050PCQ1
+
+EXX=0   ; Expander active 0=No 1=Yes
+EXR=1   ; Result Output Function
+          	;  1	Good Read
+          	;	2	No Read
+          	;	3	Anz. Codes < Min. Anz.
+          	;	4	Anz. Codes > max. Anz.
+          	;	5	No Match
+          	;	6	Match1
+          	;	7	Match2
+          	;	8	Match 1 oder Match 2
+          	;	9	Match 1 und Match 2
+          	;	A	Mismatch 1
+          	;	B	Mismatch 2
+    				;	C	Data Impuls ( nich f. Outp. Exp (A..H))
+    				;	D	Dev. Ready
+
+    				;	E:	Referenz 1 < LIMIT 1
+    				;	F:	Referenz 1 > LIMIT 1
+    				;	G:	Referenz 2 < LIMIT 2
+    				;	H:	Referenz 2 > LIMIT 2
+    				;	I:	Referenz 1 > Limit1  AND  Referenz2 < Limit2
+    				;	J:	Referenz 1 < Limit 1  OR Referenz2 > L2 
+    				;	K: 	Referenz 1 < Limit1  AND  Referenz2 < Limit2
+    				;	L: 	Referenz 1 > Limit1  AND  Referenz2 > Limit2
+    				;	M: 	Referenz 1 < Limit1  OR    Referenz2 < Limit2
+    				;	N: 	Referenz 1 > Limit1  OR    Referenz2 > Limit2
+    				;	O:	set / reset by Host
+
+EXS=0   ; Invert Result Output 1=yes / 0=no
+
+EXT=10   ; Time in 10 ms, 00=static,  00....99 valid
+
+EXA=D   ; Function per Expander Output, EXA.... EXH, see EXR above
+EXB=1
+EXC=2
+EXD=6
+EXE=7
+EXF=8
+EXG=9
+EXH=5
+
+EXI=00   ; Bitmask of Polarity of Outputs, LSB = Output 1, 1=inverted
+
+
+EXU=D         ; Function Device Ready Output, see EXR above
+EXV=1         ; Invert Device Ready Output 1=yes / 0=no
+EXL=00000080     ; Limit Value 1, 0 .....99999999
+EXM=A         ; Reference 1
+              ;  1	NC	Num. Lesetakte
+              ;  2	NG	Num. Good Read
+              ;  3	NX	Num. No Read
+              ;  4	NM	Num. Match1
+              ;  5	NN	Num. Match2
+              ;  6	NY	Num. No Match
+              ;  7	TT	Dauer des Lesetores
+              ;  8	MG	Mittlere Lesegüte ( % )
+              ;  9	CC	Anzahl Codierungen
+              ;  A	CG	Identifikationsgüte ( Prozentwert )
+              ;  B	CL  	Codelänge
+              ;  C	CP	Codeposition
+              ;  D	CS	Codesicherheit ( Anz. Lesungen )
+EXN=1         ; active on error cond 0=no / 1=yes
+
+EXO=00000050     ; Limit Value 2, 0 .....99999999
+EXP=C         ; Reference 2
+EXQ=1         ; active on error cond 0=no / 1=yes
+
+
+; Odette Function
+;----------------
+;O1A=0P00L01
+O1A=0        ; Odette Comparison group 1 active  0=no  1=yes
+O1P=00       ; Prefix string, string end = 00, max 4 chars ,
+             ; example: O1P=3031323300
+O1L=01       ; Length of error string  00....50
+
+;O2A=0P00L01
+O2A=0        ; Odette Comparison group 2 active  0=no  1=yes
+O2P=00       ; Prefix string, string end = 00, max 4 chars ,
+             ; example: O1P=3031323300
+O2L=01       ; Length of error string  00....50
+
+;O3A=0P00L01
+O3A=0        ; Odette Comparison group 3 active  0=no  1=yes
+O3P=00       ; Prefix string, string end = 00, max 4 chars ,
+             ; example: O1P=3031323300
+O3L=01       ; Length of error string  00....50
+
+
+;MSB=1T0020A1
+;MSB=1T0020A1
+;Master/Slave
+;----------------
+MSB=1      ;Mode: 1=Stand Alone, 2=Master, 3=Slave
+MST=0020   ;Timeout at master: 0001 - 9999 x 10 ms
+MSA=1      ;No of slaves connected to the master
+
+
+; RK 512 Parameters
+;RKA=0HD6400FFFFR1F1FF
+;-------------------
+;RKA=0HD6400FFFFR1F1FF
+RKA=0           ; RK 512 active 0=no  1=yes
+RKH=D00000000   ; RK 512 Header Format b aaaa xxyy :
+                ; b: Type D,A,X,M
+                ; aaaa  dest. adress  hex , pos 6 / pos 5, each 1 byte
+                ; xx Coord. Marker
+                ; yy Coord.Marker / CPU
+
+RKR=0           ; reaktion Telegram 0=off  1=on
+RKF=000         ; Filler x yy
+                ; x= filler position  0=start  1=end
+                ; yy=filler char, hex 00...ff
+
+
+; Host inteface parameters
+;---------------------------
+;HSB=6D1S1H01
+;HSB=6D1S1H01
+HSB=6      ;Baud rate: 1=300, 2=600, 3=1200, 4=2400, 5=4800,
+           ;6=9600, 7=19200, 8=38400, 9=57600
+HSD=1      ;Data bits/Parity: 1=8/no, 2=8/even, 3=7/even, 4=8/odd, 5=7/odd
+           ;6=7/mark, 7=7/space
+HSS=1      ;Stop bits: 1=1 Stop bit, 2=2 Stop bits
+HSH=01      ; 0x = RS422 Interface active
+               ; 1x = RS232 Interface active, x = don't care
+
+
+[Extras]
+3EXA0
+3LCL1
+
+
+[Operating_Data_RO]
+IDv=V7.10
+IDa=H742
+IDt=CLV210A1010
+IDn=1013176
+IDf=00359925 
+IDd=25.08.00
+IDq=???
+
+DDt=0000.4
+DDc=00000
+DDo=00000
+DDi=655.35
+DDa=000.00
+
+CCc=00000000
+CCg=00000000
+CCx=00000000
+CCm=00000000
+CCn=00000000
+CCy=00000000
+
+DDg=054%
+CNh=00117.5
+CNs=00021
+
+[Notebook_RO]
+TXu=                              
+
+[Output_Config_RO]
+
+[End_of_File]
+[# 527078 82446024]
+
+
+
+

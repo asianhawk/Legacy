@@ -1,0 +1,9 @@
+:Base JobAdmin.HLP
+:Title Jobs Database Administration
+1 JobAdmin
+2 Introduction=IDH_Introduction
+2 Start-up=IDH_Start_up
+2 Global=IDH_Global
+2 Jobs=IDH_Jobs
+2 Add data point=IDH_Add_data_point
+2 File Menu=IDH_File_Menu
